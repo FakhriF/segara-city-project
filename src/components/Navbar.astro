@@ -1,0 +1,299 @@
+<div class="navbar bg-base-100 shadow-sm sticky top-0 z-50">
+  <div class="navbar-start">
+    <!-- Mobile hamburger -->
+    <div class="dropdown lg:hidden">
+      <div tabindex="0" role="button" class="btn btn-ghost btn-square">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-6 w-6"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+      </div>
+      <ul
+        tabindex="0"
+        class="dropdown-content menu bg-base-100 rounded-box z-50 mt-3 w-72 p-4 shadow-xl border border-base-200"
+      >
+        <li class="menu-title text-xs">Menu</li>
+        <li><a>Beranda</a></li>
+        <li>
+          <details open>
+            <summary>Tentang Kota</summary>
+            <ul>
+              <li><a>Profil Kota</a></li>
+              <li><a>Sejarah Segara</a></li>
+              <li><a>Visi & Misi</a></li>
+              <li><a>Geografis</a></li>
+              <li><a>Demografi</a></li>
+            </ul>
+          </details>
+          <details open>
+            <summary>Pemerintahan</summary>
+            <ul>
+              <li><a>Struktur Pemerintahan</a></li>
+              <li><a>Layanan Publik</a></li>
+              <li><a>Kontak & Pengaduan</a></li>
+            </ul>
+          </details>
+          <details open>
+            <summary>Ekonomi</summary>
+            <ul>
+              <li><a>Investasi</a></li>
+              <li><a>UMKM</a></li>
+              <li><a>Industri</a></li>
+            </ul>
+          </details>
+        </li>
+        <li>
+          <details open>
+            <summary>Fasilitas</summary>
+            <ul>
+              <li><a>Transportasi Umum</a></li>
+              <li><a>Pendidikan</a></li>
+              <li><a>Kesehatan</a></li>
+              <li><a>Rekreasi & Wisata</a></li>
+              <li><a>Perbelanjaan</a></li>
+              <li><a>Olahraga</a></li>
+              <li><a>Ibadah</a></li>
+            </ul>
+          </details>
+        </li>
+        <li><a>Program</a></li>
+        <li><a href="/berita">Berita</a></li>
+        <li><a>Kontak</a></li>
+      </ul>
+    </div>
+
+    <!-- Logo -->
+    <a class="btn btn-ghost text-xl font-bold tracking-tight">
+      <span class="text-primary">SEGARA</span> CITY
+    </a>
+  </div>
+
+  <!-- Desktop menu -->
+  <div class="navbar-center hidden lg:flex">
+    <ul class="menu menu-horizontal px-1 gap-1">
+      <!-- Tentang Kota - Mega menu -->
+      <li class="dropdown dropdown-hover">
+        <a
+          class="btn btn-ghost btn-sm rounded-lg"
+          style="anchor-name:--tentang"
+        >
+          Tentang Kota
+          <svg
+            class="h-3 w-3"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            ><path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M19 9l-7 7-7-7"></path></svg
+          >
+        </a>
+        <div
+          class="dropdown-content bg-base-100 rounded-box shadow-xl border border-base-200 p-6 w-[600px]"
+          style="position-anchor:--tentang"
+        >
+          <div class="flex gap-6">
+            <div class="flex-1">
+              <span class="menu-title text-xs">Profil Kota</span>
+              <ul class="menu p-0">
+                <li><a class="py-1">Sejarah Segara</a></li>
+                <li><a class="py-1">Visi & Misi</a></li>
+                <li><a class="py-1">Geografis</a></li>
+                <li><a class="py-1">Demografi</a></li>
+              </ul>
+            </div>
+            <div class="flex-1">
+              <span class="menu-title text-xs">Pemerintahan</span>
+              <ul class="menu p-0">
+                <li><a class="py-1">Struktur Pemerintahan</a></li>
+                <li><a class="py-1">Layanan Publik</a></li>
+                <li><a class="py-1">Kontak & Pengaduan</a></li>
+                <li><a class="py-1">Kebijakan Privasi</a></li>
+              </ul>
+            </div>
+            <div class="flex-1">
+              <span class="menu-title text-xs">Ekonomi</span>
+              <ul class="menu p-0">
+                <li><a class="py-1">Investasi</a></li>
+                <li><a class="py-1">UMKM</a></li>
+                <li><a class="py-1">Industri</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </li>
+
+      <!-- Fasilitas -->
+      <li class="dropdown dropdown-hover">
+        <a
+          class="btn btn-ghost btn-sm rounded-lg"
+          style="anchor-name:--fasilitas"
+        >
+          Fasilitas
+          <svg
+            class="h-3 w-3"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            ><path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M19 9l-7 7-7-7"></path></svg
+          >
+        </a>
+        <ul
+          class="dropdown-content menu bg-base-100 rounded-box shadow-xl border border-base-200 w-56 p-2"
+          style="position-anchor:--fasilitas"
+        >
+          <li><a>Transportasi Umum</a></li>
+          <li><a>Pendidikan</a></li>
+          <li><a>Kesehatan</a></li>
+          <li><a>Rekreasi & Wisata</a></li>
+          <li><a>Perbelanjaan</a></li>
+          <li><a>Olahraga</a></li>
+          <li><a>Ibadah</a></li>
+        </ul>
+      </li>
+
+      <!-- Program -->
+      <li class="dropdown dropdown-hover">
+        <a
+          class="btn btn-ghost btn-sm rounded-lg"
+          style="anchor-name:--program"
+        >
+          Program
+          <svg
+            class="h-3 w-3"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            ><path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M19 9l-7 7-7-7"></path></svg
+          >
+        </a>
+        <div
+          class="dropdown-content bg-base-100 rounded-box shadow-xl border border-base-200 p-4 w-[400px]"
+          style="position-anchor:--program"
+        >
+          <div class="flex gap-4">
+            <div class="flex-1">
+              <span class="menu-title text-xs">Program Unggulan</span>
+              <ul class="menu p-0">
+                <li><a class="py-1">Segara Hijau</a></li>
+                <li><a class="py-1">Smart City</a></li>
+                <li><a class="py-1">Kota Layak Anak</a></li>
+              </ul>
+            </div>
+            <div class="flex-1">
+              <span class="menu-title text-xs">Pengembangan</span>
+              <ul class="menu p-0">
+                <li><a class="py-1">Proyek Infrastruktur</a></li>
+                <li><a class="py-1">Rencana Tata Ruang</a></li>
+                <li><a class="py-1">Kawasan Industri</a></li>
+              </ul>
+            </div>
+            <div class="flex-1">
+              <span class="menu-title text-xs">Sosial</span>
+              <ul class="menu p-0">
+                <li><a class="py-1">Bantuan Sosial</a></li>
+                <li><a class="py-1">Beasiswa</a></li>
+                <li><a class="py-1">Pelatihan Kerja</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </li>
+
+      <!-- Berita -->
+      <li class="dropdown dropdown-hover">
+        <a class="btn btn-ghost btn-sm rounded-lg" style="anchor-name:--berita">
+          Berita
+          <svg
+            class="h-3 w-3"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            ><path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M19 9l-7 7-7-7"></path></svg
+          >
+        </a>
+        <ul
+          class="dropdown-content menu bg-base-100 rounded-box shadow-xl border border-base-200 w-56 p-2"
+          style="position-anchor:--berita"
+        >
+          <li><a href="/berita">Berita Terkini</a></li>
+          <li><a>Pengumuman Resmi</a></li>
+          <li><a>Artikel</a></li>
+          <li><a>Press Release</a></li>
+          <li class="menu-title mt-2">Event</li>
+          <li><a>Kalender Event</a></li>
+          <li><a>Galeri Foto</a></li>
+        </ul>
+      </li>
+
+      <!-- Kontak -->
+      <li class="dropdown dropdown-hover">
+        <a class="btn btn-ghost btn-sm rounded-lg" style="anchor-name:--kontak">
+          Kontak
+          <svg
+            class="h-3 w-3"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            ><path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M19 9l-7 7-7-7"></path></svg
+          >
+        </a>
+        <ul
+          class="dropdown-content menu bg-base-100 rounded-box shadow-xl border border-base-200 w-56 p-2"
+          style="position-anchor:--kontak"
+        >
+          <li><a>Hubungi Kami</a></li>
+          <li><a>Alamat Kantor</a></li>
+          <li><a>Email</a></li>
+          <li><a>Live Chat</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+  <div class="navbar-end gap-2">
+    <button class="btn btn-ghost btn-square btn-sm hidden sm:flex">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="h-5 w-5"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+      </svg>
+    </button>
+    <a class="btn btn-primary btn-sm hidden md:flex">Layanan Publik</a>
+  </div>
+</div>
