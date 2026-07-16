@@ -3,7 +3,7 @@ title: "Rumor Pemindahan Kawasan Industri Ujung Muara Mencuat, Pemerintah Pilih 
 date: "2032-04-17"
 category: "Tata Kota"
 tags: ["Ujung Muara", "Kawasan Industri", "Zonasi", "Rumor Pemkot"]
-image: "/images/berita/rumor-industri.jpg"
+image: "/images/berita/rumor-industri.webp"
 isHeadline: true
 summary: "Isu relokasi besar-besaran Kawasan Industri Ujung Muara ke dekat zona industri pertanian mulai berembus. Pemkot enggan memberikan komentar kepastian."
 ---

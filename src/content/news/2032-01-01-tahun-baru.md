@@ -3,7 +3,7 @@ title: "Tahun Baru Melesat ke 2032, Warga Segara 'Merayakan' dari Kasur Masing-M
 date: "2032-01-01"
 category: "Sosial"
 tags: ["Tahun Baru 2032", "RTH", "Fasilitas Publik", "Kritik"]
-image: "/images/berita/tahun-baru-sepi.jpg"
+image: "/images/berita/tahun-baru-sepi.webp"
 isHeadline: true
 summary: "Pergantian tahun di Kota Segara berlangsung sunyi. Minimnya Ruang Terbuka Hijau (RTH) memaksa warga melewatkan malam tahun baru di dalam rumah."
 ---

@@ -3,7 +3,7 @@ title: "Korsleting Akibat Tegangan Listrik Tak Stabil, Satu Rumah di Pasir Putih
 date: "2032-04-22"
 category: "Bencana"
 tags: ["Kebakaran", "Pasir Putih", "Krisis Listrik", "PLM Segara", "Damkar"]
-image: "/images/berita/kebakaran-pasir-putih.jpg"
+image: "/images/berita/kebakaran-pasir-putih.webp"
 isHeadline: false
 summary: "Insiden kebakaran melanda sebuah hunian di Distrik Pasir Putih akibat lonjakan tegangan listrik. Satu keluarga dilarikan ke klinik terdekat."
 ---

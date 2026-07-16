@@ -3,7 +3,7 @@ title: "Wawancara Eksklusif Walikota Segara, Heksu Howaito: Menatap Arah Pembang
 date: "2032-01-05"
 category: "Politik & Pemerintahan"
 tags: ["Wawancara Eksklusif", "Heksu Howaito", "Tata Ruang", "Rencana 2032"]
-image: "/images/berita/interview-walikota.jpg"
+image: "/images/berita/interview-walikota.webp"
 isHeadline: true
 summary: "Radar Segara duduk bersama Walikota Heksu Howaito untuk mengupas tuntas cetak biru Kota Segara selama satu tahun ke depan, mulai dari transportasi hingga reformasi birokrasi."
 ---

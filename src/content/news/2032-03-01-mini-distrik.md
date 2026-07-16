@@ -3,7 +3,7 @@ title: "Atasi Kepadatan Pasir Putih, Pemerintah Rencanakan Pembangunan Mini-Dist
 date: "2032-03-01"
 category: "Infrastruktur"
 tags: ["Pasir Kecil", "Pasir Putih", "Tata Ruang", "Pemukiman Baru"]
-image: "/images/berita/rencana-pasir-kecil.jpg"
+image: "/images/berita/rencana-pasir-kecil.webp"
 isHeadline: false
 summary: "Distrik Pasir Putih yang mulai overkapasitas mendorong pemerintah untuk membuka kawasan satelit baru berkonsep mini-distrik di sekitarnya."
 ---

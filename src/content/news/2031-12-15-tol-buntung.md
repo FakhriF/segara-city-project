@@ -3,7 +3,7 @@ title: "Pemerintah Segara Rampungkan Akses Masuk Tol Segara Arah Timur"
 date: "2031-12-15"
 category: "Infrastruktur"
 tags: ["Tol Segara", "Logistics", "Infrastruktur", "Truk Kontainer"]
-image: "/images/berita/proyek-tol-timur.jpg"
+image: "/images/berita/proyek-tol-timur.webp"
 isHeadline: true
 summary: "Akses masuk tol dari arah timur yang sempat tertunda akhirnya mulai dibangun. Pengemudi truk tidak perlu lagi memutar jauh untuk masuk kota."
 ---

@@ -3,7 +3,7 @@ title: "Resmi Dihuni, Mini-Distrik Pasir Batu Mulai Sambut Gelombang Warga Baru"
 date: "2032-04-10"
 category: "Tata Kota"
 tags: ["Pasir Batu", "Hunian Baru", "Infrastruktur", "Pemerintahan"]
-image: "/images/berita/pasir-batu-dihuni.jpg"
+image: "/images/berita/pasir-batu-dihuni.webp"
 isHeadline: true
 summary: "Masa konstruksi selesai, kawasan penyangga Pasir Batu kini resmi beroperasi penuh dan siap menampung hingga 500-an penduduk baru Kota Segara."
 ---

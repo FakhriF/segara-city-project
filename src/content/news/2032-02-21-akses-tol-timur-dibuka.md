@@ -3,7 +3,7 @@ title: "Tanpa Seremoni Potong Pita, Akses Timur Tol Segara Resmi Dibuka Pagi Ini
 date: "2032-02-21"
 category: "Infrastruktur"
 tags: ["Tol Segara", "Akses Timur", "Logistik", "Dishub"]
-image: "/images/berita/tol-timur-resmi.jpg"
+image: "/images/berita/tol-timur-resmi.webp"
 isHeadline: true
 summary: "Pemerintah Kota Segara resmi mengoperasikan akses masuk Tol Segara arah timur tanpa perayaan formal. Pengemudi truk logistik sambut antusias."
 ---

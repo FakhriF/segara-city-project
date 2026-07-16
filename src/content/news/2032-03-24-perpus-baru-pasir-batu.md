@@ -3,7 +3,7 @@ title: "Dukung Ruang Belajar Baru, Kadinas Perpusarsip Resmikan Perpustakaan Dae
 date: "2032-03-24"
 category: "Sosial"
 tags: ["Perpustakaan Daerah", "Pasir Batu", "Fasilitas Publik", "Pendidikan"]
-image: "/images/berita/perpus-pasir-batu.jpg"
+image: "/images/berita/perpus-pasir-batu.webp"
 isHeadline: true
 summary: "Kepala Dinas Perpustakaan dan Kearsipan Kota Segara resmi membuka fasilitas perpustakaan daerah baru di Distrik Pasir Batu sebagai pusat literasi dan ekspresi warga."
 ---

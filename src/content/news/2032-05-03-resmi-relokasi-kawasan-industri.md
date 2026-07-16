@@ -10,7 +10,7 @@ tags:
     "Ujung Muara",
     "Megaproyek",
   ]
-image: "/images/berita/megaproyek-industri.jpg"
+image: "/images/berita/megaproyek-industri.webp"
 isHeadline: true
 summary: "Walikota Heksu Howaito resmi mengumumkan pemindahan Kawasan Industri Ujung Muara ke distrik baru senilai $100.000 di dekat zona pertanian. Proyek ini melibatkan perombakan tol dan pemadatan tebing."
 ---

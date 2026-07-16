@@ -10,7 +10,7 @@ tags:
     "The Segara Post",
     "Ujung Muara",
   ]
-image: "/images/berita/analisis-anggaran.jpg"
+image: "/images/berita/analisis-anggaran.webp"
 isHeadline: true
 summary: "Satu hari pasca-pengumuman megaproyek relokasi industri, The Segara Post membedah asal-usul dana $100.000 dan menganalisis masa depan lahan Ujung Muara."
 ---

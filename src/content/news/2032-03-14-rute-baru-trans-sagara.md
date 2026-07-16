@@ -3,7 +3,7 @@ title: "Rumah Belum Jadi, Halte Sudah Ready: Rute Baru Trans Segara Resmi Lewati
 date: "2032-03-16"
 category: "Transportasi"
 tags: ["Trans Segara", "Pasir Batu", "Pasir Putih", "Dishub"]
-image: "/images/berita/bus-pasir-batu.jpg"
+image: "/images/berita/bus-pasir-batu.webp"
 isHeadline: false
 summary: "Di luar kebiasaan, Dinas Perhubungan gerak cepat membuka rute baru Trans Segara yang menghubungkan Pasir Putih dan Pasir Batu meski distrik baru tersebut masih berupa lahan konstruksi."
 ---

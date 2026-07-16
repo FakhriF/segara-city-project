@@ -3,7 +3,7 @@ title: "Ditengah Rumor Relokasi, Pemerintah Naikkan Pajak Bumi dan Bangunan (PBB
 date: "2032-04-20"
 category: "Ekonomi"
 tags: ["Pajak Industri", "PBB", "Ujung Muara", "Heksu Howaito", "Kebijakan"]
-image: "/images/berita/pajak-industri.jpg"
+image: "/images/berita/pajak-industri.webp"
 isHeadline: true
 summary: "Pemerintah Kota Segara resmi menaikkan tarif PBB sektor industri dari 10% ke 12%. Kebijakan ini memicu protes keras dari pelaku usaha, namun didukung penuh oleh warga."
 ---

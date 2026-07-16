@@ -3,7 +3,7 @@ title: "Tepis Isu Krisis Energi, Walikota Buka-bukaan Grafik Surplus Listrik Seg
 date: "2032-05-24"
 category: "Energi"
 tags: ["Heksu Howaito", "Krisis Listrik", "Konferensi Pers", "Transparansi", "Surplus Energi"]
-image: "/images/berita/pemerintah-konpres.png"
+image: "/images/berita/pemerintah-konpres.webp"
 isHeadline: true
 summary: "Walikota Heksu Howaito menggelar konferensi pers mendadak untuk membantah rumor kelangkaan daya. Grafik resmi menunjukkan Segara masih memiliki surplus listrik hingga 70%."
 ---

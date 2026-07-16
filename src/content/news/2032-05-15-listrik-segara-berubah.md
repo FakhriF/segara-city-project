@@ -3,7 +3,7 @@ title: "Imbas Lonjakan Harga Batu Bara, PLS Segara Nonaktifkan Sementara Pembang
 date: "2032-05-15"
 category: "Energi"
 tags: ["Krisis Listrik", "Setrumiadi", "PLS Segara", "Pembangkit Batu Bara", "Pemadaman"]
-image: "/images/berita/krisis-energi.jpg"
+image: "/images/berita/krisis-energi.webp"
 isHeadline: true
 summary: "Lonjakan harga batu bara memaksa PLS mematikan pembangkit utama sementara waktu. Kepala PLS, Setrumiadi, tidak menepis potensi adanya pemadaman bergilir."
 ---

@@ -3,7 +3,7 @@ title: "Buldoser Mulai Ratakan Tebing, Megaproyek Industri Baru Resmi Masuki Fas
 date: "2032-05-31"
 category: "Tata Kota"
 tags: ["Megaproyek Industri", "Terraforming", "Heksu Howaito", "Akses Tol Baru", "Fase Pembangunan"]
-image: "/images/berita/fase1-industri.jpg"
+image: "/images/berita/fase1-industri.webp"
 isHeadline: true
 summary: "Proyek pemadatan tebing senilai $100.000 resmi dimulai. Akses tol utama menuju kawasan pertanian ditutup sebagian demi kelancaran mega rekonstruksi 3 fase."
 ---

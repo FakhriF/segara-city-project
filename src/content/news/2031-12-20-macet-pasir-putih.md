@@ -3,7 +3,7 @@ title: "Bus Trans Segara Belum Maksimal?"
 date: "2031-12-20"
 category: "Transportasi"
 tags: ["Trans Segara", "Kemacetan", "Dishub", "Pasir Putih"]
-image: "/images/berita/macet-pasir-putih.jpg"
+image: "/images/berita/macet-pasir-putih.webp"
 isHeadline: false
 summary: "Meskipun sudah diresmikan sejak pertengahan tahun, Trans Segara dinilai belum efektif mengurai kemacetan parah di Jalan Pasir Putih Raya."
 ---
