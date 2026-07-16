@@ -7,7 +7,7 @@ const newsCollection = defineCollection({
     schema: z.object({
         title: z.string(),
         date: z.string(),
-        category: z.enum(['Ekonomi', 'Politik & Pemerintahan', 'Infrastruktur', 'Bencana', 'Lalu Lintas', 'Sosial', 'Transportasi', 'Lingkungan', 'Tata Kota']),
+        category: z.enum(['Ekonomi', 'Politik & Pemerintahan', 'Infrastruktur', 'Bencana', 'Lalu Lintas', 'Sosial', 'Transportasi', 'Lingkungan', 'Tata Kota', 'Energi']),
         tags: z.array(z.string()).optional(),
         image: z.string().optional(),
         isHeadline: z.boolean().default(false),
