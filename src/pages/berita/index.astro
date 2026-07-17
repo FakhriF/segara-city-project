@@ -184,14 +184,61 @@ function badgeClass(category: string): string {
         </div>
     </section>
     <script is:inline>
+        const ITEMS_PER_PAGE = 9;
+        const grid = document.getElementById("news-grid");
+        const allCards = Array.from(grid.querySelectorAll(":scope > a"));
         const filterButtons = document.querySelectorAll(
             "#category-filters button",
         );
-        const newsCards = document.querySelectorAll("#news-grid a");
 
+        let currentPage = 1;
+        let activeCategory = "all";
+
+        // Sentinel element untuk IntersectionObserver
+        const sentinel = document.createElement("div");
+        sentinel.id = "scroll-sentinel";
+        sentinel.className = "flex justify-center py-8";
+        sentinel.textContent = "Memuat...";
+        grid.after(sentinel);
+
+        function getFilteredCards() {
+            if (activeCategory === "all") return allCards;
+            return allCards.filter(
+                (c) => c.dataset.category === activeCategory,
+            );
+        }
+
+        function showItems() {
+            const filtered = getFilteredCards();
+            const limit = currentPage * ITEMS_PER_PAGE;
+            const toShow = filtered.slice(0, limit);
+
+            allCards.forEach((c) => {
+                c.style.display = toShow.includes(c) ? "" : "none";
+            });
+
+            // Sembunyikan sentinel kalo semua udah keluar
+            sentinel.style.display =
+                toShow.length >= filtered.length ? "none" : "";
+        }
+
+        // Infinite scroll via IntersectionObserver
+        const observer = new IntersectionObserver(
+            (entries) => {
+                if (entries[0].isIntersecting) {
+                    currentPage++;
+                    showItems();
+                }
+            },
+            { rootMargin: "200px" },
+        );
+        observer.observe(sentinel);
+
+        // Filter kategori
         filterButtons.forEach((btn) => {
             btn.addEventListener("click", () => {
-                const category = btn.dataset.category;
+                activeCategory = btn.dataset.category;
+                currentPage = 1;
 
                 filterButtons.forEach((b) => {
                     b.classList.remove("btn-primary");
@@ -200,17 +247,11 @@ function badgeClass(category: string): string {
                 btn.classList.remove("btn-ghost");
                 btn.classList.add("btn-primary");
 
-                newsCards.forEach((card) => {
-                    if (
-                        category === "all" ||
-                        card.dataset.category === category
-                    ) {
-                        card.style.display = "";
-                    } else {
-                        card.style.display = "none";
-                    }
-                });
+                showItems();
             });
         });
+
+        // Tampilkan 9 item pertama
+        showItems();
     </script>
 </Layout>
