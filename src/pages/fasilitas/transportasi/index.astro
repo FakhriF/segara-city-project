@@ -1,0 +1,139 @@
+---
+import { Image } from "astro:assets";
+import Layout from "../../../layouts/Layout.astro";
+import Route from "../../../assets/images/segara-transport.png";
+import BusSmall from "../../../assets/images/bus-30.webp";
+import BusArticulated from "../../../assets/images/bus-50.webp";
+---
+
+<Layout
+    title="Transportasi — Kota Segara"
+    description="Informasi dan perkembangan terbaru seputar Transportasi Kota Segara."
+>
+    <!-- Header -->
+    <section class="bg-base-200 border-b border-base-300">
+        <div class="max-w-6xl mx-auto px-4 py-16 md:py-24">
+            <div class="max-w-2xl">
+                <h1 class="text-5xl font-bold tracking-tight mb-3">
+                    Transportasi <span class="text-primary">Segara</span>
+                </h1>
+                <p class="text-lg text-base-content/70">
+                    Informasi dan perkembangan terbaru seputar Transportasi Kota
+                    Segara — rute, fasilitas, dan layanan transportasi yang
+                    tersedia.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="max-w-6xl mx-auto px-4 py-12">
+        <h1 class="text-4xl font-bold mb-6">
+            Bus Trans <span class="text-primary">Segara</span>
+        </h1>
+        <p class="text-lg text-base-content/70 mb-4">
+            Bus Trans Segara adalah bus transportasi umum yang diurus oleh <span
+                class="text-primary">Dinas Perhubungan Kota Segara</span
+            > dibawah kendali langsung oleh <span class="text-primary"
+                >Pemerintah Kota Segara</span
+            >.
+        </p>
+        <h2 class="text-2xl font-bold mb-6">Rute</h2>
+        <Image
+            src={Route}
+            alt="Rute Bus Trans Segara"
+            class="w-full rounded-2xl mb-10"
+            loading="lazy"
+        />
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+            <!-- KORIDOR 1A -->
+            <div
+                class="card bg-base-100 border border-base-200 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 group"
+            >
+                <div class="flex items-center gap-3 mb-6">
+                    <div class="badge badge-info font-bold py-3 px-4">
+                        KORIDOR 1A
+                    </div>
+                    <h3 class="text-xl font-bold">Pasir Putih ⇄ Ujung Muara</h3>
+                </div>
+            </div>
+
+            <!-- KORIDOR 1B -->
+            <div
+                class="card bg-base-100 border border-base-200 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 group"
+            >
+                <div class="flex items-center gap-3 mb-6">
+                    <div class="badge badge-info font-bold py-3 px-4">
+                        KORIDOR 1B
+                    </div>
+                    <h3 class="text-xl font-bold">Ujung Muara ⇄ Pasir Putih</h3>
+                </div>
+            </div>
+
+            <!-- KORIDOR 1C -->
+            <div
+                class="card bg-base-100 border border-base-200 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 group"
+            >
+                <div class="flex items-center gap-3 mb-6">
+                    <div class="badge badge-secondary font-bold py-3 px-4">
+                        KORIDOR 1C
+                    </div>
+                    <h3 class="text-xl font-bold">
+                        Pasir Putih Barat ⇄ Pasir Putih Tengah
+                    </h3>
+                </div>
+            </div>
+
+            <!-- KORIDOR 2 -->
+            <div
+                class="card bg-base-100 border border-base-200 dark:border-base-200 shadow-sm hover:shadow-xl dark:hover:shadow-primary/5 transition-all duration-300 hover:-translate-y-1 dark:hover:bg-base-200/50 group"
+            >
+                <div class="flex items-center gap-3 mb-6">
+                    <div class="badge badge-accent font-bold py-3 px-4">
+                        KORIDOR 2
+                    </div>
+                    <h3 class="text-xl font-bold">Pasir Batu ⇄ Pasir Putih</h3>
+                </div>
+            </div>
+
+            <!-- KORIDOR 3 -->
+            <div
+                class="card bg-base-100 border border-base-200 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 group"
+            >
+                <div class="flex items-center gap-3 mb-6">
+                    <div class="badge badge-success font-bold py-3 px-4">
+                        KORIDOR 3
+                    </div>
+                    <h3 class="text-xl font-bold">
+                        Pasir Putih ⇄ Distrik Industri Baru
+                    </h3>
+                </div>
+            </div>
+        </div>
+        <h2 class="text-2xl font-bold mb-6 mt-6">Armada</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div class="card bg-base-100 w-96 shadow-sm">
+                <figure>
+                    <Image src={BusSmall} alt="Bus Small" />
+                </figure>
+                <div class="card-body">
+                    <h2 class="card-title">Bus</h2>
+                    <p>
+                        Bus yang dapat menampung maksimum 30 penumpang.
+                        Beroperasi penuh pada koridor 1C, 2, dan 3.
+                    </p>
+                </div>
+            </div>
+            <div class="card bg-base-100 w-96 shadow-sm">
+                <figure>
+                    <Image src={BusArticulated} alt="Bus Articulated" />
+                </figure>
+                <div class="card-body">
+                    <h2 class="card-title">Articulated Bus</h2>
+                    <p>
+                        Bus gandeng yang dapat menampung maksimum 50 penumpang.
+                        Beroperasi penuh pada koridor 1A dan 1B.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+</Layout>
