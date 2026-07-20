@@ -3,7 +3,7 @@ title: "Harga Properti Meroket, Walikota Buka Suara Alasan Ekspansi Senyap Pasir
 date: "2032-06-21"
 category: "Politik & Pemerintahan"
 tags: ["Heksu Howaito", "Krisis Hunian", "Harga Sewa", "Pasir Batu", "Ujung Muara"]
-image: "/images/berita/2032/pemerintah-konpres.webp"
+image: "/images/berita/2032/buka-suara-rumah.webp"
 isHeadline: true
 summary: "Merespons kegaduhan warga, Walikota Heksu Howaito menegaskan perluasan wilayah barat dilakukan demi menekan tingginya harga sewa rumah akibat kelangkaan hunian bagi pendatang."
 ---
