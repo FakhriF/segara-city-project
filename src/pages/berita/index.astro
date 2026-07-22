@@ -1,5 +1,6 @@
 ---
 import Layout from "../../layouts/Layout.astro";
+import NewsCard from "../../components/NewsCard.astro";
 import { getCollection } from "astro:content";
 
 const allNews = await getCollection("news");
@@ -8,26 +9,6 @@ const sortedNews = allNews.sort(
 );
 
 const categories = [...new Set(sortedNews.map((n) => n.data.category))];
-
-function formatDate(dateStr: string) {
-    return new Date(dateStr).toLocaleDateString("id-ID", {
-        year: "numeric",
-        month: "long",
-        day: "numeric",
-    });
-}
-
-function badgeClass(category: string): string {
-    if (category === "Infrastruktur") return "badge-info";
-    if (category === "Sosial") return "badge-warning";
-    if (category === "Transportasi") return "badge-secondary";
-    if (category === "Ekonomi") return "badge-success";
-    if (category === "Pemerintah") return "badge-accent";
-    if (category === "Politik & Pemerintahan") return "badge-accent";
-    if (category === "Lingkungan") return "badge-success";
-    if (category === "Tata Kota") return "badge-info";
-    return "badge-ghost";
-}
 ---
 
 <Layout
@@ -35,13 +16,21 @@ function badgeClass(category: string): string {
     description="Kumpulan berita dan informasi terbaru seputar perkembangan Kota Segara."
 >
     <!-- Header -->
-    <section class="bg-base-200 border-b border-base-300">
-        <div class="max-w-6xl mx-auto px-4 py-16 md:py-24">
+    <section
+        class="bg-gray-50 dark:bg-gray-900 border-b border-gray-200 dark:border-gray-800 transition-colors duration-200 mt-20"
+    >
+        <div class="max-w-6xl mx-auto px-4 py-12 md:py-16">
             <div class="max-w-2xl">
-                <h1 class="text-5xl font-bold tracking-tight mb-3">
-                    Berita <span class="text-primary">Segara</span>
+                <h1
+                    class="text-4xl md:text-5xl font-extrabold tracking-tight text-gray-900 dark:text-white mb-3"
+                >
+                    Berita <span class="text-blue-700 dark:text-blue-500"
+                        >Segara</span
+                    >
                 </h1>
-                <p class="text-lg text-base-content/70">
+                <p
+                    class="text-base md:text-lg text-gray-600 dark:text-gray-400 leading-relaxed"
+                >
                     Informasi dan perkembangan terbaru seputar Kota Segara —
                     liputan dari media independen dan rilis resmi pemerintah.
                 </p>
@@ -62,71 +51,39 @@ function badgeClass(category: string): string {
                     .filter((n) => n.data.isHeadline)
                     .slice(0, 2)
                     .map((news) => (
-                        <a
-                            href={`/berita/${news.id}`}
-                            class="card bg-base-100 border border-base-200 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 group"
-                        >
-                            {news.data.image && (
-                                <figure class="h-48 overflow-hidden">
-                                    <img
-                                        src={news.data.image}
-                                        alt={news.data.title}
-                                        class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                                    />
-                                </figure>
-                            )}
-                            <div class="card-body p-6">
-                                <div class="flex items-center gap-2 mb-3">
-                                    <span
-                                        class={`badge badge-sm ${badgeClass(news.data.category)}`}
-                                    >
-                                        {news.data.category}
-                                    </span>
-                                    <span class="text-xs text-base-content/50">
-                                        {formatDate(news.data.date)}
-                                    </span>
-                                </div>
-                                <h3 class="card-title text-xl group-hover:text-primary transition-colors">
-                                    {news.data.title}
-                                </h3>
-                                <p class="text-base text-base-content/70 line-clamp-3">
-                                    {news.data.summary}
-                                </p>
-                                <div class="mt-4 flex items-center gap-2 text-sm text-primary font-medium">
-                                    Baca selengkapnya
-                                    <svg
-                                        class="w-4 h-4 group-hover:translate-x-1 transition-transform"
-                                        fill="none"
-                                        viewBox="0 0 24 24"
-                                        stroke="currentColor"
-                                    >
-                                        <path
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"
-                                            stroke-width="2"
-                                            d="M17 8l4 4m0 0l-4 4m4-4H3"
-                                        />
-                                    </svg>
-                                </div>
-                            </div>
-                        </a>
+                        <NewsCard
+                            id={news.id}
+                            category={news.data.category}
+                            title={news.data.title}
+                            date={news.data.date}
+                            image={news.data.image}
+                            summary={news.data.summary}
+                            isHeadline={true}
+                        />
                     ))
             }
         </div>
     </section>
 
-    <!-- All news -->
     <section class="max-w-6xl mx-auto px-4 pb-16">
         <h2 class="text-2xl font-bold mb-6">Semua Berita</h2>
 
-        <!-- Category filter tabs -->
         <div id="category-filters" class="flex flex-wrap gap-2 mb-8">
-            <button data-category="all" class="btn btn-sm btn-primary"
-                >Semua</button
+            <button
+                type="button"
+                data-category="all"
+                class="filter-btn px-4 py-2 text-sm font-medium rounded-full transition-colors duration-200 bg-blue-700 text-white dark:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500"
             >
+                Semua
+            </button>
+
             {
                 categories.map((cat) => (
-                    <button data-category={cat} class="btn btn-sm btn-ghost">
+                    <button
+                        type="button"
+                        data-category={cat}
+                        class="filter-btn px-4 py-2 text-sm font-medium rounded-full transition-colors duration-200 text-gray-700 bg-gray-100 hover:bg-gray-200 dark:bg-gray-800 dark:text-gray-300 dark:hover:bg-gray-700 dark:hover:text-white border border-gray-200 dark:border-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    >
                         {cat}
                     </button>
                 ))
@@ -137,121 +94,108 @@ function badgeClass(category: string): string {
         <div id="news-grid" class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {
                 sortedNews.map((news) => (
-                    <a
-                        href={`/berita/${news.id}`}
-                        data-category={news.data.category}
-                        class="card bg-base-100 border border-base-200 shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-0.5 group"
-                    >
-                        {news.data.image && (
-                            <figure class="h-40 overflow-hidden rounded-t-box">
-                                <img
-                                    src={news.data.image}
-                                    alt={news.data.title}
-                                    class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                                />
-                            </figure>
-                        )}
-                        <div class="card-body p-5">
-                            <div class="flex items-center gap-2 mb-2 flex-wrap">
-                                <span
-                                    class={`badge badge-sm ${badgeClass(news.data.category)}`}
-                                >
-                                    {news.data.category}
-                                </span>
-                                <span class="text-xs text-base-content/50">
-                                    {formatDate(news.data.date)}
-                                </span>
-                            </div>
-                            <h3 class="card-title text-base leading-snug group-hover:text-primary transition-colors">
-                                {news.data.title}
-                            </h3>
-                            <p class="text-sm text-base-content/70 line-clamp-2">
-                                {news.data.summary}
-                            </p>
-                            {news.data.tags && news.data.tags.length > 0 && (
-                                <div class="flex flex-wrap gap-1.5 mt-3">
-                                    {news.data.tags.slice(0, 3).map((tag) => (
-                                        <span class="badge badge-ghost badge-xs">
-                                            {tag}
-                                        </span>
-                                    ))}
-                                </div>
-                            )}
-                        </div>
-                    </a>
+                    <NewsCard
+                        id={news.id}
+                        category={news.data.category}
+                        title={news.data.title}
+                        date={news.data.date}
+                        image={news.data.image}
+                        summary={news.data.summary}
+                        tags={news.data.tags}
+                    />
                 ))
             }
         </div>
     </section>
-    <script is:inline>
-        const ITEMS_PER_PAGE = 9;
-        const grid = document.getElementById("news-grid");
-        const allCards = Array.from(grid.querySelectorAll(":scope > a"));
-        const filterButtons = document.querySelectorAll(
-            "#category-filters button",
-        );
+</Layout>
+<script is:inline>
+    const ITEMS_PER_PAGE = 9;
+    const grid = document.getElementById("news-grid");
+    const allCards = Array.from(grid.querySelectorAll(":scope > a"));
+    const filterButtons = document.querySelectorAll("#category-filters button");
 
-        let currentPage = 1;
-        let activeCategory = "all";
+    let currentPage = 1;
+    let activeCategory = "all";
 
-        // Sentinel element untuk IntersectionObserver
-        const sentinel = document.createElement("div");
-        sentinel.id = "scroll-sentinel";
-        sentinel.className = "flex justify-center py-8";
-        sentinel.textContent = "Memuat...";
-        grid.after(sentinel);
+    const sentinel = document.createElement("div");
+    sentinel.id = "scroll-sentinel";
+    sentinel.className =
+        "flex items-center justify-center gap-2 py-8 text-sm font-medium text-gray-500 dark:text-gray-400";
+    sentinel.innerHTML = `
+      <svg class="w-5 h-5 animate-spin text-blue-600 dark:text-blue-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+        <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+        <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+      </svg>
+      <span>Memuat berita lainnya...</span>
+    `;
+    grid.after(sentinel);
 
-        function getFilteredCards() {
-            if (activeCategory === "all") return allCards;
-            return allCards.filter(
-                (c) => c.dataset.category === activeCategory,
-            );
-        }
+    function getFilteredCards() {
+        if (activeCategory === "all") return allCards;
+        return allCards.filter((c) => c.dataset.category === activeCategory);
+    }
 
-        function showItems() {
-            const filtered = getFilteredCards();
-            const limit = currentPage * ITEMS_PER_PAGE;
-            const toShow = filtered.slice(0, limit);
+    function showItems() {
+        const filtered = getFilteredCards();
+        const limit = currentPage * ITEMS_PER_PAGE;
+        const toShow = filtered.slice(0, limit);
 
-            allCards.forEach((c) => {
-                c.style.display = toShow.includes(c) ? "" : "none";
-            });
-
-            // Sembunyikan sentinel kalo semua udah keluar
-            sentinel.style.display =
-                toShow.length >= filtered.length ? "none" : "";
-        }
-
-        // Infinite scroll via IntersectionObserver
-        const observer = new IntersectionObserver(
-            (entries) => {
-                if (entries[0].isIntersecting) {
-                    currentPage++;
-                    showItems();
-                }
-            },
-            { rootMargin: "200px" },
-        );
-        observer.observe(sentinel);
-
-        // Filter kategori
-        filterButtons.forEach((btn) => {
-            btn.addEventListener("click", () => {
-                activeCategory = btn.dataset.category;
-                currentPage = 1;
-
-                filterButtons.forEach((b) => {
-                    b.classList.remove("btn-primary");
-                    b.classList.add("btn-ghost");
-                });
-                btn.classList.remove("btn-ghost");
-                btn.classList.add("btn-primary");
-
-                showItems();
-            });
+        allCards.forEach((c) => {
+            c.style.display = toShow.includes(c) ? "" : "none";
         });
 
-        // Tampilkan 9 item pertama
-        showItems();
-    </script>
-</Layout>
+        sentinel.style.display =
+            toShow.length >= filtered.length ? "none" : "flex";
+    }
+
+    // Infinite scroll via IntersectionObserver
+    const observer = new IntersectionObserver(
+        (entries) => {
+            if (entries[0].isIntersecting) {
+                currentPage++;
+                showItems();
+            }
+        },
+        { rootMargin: "200px" },
+    );
+    observer.observe(sentinel);
+
+    filterButtons.forEach((btn) => {
+        btn.addEventListener("click", () => {
+            activeCategory = btn.dataset.category;
+            currentPage = 1;
+
+            filterButtons.forEach((b) => {
+                b.classList.remove(
+                    "bg-blue-700",
+                    "text-white",
+                    "dark:bg-blue-600",
+                );
+                b.classList.add(
+                    "text-gray-700",
+                    "bg-gray-100",
+                    "hover:bg-gray-200",
+                    "dark:bg-gray-800",
+                    "dark:text-gray-300",
+                    "dark:hover:bg-gray-700",
+                    "dark:hover:text-white",
+                );
+            });
+
+            btn.classList.remove(
+                "text-gray-700",
+                "bg-gray-100",
+                "hover:bg-gray-200",
+                "dark:bg-gray-800",
+                "dark:text-gray-300",
+                "dark:hover:bg-gray-700",
+                "dark:hover:text-white",
+            );
+            btn.classList.add("bg-blue-700", "text-white", "dark:bg-blue-600");
+
+            showItems();
+        });
+    });
+
+    showItems();
+</script>

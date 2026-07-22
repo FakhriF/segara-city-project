@@ -1,0 +1,100 @@
+---
+interface Props {
+    id: string;
+    category: string;
+    title?: string;
+    desc?: string;
+    date: string;
+    image?: string;
+    summary?: string;
+    tags?: string[];
+    isHeadline?: boolean;
+}
+
+const { title, id, date, image, summary, tags, category, isHeadline } = Astro.props;
+
+function formatDate(dateStr: string) {
+    return new Date(dateStr).toLocaleDateString("id-ID", {
+        year: "numeric",
+        month: "long",
+        day: "numeric",
+    });
+}
+
+function badgeClass(category: string): string {
+    switch (category) {
+        case "Infrastruktur":
+        case "Tata Kota":
+            return "bg-cyan-100 text-cyan-800 dark:bg-cyan-900/40 dark:text-cyan-300 border-cyan-200 dark:border-cyan-800";
+        case "Sosial":
+            return "bg-amber-100 text-amber-800 dark:bg-amber-900/40 dark:text-amber-300 border-amber-200 dark:border-amber-800";
+        case "Transportasi":
+            return "bg-purple-100 text-purple-800 dark:bg-purple-900/40 dark:text-purple-300 border-purple-200 dark:border-purple-800";
+        case "Ekonomi":
+        case "Lingkungan":
+            return "bg-emerald-100 text-emerald-800 dark:bg-emerald-900/40 dark:text-emerald-300 border-emerald-200 dark:border-emerald-800";
+        case "Pemerintah":
+        case "Politik & Pemerintahan":
+            return "bg-blue-100 text-blue-800 dark:bg-blue-900/40 dark:text-blue-300 border-blue-200 dark:border-blue-800";
+        default:
+            return "bg-gray-100 text-gray-800 dark:bg-gray-700 dark:text-gray-300 border-gray-200 dark:border-gray-600";
+    }
+}
+---
+
+<a
+    href={`/berita/${id}`}
+    data-category={category}
+    class={`group ${!isHeadline ? "max-w-sm" : "w-full"} bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-2xl shadow-xs hover:shadow-xl transition-all duration-300 hover:-translate-y-1 overflow-hidden flex flex-col justify-between`}
+>
+    <div>
+        {
+            image && (
+                <div class="h-48 w-full overflow-hidden bg-gray-100 dark:bg-gray-700">
+                    <img
+                        src={image}
+                        alt={title}
+                        class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    />
+                </div>
+            )
+        }
+
+        <div class="p-5">
+            <div class="flex items-center gap-2 mb-3 flex-wrap">
+                <span
+                    class={`${badgeClass(category)} text-xs font-semibold px-2.5 py-0.5 rounded-md`}
+                >
+                    {category}
+                </span>
+                <span class="text-xs text-gray-500 dark:text-gray-400">
+                    {formatDate(date)}
+                </span>
+            </div>
+
+            <h3
+                class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white leading-snug group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors"
+            >
+                {title}
+            </h3>
+
+            <p
+                class="text-sm text-gray-600 dark:text-gray-300 line-clamp-2 leading-relaxed"
+            >
+                {summary}
+            </p>
+        </div>
+    </div>
+
+    {
+        tags && tags.length > 0 && (
+            <div class="px-5 pb-5 pt-0 flex flex-wrap gap-1.5">
+                {tags.slice(0, 3).map((tag) => (
+                    <span class="bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 text-[11px] font-medium px-2 py-0.5 rounded-full">
+                        #{tag}
+                    </span>
+                ))}
+            </div>
+        )
+    }
+</a>
