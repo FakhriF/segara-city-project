@@ -1,0 +1,311 @@
+---
+import Layout from "../../layouts/Layout.astro";
+
+// TODO: Ganti dengan gambar kota yang cerah/indah, jangan gambar polusi wkwk
+// import CityHero from "../../assets/images/...";
+---
+
+<Layout
+    title="Profil — Kota Segara"
+    description="Profil Kota Segara — kota maritim modern, nyaman untuk ditinggali, maju untuk berusaha."
+>
+    <!-- Header -->
+    <section class="bg-base-200 border-b border-base-300">
+        <div class="max-w-6xl mx-auto px-4 py-16 md:py-24">
+            <div class="max-w-2xl">
+                <h1 class="text-5xl font-bold tracking-tight mb-3">
+                    Tentang <span class="text-primary">Segara</span>
+                </h1>
+                <p class="text-lg text-base-content/70">
+                    Informasi terkait bagaimana Kota Segara berkembang hingga
+                    saat ini.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- ==================== TENTANG ==================== -->
+    <section class="py-16">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-4xl font-bold tracking-tight mb-6">
+                Tentang <span class="text-primary">Kota Segara</span>
+            </h2>
+            <div class="prose prose-lg max-w-none dark:prose-invert">
+                <p class="lead">
+                    Kota Segara adalah kota maritim modern yang terletak di
+                    pesisir selatan. Berawal dari sebuah pos dagang kecil,
+                    Segara tumbuh menjadi pusat ekonomi dan logistik yang
+                    menghubungkan jalur perdagangan timur dan barat.
+                </p>
+                <p>
+                    Diresmikan sebagai kota mandiri pada tahun 2028, Segara
+                    terus berkembang dengan fokus pada pembangunan
+                    berkelanjutan, tata kota modern, dan kesejahteraan warganya.
+                    Dipimpin oleh Walikota Heksu Howaito, kota ini kini
+                    bertransformasi menjadi salah satu kota dengan pertumbuhan
+                    tercepat di kawasan.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- ==================== QUICK STATS ==================== -->
+    <section class="py-12 bg-base-200 border-y border-base-300">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+                <!-- Stat Card 1 -->
+                <div
+                    class="stat place-items-center bg-base-100 rounded-2xl border border-base-200 dark:border-base-300 shadow-sm hover:shadow-md transition-all duration-300 hover:-translate-y-1 p-5"
+                >
+                    <div class="stat-title text-sm">Populasi</div>
+                    <div class="stat-value text-primary text-3xl">5.000+</div>
+                    <div class="stat-desc">±5.200 jiwa</div>
+                </div>
+                <!-- Stat Card 2 -->
+                <div
+                    class="stat place-items-center bg-base-100 rounded-2xl border border-base-200 dark:border-base-300 shadow-sm hover:shadow-md transition-all duration-300 hover:-translate-y-1 p-5"
+                >
+                    <div class="stat-title text-sm">Luas Wilayah</div>
+                    <div class="stat-value text-secondary text-3xl">42 km²</div>
+                    <div class="stat-desc">Termasuk perairan</div>
+                </div>
+                <!-- Stat Card 3 (Diperbaiki jadi 3 Distrik) -->
+                <div
+                    class="stat place-items-center bg-base-100 rounded-2xl border border-base-200 dark:border-base-300 shadow-sm hover:shadow-md transition-all duration-300 hover:-translate-y-1 p-5"
+                >
+                    <div class="stat-title text-sm">Distrik</div>
+                    <div class="stat-value text-accent text-3xl">3</div>
+                    <div class="stat-desc">Tahap Ekspansi</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== VISI & MISI ==================== -->
+    <section class="py-16">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-4xl font-bold tracking-tight mb-8 text-center">
+                Visi &amp; <span class="text-primary">Misi</span>
+            </h2>
+
+            <!-- Visi -->
+            <div
+                class="card bg-base-100 border border-base-200 dark:border-base-300 shadow-sm hover:shadow-lg dark:hover:shadow-primary/5 transition-all duration-300 p-8 mb-8"
+            >
+                <h3 class="text-xl font-semibold mb-3 flex items-center gap-2">
+                    <span class="text-2xl bg-primary/10 p-2 rounded-lg">🎯</span
+                    > Visi
+                </h3>
+                <blockquote
+                    class="text-lg italic text-base-content/80 border-l-4 border-primary pl-4"
+                >
+                    "Menjadi kota maritim modern yang nyaman untuk ditinggali
+                    dan maju untuk berusaha, berbasis pembangunan
+                    berkelanjutan."
+                </blockquote>
+            </div>
+
+            <!-- Misi -->
+            <div class="grid md:grid-cols-2 gap-4">
+                <div
+                    class="card bg-base-100 border border-base-200 dark:border-base-300 shadow-sm hover:shadow-lg dark:hover:shadow-primary/5 transition-all duration-300 p-6 group"
+                >
+                    <div class="flex gap-4 items-start">
+                        <span
+                            class="text-2xl mt-0.5 bg-base-200 dark:bg-base-300 group-hover:bg-primary/20 p-2 rounded-xl transition-colors"
+                            >🌊</span
+                        >
+                        <div>
+                            <h4
+                                class="font-semibold mb-1 group-hover:text-primary transition-colors"
+                            >
+                                Pembangunan Maritim
+                            </h4>
+                            <p class="text-sm text-base-content/70">
+                                Mengoptimalkan potensi maritim sebagai tulang
+                                punggung ekonomi daerah.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div
+                    class="card bg-base-100 border border-base-200 dark:border-base-300 shadow-sm hover:shadow-lg dark:hover:shadow-primary/5 transition-all duration-300 p-6 group"
+                >
+                    <div class="flex gap-4 items-start">
+                        <span
+                            class="text-2xl mt-0.5 bg-base-200 dark:bg-base-300 group-hover:bg-primary/20 p-2 rounded-xl transition-colors"
+                            >🏙️</span
+                        >
+                        <div>
+                            <h4
+                                class="font-semibold mb-1 group-hover:text-primary transition-colors"
+                            >
+                                Tata Kota Modern
+                            </h4>
+                            <p class="text-sm text-base-content/70">
+                                Mewujudkan penataan ruang kota yang terencana,
+                                hijau, dan manusiawi.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div
+                    class="card bg-base-100 border border-base-200 dark:border-base-300 shadow-sm hover:shadow-lg dark:hover:shadow-primary/5 transition-all duration-300 p-6 group"
+                >
+                    <div class="flex gap-4 items-start">
+                        <span
+                            class="text-2xl mt-0.5 bg-base-200 dark:bg-base-300 group-hover:bg-primary/20 p-2 rounded-xl transition-colors"
+                            >🚌</span
+                        >
+                        <div>
+                            <h4
+                                class="font-semibold mb-1 group-hover:text-primary transition-colors"
+                            >
+                                Transportasi Terintegrasi
+                            </h4>
+                            <p class="text-sm text-base-content/70">
+                                Membangun sistem transportasi publik yang aman,
+                                nyaman, dan terjangkau bagi seluruh warga.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div
+                    class="card bg-base-100 border border-base-200 dark:border-base-300 shadow-sm hover:shadow-lg dark:hover:shadow-primary/5 transition-all duration-300 p-6 group"
+                >
+                    <div class="flex gap-4 items-start">
+                        <span
+                            class="text-2xl mt-0.5 bg-base-200 dark:bg-base-300 group-hover:bg-primary/20 p-2 rounded-xl transition-colors"
+                            >🌱</span
+                        >
+                        <div>
+                            <h4
+                                class="font-semibold mb-1 group-hover:text-primary transition-colors"
+                            >
+                                Kelestarian Lingkungan
+                            </h4>
+                            <p class="text-sm text-base-content/70">
+                                Menjaga keseimbangan antara pertumbuhan ekonomi
+                                dan kelestarian lingkungan hidup.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== DISTRIK ==================== -->
+    <section class="py-16">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-4xl font-bold tracking-tight mb-2">
+                Wilayah <span class="text-primary">Distrik</span>
+            </h2>
+            <p class="text-base-content/60 mb-8">
+                Kota Segara terdiri dari 3 distrik dengan karakter
+                masing-masing.
+            </p>
+
+            <div class="grid md:grid-cols-3 gap-6">
+                <!-- Distrik 1 -->
+                <div
+                    class="card bg-base-100 border border-base-200 dark:border-base-300 shadow-sm hover:shadow-xl dark:hover:shadow-primary/5 transition-all duration-300 hover:-translate-y-1 group"
+                >
+                    <figure
+                        class="h-40 bg-base-200 dark:bg-base-300 flex items-center justify-center text-5xl group-hover:scale-105 transition-transform duration-500"
+                    >
+                        🏭
+                    </figure>
+                    <div class="card-body p-6">
+                        <h3
+                            class="card-title group-hover:text-primary transition-colors"
+                        >
+                            Ujung Segara
+                        </h3>
+                        <p class="text-sm text-base-content/70">
+                            Pusat industri dan pergudangan. Nadi ekonomi Kota
+                            Segara dengan kawasan Ujung Muara sebagai pusat
+                            logistik utama.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Distrik 2 -->
+                <div
+                    class="card bg-base-100 border border-base-200 dark:border-base-300 shadow-sm hover:shadow-xl dark:hover:shadow-primary/5 transition-all duration-300 hover:-translate-y-1 group"
+                >
+                    <figure
+                        class="h-40 bg-base-200 dark:bg-base-300 flex items-center justify-center text-5xl group-hover:scale-105 transition-transform duration-500"
+                    >
+                        🏖️
+                    </figure>
+                    <div class="card-body p-6">
+                        <h3
+                            class="card-title group-hover:text-primary transition-colors"
+                        >
+                            Pasir Putih
+                        </h3>
+                        <p class="text-sm text-base-content/70">
+                            Distrik residensial paling padat. Pusat keramaian
+                            dan kegiatan warga dengan akses langsung ke berbagai
+                            fasilitas kota.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Distrik 3 -->
+                <div
+                    class="card bg-base-100 border border-base-200 dark:border-base-300 shadow-sm hover:shadow-xl dark:hover:shadow-primary/5 transition-all duration-300 hover:-translate-y-1 group"
+                >
+                    <figure
+                        class="h-40 bg-base-200 dark:bg-base-300 flex items-center justify-center text-5xl group-hover:scale-105 transition-transform duration-500"
+                    >
+                        🏗️
+                    </figure>
+                    <div class="card-body p-6">
+                        <h3
+                            class="card-title group-hover:text-primary transition-colors"
+                        >
+                            Pasir Batu
+                        </h3>
+                        <p class="text-sm text-base-content/70">
+                            Distrik terbaru hasil perluasan kota. Solusi atas
+                            kepadatan hunian dengan konsep mini-distrik modern.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== CTA ==================== -->
+    <section class="py-16 bg-base-200 border-t border-base-300">
+        <div class="max-w-3xl mx-auto px-4 text-center">
+            <h2 class="text-4xl font-bold tracking-tight mb-3">
+                Jelajahi <span class="text-primary">Kota Segara</span>
+            </h2>
+            <p class="text-base-content/70 mb-6">
+                Temukan lebih banyak tentang fasilitas, berita, dan perkembangan
+                terbaru Kota Segara.
+            </p>
+            <div class="flex flex-wrap justify-center gap-3">
+                <a href="/fasilitas/transportasi" class="btn btn-primary">
+                    Transportasi
+                </a>
+                <a
+                    href="/berita"
+                    class="btn btn-ghost border border-base-300 bg-base-100 hover:bg-base-300"
+                >
+                    Berita Terkini
+                </a>
+                <a
+                    href="/tentang/pemerintahan"
+                    class="btn btn-ghost border border-base-300 bg-base-100 hover:bg-base-300"
+                >
+                    Pemerintahan
+                </a>
+            </div>
+        </div>
+    </section>
+</Layout>
