@@ -7,7 +7,7 @@ tags:
     "Trans Segara",
     "Pembatalan Kebijakan",
     "Heksu Howaito",
-    "Ahmad Subekti",
+    "Kironito",
     "Diskon Desember",
   ]
 image: "/images/berita/2032/pembatalan-tarif.webp"
@@ -39,7 +39,7 @@ Pengumuman maaf ini langsung disusul dengan gebrakan tak terduga berupa diskon s
 
 **BALAI KOTA** — Keputusan kilat Walikota Heksu Howaito membatalkan _dynamic pricing_ dalam kurun waktu kurang dari 48 jam menunjukkan betapa sensitifnya isu transportasi publik terhadap stabilitas sosial kota. Meski pembatalan ini berhasil meredam potensi mogok massal para buruh, para pengamat finansial menilai Balai Kota kini berada dalam posisi dilematis yang semakin terjepit.
 
-Dengan dibatalkannya kenaikan tarif jam sibuk—ditambah beban baru berupa diskon 50% selama seminggu penuh—pos pendapatan Trans Segara dipastikan akan mengalami defisit sirkulasi internal. Kepala Dishub, Bapak Ahmad Subekti, kini harus memutar otak dua kali lebih keras untuk menutupi biaya operasional Bus Gandeng Jumbo yang terkenal boros _maintenance cost_.
+Dengan dibatalkannya kenaikan tarif jam sibuk—ditambah beban baru berupa diskon 50% selama seminggu penuh—pos pendapatan Trans Segara dipastikan akan mengalami defisit sirkulasi internal. Kepala Dishub, Bapak Kironito, kini harus memutar otak dua kali lebih keras untuk menutupi biaya operasional Bus Gandeng Jumbo yang terkenal boros _maintenance cost_.
 
 Spekulasi yang berkembang di koridor Balai Kota menyebutkan, demi menyelamatkan muka pemerintah di akhir tahun, Pak Heksu terpaksa menyuntikkan sisa-sisa terakhir kas kota yang hanya bernilai $30.000 itu sebagai subsidi tambahan, sebuah perjudian fiskal yang sangat berani menjelang tutup buku tahun anggaran 2032.
 

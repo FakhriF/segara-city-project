@@ -18,9 +18,9 @@ Pemerintah memastikan bahwa manifes rute Koridor 3 ini dirancang khusus untuk me
 ## 📰 The Segara Post (Analisis Strategi Transit)
 **PASIR PUTIH** — Langkah taktis kembali ditunjukkan oleh administrasi Walikota Heksu Howaito di tengah tajamnya kritik asosiasi pengusaha akhir bulan lalu. Seolah ingin mengalihkan fokus publik dari isu mandeknya pembangunan pabrik akibat minimnya modal insentif, Balai Kota justru melesat dengan meresmikan infrastruktur transportasi massal teranyar.
 
-Kepala Dishub Kota Segara, **Bapak Ahmad Subekti**, menjelaskan bahwa Koridor 3 ini akan memotong jalur-jalur konvensional yang memicu kemacetan. 
+Kepala Dishub Kota Segara, **Bapak Kironito**, menjelaskan bahwa Koridor 3 ini akan memotong jalur-jalur konvensional yang memicu kemacetan. 
 
-> "Kami mendengar keluhan para pekerja. Jarak dari wilayah hunian baru di barat menuju atas tebing utara itu cukup melelahkan jika ditempuh dengan kendaraan pribadi, apalagi harus melewati tanjakan tol yang curam. Koridor 3 ini hadir sebagai jalur *express* langsung. Warga Pasir Putih dan Pasir Batu tinggal duduk manis di dalam bus, dan dalam waktu singkat sudah sampai di gerbang distrik industri baru," urai Ahmad Subekti.
+> "Kami mendengar keluhan para pekerja. Jarak dari wilayah hunian baru di barat menuju atas tebing utara itu cukup melelahkan jika ditempuh dengan kendaraan pribadi, apalagi harus melewati tanjakan tol yang curam. Koridor 3 ini hadir sebagai jalur *express* langsung. Warga Pasir Putih dan Pasir Batu tinggal duduk manis di dalam bus, dan dalam waktu singkat sudah sampai di gerbang distrik industri baru," urai Kironito.
 
 Langkah pengadaan bus ini dinilai pengamat sebagai upaya Pemkot untuk meyakinkan para investor dan pemilik pabrik yang sempat ragu, bahwa pemerintah serius mempersiapkan pasokan tenaga kerja massal yang siap dimobilisasi kapan saja ke distrik baru.
 

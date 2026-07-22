@@ -18,7 +18,7 @@ Walikota Segara, Heksu Howaito, yang memantau langsung pengoperasian perdana ini
 ## 📰 Pikiran Warga (Suara Komuter Pagi)
 **HALTE TRANSIT PUSAT** — Senyum lebar terpancar dari wajah para pejuang kerja dan komuter harian Kota Segara pagi ini. Pemandangan menyedihkan berupa puluhan penumpang yang telantar di halte karena tertinggal bus yang telanjur penuh sesak, kini dipastikan tidak terlihat lagi di sepanjang jalur Koridor 1A dan 1B.
 
-Armada bus gandeng baru yang memiliki bodi ekstra panjang dengan sambungan fleksibel di bagian tengahnya ini sukses menyedot ratusan antrean penumpang dalam sekali angkut. Kepala Dishub Kota Segara, **Bapak Ahmad Subekti**, menyatakan bahwa penempatan bus gandeng ini adalah solusi paling presisi untuk mengurai kepadatan di jam-jam sibuk (*peak hours*).
+Armada bus gandeng baru yang memiliki bodi ekstra panjang dengan sambungan fleksibel di bagian tengahnya ini sukses menyedot ratusan antrean penumpang dalam sekali angkut. Kepala Dishub Kota Segara, **Bapak Kironito**, menyatakan bahwa penempatan bus gandeng ini adalah solusi paling presisi untuk mengurai kepadatan di jam-jam sibuk (*peak hours*).
 
 > "Armada bus gandeng ini dapat mengangkut maksimal hingga 50 orang sekaligus. Ini adalah komitmen kami agar tidak ada lagi cerita warga Segara yang telat masuk kantor atau pabrik hanya karena kehabisan ruang di dalam bus. Kami pastikan *headway* atau waktu tunggu di halte menjadi jauh lebih efektif," terang Ahmad.
 

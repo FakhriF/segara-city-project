@@ -14,10 +14,10 @@ summary: "Meskipun sudah diresmikan sejak pertengahan tahun, Trans Segara dinila
 
 Menurut salah satu pengendara, Kiro, kemacetan ini sangat menyita waktu. Ia bercerita bahwa perjalanan dari kantor ke rumah membutuhkan waktu 1 jam padahal jaraknya hanya 6 km. Kiro pun mengatakan alasan dia tidak menggunakan Trans Segara dikarenakan rute perhentiannya sangat jauh dari rumah dan kantor.
 
-Tim SegaraPos menghubungi Ahmad Subekti terkait hal ini.
+Tim SegaraPos menghubungi Kironito terkait hal ini.
 
 > "Sedang Kami evaluasi."
-> Pesan singkat yang disampaikan Ahmad Subekti, Kepala Dishub Kota Segara.
+> Pesan singkat yang disampaikan Kironito, Kepala Dishub Kota Segara.
 
 ---
 
@@ -25,7 +25,7 @@ Tim SegaraPos menghubungi Ahmad Subekti terkait hal ini.
 
 **SEGARA** — Menanggapi dinamika lalu lintas di koridor Pasir Putih Raya, Pemerintah Kota Segara menyatakan bahwa antrean kendaraan yang terjadi merupakan indikasi tingginya mobilitas ekonomi warga pasca-liburan.
 
-Terkait efektivitas Trans Segara, Kepala Dishub Kota Segara, Ahmad Subekti, meminta warga untuk lebih bersabar karena sistem integrasi membutuhkan waktu penyesuaian.
+Terkait efektivitas Trans Segara, Kepala Dishub Kota Segara, Kironito, meminta warga untuk lebih bersabar karena sistem integrasi membutuhkan waktu penyesuaian.
 
 > "Trans Segara adalah proyek jangka panjang. Kemacetan di Pasir Putih Raya justru membuktikan bahwa distrik ini sangat hidup. Kami mengimbau warga untuk berjalan kaki 2 hingga 3 kilometer menuju halte terdekat demi kesehatan bersama dan mendukung program langit biru."
 
