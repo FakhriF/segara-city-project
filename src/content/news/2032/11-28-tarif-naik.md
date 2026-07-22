@@ -7,7 +7,7 @@ tags:
     "Trans Segara",
     "Tarif Dinamis",
     "Subsidi Lansia",
-    "Kironoto",
+    "Ahmad Subekti",
     "Heksu Howaito",
   ]
 image: "/images/berita/2032/tarif-baru-bus.webp"
@@ -42,7 +42,7 @@ Langkah menaikkan tarif hingga 50% di jam berangkat dan pulang kerja dinilai seb
 
 "Lansia bayar satu dolar dan anak sekolah didiskon itu bagus sekali, kami dukung. Tapi kenapa tarif kami yang mau pergi kerja di jam 7 pagi malah dinaikkan 50%? Jam sibuk itu kan jam terpaksa bagi kami, bukan pilihan. Kalau naik bus jadi lebih mahal, bisa-bisa dompet kami makin tipis di akhir tahun," keluh Kiro, salah satu pengguna komuter setia asal Pasir Batu.
 
-Menanggapi keluhan tersebut, Bapak Kironoto berkilah bahwa kenaikan tarif jam sibuk sengaja diberlakukan untuk mendistribusikan beban penumpang agar warga yang tidak memiliki kepentingan mendesak mau menggeser waktu perjalanannya di jam lengang, sekaligus membantu menutup biaya pemeliharaan armada bus gandeng baru.
+Menanggapi keluhan tersebut, Bapak Ahmad Subekti berkilah bahwa kenaikan tarif jam sibuk sengaja diberlakukan untuk mendistribusikan beban penumpang agar warga yang tidak memiliki kepentingan mendesak mau menggeser waktu perjalanannya di jam lengang, sekaligus membantu menutup biaya pemeliharaan armada bus gandeng baru.
 
 ---
 
