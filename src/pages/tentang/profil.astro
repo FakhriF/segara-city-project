@@ -1,8 +1,9 @@
 ---
+import { Image } from "astro:assets";
+import Header from "../../components/Header.astro";
+import StatCard from "../../components/StatCard.astro";
 import Layout from "../../layouts/Layout.astro";
-
-// TODO: Ganti dengan gambar kota yang cerah/indah, jangan gambar polusi wkwk
-// import CityHero from "../../assets/images/...";
+import CityLandscape from "../../assets/images/city-landscape-2031.webp";
 ---
 
 <Layout
@@ -10,71 +11,108 @@ import Layout from "../../layouts/Layout.astro";
     description="Profil Kota Segara — kota maritim modern, nyaman untuk ditinggali, maju untuk berusaha."
 >
     <!-- Header -->
-    <section class="bg-base-200 border-b border-base-300">
-        <div class="max-w-6xl mx-auto px-4 py-16 md:py-24">
-            <div class="max-w-2xl">
-                <h1 class="text-5xl font-bold tracking-tight mb-3">
-                    Tentang <span class="text-primary">Segara</span>
-                </h1>
-                <p class="text-lg text-base-content/70">
-                    Informasi terkait bagaimana Kota Segara berkembang hingga
-                    saat ini.
-                </p>
-            </div>
-        </div>
-    </section>
+    <Header
+        title="Tentang"
+        description="Semua tentang Kota Segara — sejarah, visi, dan misi."
+    />
+
     <!-- ==================== TENTANG ==================== -->
     <section class="py-16">
         <div class="max-w-6xl mx-auto px-4">
-            <h2 class="text-4xl font-bold tracking-tight mb-6">
-                Tentang <span class="text-primary">Kota Segara</span>
+            <h2
+                class="text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white mb-6"
+            >
+                Tentang <span class="text-blue-700 dark:text-blue-500"
+                    >Kota Segara</span
+                >
             </h2>
-            <div class="prose prose-lg max-w-none dark:prose-invert">
+            <div
+                class="prose prose-lg max-w-none dark:prose-invert text-gray-600 dark:text-gray-300"
+            >
                 <p class="lead">
-                    Kota Segara adalah kota maritim modern yang terletak di
-                    pesisir selatan. Berawal dari sebuah pos dagang kecil,
-                    Segara tumbuh menjadi pusat ekonomi dan logistik yang
-                    menghubungkan jalur perdagangan timur dan barat.
+                    Kota Segara adalah sebuah kota yang baru dibangun pada tahun
+                    2026. Berawal dari sebuah rencana pemerintah pusat untuk
+                    membangun 40 kota baru, Segara sebagai salah satu bagian
+                    dari kota tersebut, hadir untuk mewujudkan tempat tinggal
+                    yang nyaman, modern, dan berkelanjutan.
                 </p>
                 <p>
-                    Diresmikan sebagai kota mandiri pada tahun 2028, Segara
-                    terus berkembang dengan fokus pada pembangunan
-                    berkelanjutan, tata kota modern, dan kesejahteraan warganya.
-                    Dipimpin oleh Walikota Heksu Howaito, kota ini kini
+                    Diresmikan sebagai kota mandiri dan lepas dari kontrol
+                    khusus pemerintah pusat pada tahun 2031, Segara terus
+                    berkembang dengan fokus pada pembangunan berkelanjutan, tata
+                    kota modern, dan kesejahteraan warganya. Dipimpin oleh
+                    Walikota pertama, Heksu Howaito, kota ini kini
                     bertransformasi menjadi salah satu kota dengan pertumbuhan
-                    tercepat di kawasan.
+                    tercepat di kawasan ini.
                 </p>
             </div>
         </div>
     </section>
+
     <!-- ==================== QUICK STATS ==================== -->
-    <section class="py-12 bg-base-200 border-y border-base-300">
+    <section
+        class="py-12 bg-gray-50 dark:bg-gray-900/50 border-y border-gray-200 dark:border-gray-800 transition-colors duration-200"
+    >
         <div class="max-w-6xl mx-auto px-4">
-            <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
-                <!-- Stat Card 1 -->
-                <div
-                    class="stat place-items-center bg-base-100 rounded-2xl border border-base-200 dark:border-base-300 shadow-sm hover:shadow-md transition-all duration-300 hover:-translate-y-1 p-5"
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+                <StatCard title="Populasi" value="5.000+" desc="±5.200 jiwa">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-8 w-8 text-blue-600 dark:text-blue-400"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                    >
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"
+                        ></path>
+                    </svg>
+                </StatCard>
+                <StatCard
+                    title="Distrik"
+                    value="4"
+                    desc="Masih Dalam Ekspansi"
+                    iconBgColor="bg-purple-50 dark:bg-purple-900/30"
                 >
-                    <div class="stat-title text-sm">Populasi</div>
-                    <div class="stat-value text-primary text-3xl">5.000+</div>
-                    <div class="stat-desc">±5.200 jiwa</div>
-                </div>
-                <!-- Stat Card 2 -->
-                <div
-                    class="stat place-items-center bg-base-100 rounded-2xl border border-base-200 dark:border-base-300 shadow-sm hover:shadow-md transition-all duration-300 hover:-translate-y-1 p-5"
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-8 w-8 text-purple-600 dark:text-purple-400"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                    >
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"
+                        ></path>
+                    </svg>
+                </StatCard>
+                <StatCard
+                    title="Luas Wilayah"
+                    value="42 km²"
+                    desc="Termasuk perairan"
+                    iconBgColor="bg-emerald-50 dark:bg-emerald-900/30"
                 >
-                    <div class="stat-title text-sm">Luas Wilayah</div>
-                    <div class="stat-value text-secondary text-3xl">42 km²</div>
-                    <div class="stat-desc">Termasuk perairan</div>
-                </div>
-                <!-- Stat Card 3 (Diperbaiki jadi 3 Distrik) -->
-                <div
-                    class="stat place-items-center bg-base-100 rounded-2xl border border-base-200 dark:border-base-300 shadow-sm hover:shadow-md transition-all duration-300 hover:-translate-y-1 p-5"
-                >
-                    <div class="stat-title text-sm">Distrik</div>
-                    <div class="stat-value text-accent text-3xl">3</div>
-                    <div class="stat-desc">Tahap Ekspansi</div>
-                </div>
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-8 w-8 text-emerald-600 dark:text-emerald-400"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                    >
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                        ></path>
+                    </svg>
+                </StatCard>
             </div>
         </div>
     </section>
@@ -82,20 +120,41 @@ import Layout from "../../layouts/Layout.astro";
     <!-- ==================== VISI & MISI ==================== -->
     <section class="py-16">
         <div class="max-w-6xl mx-auto px-4">
-            <h2 class="text-4xl font-bold tracking-tight mb-8 text-center">
-                Visi &amp; <span class="text-primary">Misi</span>
+            <h2
+                class="text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white mb-8 text-center"
+            >
+                Visi &amp; <span class="text-blue-700 dark:text-blue-500"
+                    >Misi</span
+                >
             </h2>
 
             <!-- Visi -->
             <div
-                class="card bg-base-100 border border-base-200 dark:border-base-300 shadow-sm hover:shadow-lg dark:hover:shadow-primary/5 transition-all duration-300 p-8 mb-8"
+                class="p-6 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-2xl shadow-sm hover:shadow-md transition-all duration-200 mb-6"
             >
-                <h3 class="text-xl font-semibold mb-3 flex items-center gap-2">
-                    <span class="text-2xl bg-primary/10 p-2 rounded-lg">🎯</span
-                    > Visi
+                <h3
+                    class="text-xl font-bold text-gray-900 dark:text-white mb-4 flex items-center gap-3"
+                >
+                    <span
+                        class="text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-900/30 p-2.5 rounded-xl"
+                    >
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="1.5em"
+                            height="1.5em"
+                            viewBox="0 0 24 24"
+                        >
+                            <path d="M0 0h24v24H0z" fill="none"></path>
+                            <path
+                                fill="currentColor"
+                                d="M8.1 21.213q-1.825-.788-3.175-2.138T2.788 15.9T2 12t.788-3.9t2.137-3.175T8.1 2.788T12 2t3.9.788t3.175 2.137T21.213 8.1T22 12t-.788 3.9t-2.137 3.175t-3.175 2.138T12 22t-3.9-.788m9.575-3.537Q20 15.35 20 12t-2.325-5.675T12 4T6.325 6.325T4 12t2.325 5.675T12 20t5.675-2.325M7.75 16.25Q6 14.5 6 12t1.75-4.25T12 6t4.25 1.75T18 12t-1.75 4.25T12 18t-4.25-1.75m7.075-1.425Q16 13.65 16 12t-1.175-2.825T12 8T9.175 9.175T8 12t1.175 2.825T12 16t2.825-1.175m-4.237-1.412Q10 12.825 10 12t.588-1.412T12 10t1.413.588T14 12t-.587 1.413T12 14t-1.412-.587"
+                            ></path>
+                        </svg>
+                    </span>
+                    Visi Utama
                 </h3>
                 <blockquote
-                    class="text-lg italic text-base-content/80 border-l-4 border-primary pl-4"
+                    class="text-lg italic text-gray-700 dark:text-gray-300 border-l-4 border-blue-600 dark:border-blue-500 pl-4 py-1 bg-blue-50/50 dark:bg-blue-900/10 rounded-r-xl"
                 >
                     "Menjadi kota maritim modern yang nyaman untuk ditinggali
                     dan maju untuk berusaha, berbasis pembangunan
@@ -103,23 +162,43 @@ import Layout from "../../layouts/Layout.astro";
                 </blockquote>
             </div>
 
-            <!-- Misi -->
+            <!-- Misi Grid -->
             <div class="grid md:grid-cols-2 gap-4">
+                <!-- Misi 1 -->
                 <div
-                    class="card bg-base-100 border border-base-200 dark:border-base-300 shadow-sm hover:shadow-lg dark:hover:shadow-primary/5 transition-all duration-300 p-6 group"
+                    class="group p-5 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-2xl shadow-sm hover:shadow-md transition-all duration-200"
                 >
                     <div class="flex gap-4 items-start">
                         <span
-                            class="text-2xl mt-0.5 bg-base-200 dark:bg-base-300 group-hover:bg-primary/20 p-2 rounded-xl transition-colors"
-                            >🌊</span
+                            class="text-blue-600 dark:text-blue-400 bg-gray-100 dark:bg-gray-700 group-hover:bg-blue-100 dark:group-hover:bg-blue-900/40 p-3 rounded-xl transition-colors"
                         >
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="1.5em"
+                                height="1.5em"
+                                viewBox="0 0 16 16"
+                            >
+                                <path d="M0 0h16v16H0z" fill="none"></path>
+                                <g fill="currentColor">
+                                    <path
+                                        d="M15 14.5a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-2c.484 0 .983.138 1.502.435c1.32.754 2.676.754 3.996 0c1.013-.58 1.991-.58 3.004 0c1.32.754 2.676.754 3.996 0c.52-.297 1.018-.435 1.502-.435z"
+                                    ></path>
+                                    <path
+                                        d="M15 11.5c-.683 0-1.35.196-1.998.565c-1.013.58-1.991.58-3.004 0c-1.32-.754-2.676-.754-3.996 0c-1.013.58-1.991.58-3.004 0c-.647-.37-1.315-.565-1.998-.565v-3c.484 0 .983.138 1.502.435c1.32.754 2.676.754 3.996 0c1.013-.58 1.991-.58 3.004 0c1.32.754 2.676.754 3.996 0c.52-.297 1.018-.435 1.502-.435z"
+                                    ></path>
+                                    <path
+                                        d="M9 1c.914 0 3.92.418 4.427 2.401c.055.216-.21.341-.4.225C11.53 2.708 9.5 3.698 9.5 5.5c0 1.56 1.217 2.507 3.413 2.612c-.982.53-1.931.515-2.915-.047c-1.32-.754-2.676-.754-3.996 0c-1.013.58-1.991.58-3.004 0C2.351 7.695 1.683 7.5 1 7.5V7c2.5 0 2-6 8-6"
+                                    ></path>
+                                </g>
+                            </svg>
+                        </span>
                         <div>
                             <h4
-                                class="font-semibold mb-1 group-hover:text-primary transition-colors"
+                                class="font-bold text-gray-900 dark:text-white mb-1 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors"
                             >
                                 Pembangunan Maritim
                             </h4>
-                            <p class="text-sm text-base-content/70">
+                            <p class="text-sm text-gray-600 dark:text-gray-400">
                                 Mengoptimalkan potensi maritim sebagai tulang
                                 punggung ekonomi daerah.
                             </p>
@@ -127,21 +206,34 @@ import Layout from "../../layouts/Layout.astro";
                     </div>
                 </div>
 
+                <!-- Misi 2 -->
                 <div
-                    class="card bg-base-100 border border-base-200 dark:border-base-300 shadow-sm hover:shadow-lg dark:hover:shadow-primary/5 transition-all duration-300 p-6 group"
+                    class="group p-5 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-2xl shadow-sm hover:shadow-md transition-all duration-200"
                 >
                     <div class="flex gap-4 items-start">
                         <span
-                            class="text-2xl mt-0.5 bg-base-200 dark:bg-base-300 group-hover:bg-primary/20 p-2 rounded-xl transition-colors"
-                            >🏙️</span
+                            class="text-blue-600 dark:text-blue-400 bg-gray-100 dark:bg-gray-700 group-hover:bg-blue-100 dark:group-hover:bg-blue-900/40 p-3 rounded-xl transition-colors"
                         >
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="1.5em"
+                                height="1.5em"
+                                viewBox="0 0 16 16"
+                            >
+                                <path d="M0 0h16v16H0z" fill="none"></path>
+                                <path
+                                    fill="currentColor"
+                                    d="M8.501 1.5a.5.5 0 0 0-1 0V2H6.5A1.5 1.5 0 0 0 5 3.5v.504a2 2 0 0 1 2 2V14h2V7.504a2.5 2.5 0 0 1 2-2.45V3.5A1.5 1.5 0 0 0 9.5 2h-.999zM12.5 14H10V7.504a1.5 1.5 0 0 1 1.5-1.5h1V6A1.5 1.5 0 0 1 14 7.5v5a1.5 1.5 0 0 1-1.5 1.5M4.843 5.135a.75.75 0 0 1 1.158.63L6 13.5a.5.5 0 0 1-.5.5h-2A1.5 1.5 0 0 1 2 12.5V7.793a1.5 1.5 0 0 1 .684-1.258z"
+                                ></path>
+                            </svg>
+                        </span>
                         <div>
                             <h4
-                                class="font-semibold mb-1 group-hover:text-primary transition-colors"
+                                class="font-bold text-gray-900 dark:text-white mb-1 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors"
                             >
                                 Tata Kota Modern
                             </h4>
-                            <p class="text-sm text-base-content/70">
+                            <p class="text-sm text-gray-600 dark:text-gray-400">
                                 Mewujudkan penataan ruang kota yang terencana,
                                 hijau, dan manusiawi.
                             </p>
@@ -149,21 +241,35 @@ import Layout from "../../layouts/Layout.astro";
                     </div>
                 </div>
 
+                <!-- Misi 3 -->
                 <div
-                    class="card bg-base-100 border border-base-200 dark:border-base-300 shadow-sm hover:shadow-lg dark:hover:shadow-primary/5 transition-all duration-300 p-6 group"
+                    class="group p-5 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-2xl shadow-sm hover:shadow-md transition-all duration-200"
                 >
                     <div class="flex gap-4 items-start">
                         <span
-                            class="text-2xl mt-0.5 bg-base-200 dark:bg-base-300 group-hover:bg-primary/20 p-2 rounded-xl transition-colors"
-                            >🚌</span
+                            class="text-blue-600 dark:text-blue-400 bg-gray-100 dark:bg-gray-700 group-hover:bg-blue-100 dark:group-hover:bg-blue-900/40 p-3 rounded-xl transition-colors"
                         >
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="1.5em"
+                                height="1.5em"
+                                viewBox="0 0 24 24"
+                            >
+                                <path d="M0 0h24v24H0z" fill="none"></path>
+                                <path
+                                    fill="currentColor"
+                                    fill-rule="evenodd"
+                                    d="M12 2C8.229 2 6.343 2 5.172 3.172C4.108 4.235 4.01 5.886 4 9H3a1 1 0 0 0-1 1v1a1 1 0 0 0 .4.8L4 13c.01 3.114.108 4.765 1.172 5.828c.242.243.514.435.828.587V21a1 1 0 0 0 1 1h1.5a1 1 0 0 0 1-1v-1.018C10.227 20 11.054 20 12 20s1.773 0 2.5-.018V21a1 1 0 0 0 1 1H17a1 1 0 0 0 1-1v-1.585a3 3 0 0 0 .828-.587C19.892 17.765 19.991 16.114 20 13l1.6-1.2a1 1 0 0 0 .4-.8v-1a1 1 0 0 0-1-1h-1c-.01-3.114-.108-4.765-1.172-5.828C17.657 2 15.771 2 12 2M5.5 9.5c0 1.414 0 2.121.44 2.56c.439.44 1.146.44 2.56.44h7c1.414 0 2.121 0 2.56-.44c.44-.439.44-1.146.44-2.56V7c0-1.414 0-2.121-.44-2.56C17.622 4 16.915 4 15.5 4h-7c-1.414 0-2.121 0-2.56.44C5.5 4.878 5.5 5.585 5.5 7zm.75 6.5a.75.75 0 0 1 .75-.75h1.5a.75.75 0 0 1 0 1.5H7a.75.75 0 0 1-.75-.75m11.5 0a.75.75 0 0 0-.75-.75h-1.5a.75.75 0 0 0 0 1.5H17a.75.75 0 0 0 .75-.75"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                        </span>
                         <div>
                             <h4
-                                class="font-semibold mb-1 group-hover:text-primary transition-colors"
+                                class="font-bold text-gray-900 dark:text-white mb-1 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors"
                             >
                                 Transportasi Terintegrasi
                             </h4>
-                            <p class="text-sm text-base-content/70">
+                            <p class="text-sm text-gray-600 dark:text-gray-400">
                                 Membangun sistem transportasi publik yang aman,
                                 nyaman, dan terjangkau bagi seluruh warga.
                             </p>
@@ -171,21 +277,34 @@ import Layout from "../../layouts/Layout.astro";
                     </div>
                 </div>
 
+                <!-- Misi 4 -->
                 <div
-                    class="card bg-base-100 border border-base-200 dark:border-base-300 shadow-sm hover:shadow-lg dark:hover:shadow-primary/5 transition-all duration-300 p-6 group"
+                    class="group p-5 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-2xl shadow-sm hover:shadow-md transition-all duration-200"
                 >
                     <div class="flex gap-4 items-start">
                         <span
-                            class="text-2xl mt-0.5 bg-base-200 dark:bg-base-300 group-hover:bg-primary/20 p-2 rounded-xl transition-colors"
-                            >🌱</span
+                            class="text-blue-600 dark:text-blue-400 bg-gray-100 dark:bg-gray-700 group-hover:bg-blue-100 dark:group-hover:bg-blue-900/40 p-3 rounded-xl transition-colors"
                         >
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="1.5em"
+                                height="1.5em"
+                                viewBox="0 0 24 24"
+                            >
+                                <path d="M0 0h24v24H0z" fill="none"></path>
+                                <path
+                                    fill="currentColor"
+                                    d="M23 4.1V2.3l-1.8-.2c-.1 0-.7-.1-1.7-.1c-4.1 0-7.1 1.2-8.8 3.3C9.4 4.5 7.6 4 5.5 4c-1 0-1.7.1-1.7.1l-1.9.3l.1 1.7c.1 3 1.6 8.7 6.8 8.7H9v3.4c-3.8.5-7 1.8-7 1.8v2h20v-2s-3.2-1.3-7-1.8V15c6.3-.1 8-7.2 8-10.9M12 18h-1v-5.6S10.8 9 8 9c0 0 1.5.8 1.9 3.7c-.4.1-.8.1-1.1.1C4.2 12.8 4 6.1 4 6.1S4.6 6 5.5 6c1.9 0 5 .4 5.9 3.1C11.9 4.6 17 4 19.5 4c.9 0 1.5.1 1.5.1s0 9-6.3 9H14c0-2 2-5 2-5c-3 1-3 4.9-3 4.9v5z"
+                                ></path>
+                            </svg>
+                        </span>
                         <div>
                             <h4
-                                class="font-semibold mb-1 group-hover:text-primary transition-colors"
+                                class="font-bold text-gray-900 dark:text-white mb-1 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors"
                             >
                                 Kelestarian Lingkungan
                             </h4>
-                            <p class="text-sm text-base-content/70">
+                            <p class="text-sm text-gray-600 dark:text-gray-400">
                                 Menjaga keseimbangan antara pertumbuhan ekonomi
                                 dan kelestarian lingkungan hidup.
                             </p>
@@ -197,33 +316,47 @@ import Layout from "../../layouts/Layout.astro";
     </section>
 
     <!-- ==================== DISTRIK ==================== -->
-    <section class="py-16">
+    <section
+        class="py-16 bg-gray-50 dark:bg-gray-900/50 border-t border-gray-200 dark:border-gray-800 transition-colors duration-200"
+    >
         <div class="max-w-6xl mx-auto px-4">
-            <h2 class="text-4xl font-bold tracking-tight mb-2">
-                Wilayah <span class="text-primary">Distrik</span>
+            <h2
+                class="text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white mb-2"
+            >
+                Wilayah <span class="text-blue-700 dark:text-blue-500"
+                    >Distrik</span
+                >
             </h2>
-            <p class="text-base-content/60 mb-8">
-                Kota Segara terdiri dari 3 distrik dengan karakter
+            <p class="text-gray-600 dark:text-gray-400 mb-8">
+                Kota Segara terdiri dari 3 distrik utama dengan karakter
                 masing-masing.
             </p>
 
             <div class="grid md:grid-cols-3 gap-6">
                 <!-- Distrik 1 -->
                 <div
-                    class="card bg-base-100 border border-base-200 dark:border-base-300 shadow-sm hover:shadow-xl dark:hover:shadow-primary/5 transition-all duration-300 hover:-translate-y-1 group"
+                    class="group w-full bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-2xl shadow-xs hover:shadow-xl transition-all duration-300 hover:-translate-y-1 overflow-hidden flex flex-col justify-between"
                 >
-                    <figure
-                        class="h-40 bg-base-200 dark:bg-base-300 flex items-center justify-center text-5xl group-hover:scale-105 transition-transform duration-500"
+                    <div
+                        class="h-48 w-full overflow-hidden bg-gray-100 dark:bg-gray-700"
                     >
-                        🏭
-                    </figure>
-                    <div class="card-body p-6">
+                        <Image
+                            src={CityLandscape}
+                            alt="Ujung Segara"
+                            class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                        />
+                    </div>
+
+                    <div class="p-5">
                         <h3
-                            class="card-title group-hover:text-primary transition-colors"
+                            class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white leading-snug group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors"
                         >
                             Ujung Segara
                         </h3>
-                        <p class="text-sm text-base-content/70">
+
+                        <p
+                            class="text-sm text-gray-600 dark:text-gray-300 leading-relaxed"
+                        >
                             Pusat industri dan pergudangan. Nadi ekonomi Kota
                             Segara dengan kawasan Ujung Muara sebagai pusat
                             logistik utama.
@@ -233,20 +366,28 @@ import Layout from "../../layouts/Layout.astro";
 
                 <!-- Distrik 2 -->
                 <div
-                    class="card bg-base-100 border border-base-200 dark:border-base-300 shadow-sm hover:shadow-xl dark:hover:shadow-primary/5 transition-all duration-300 hover:-translate-y-1 group"
+                    class="group w-full bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-2xl shadow-xs hover:shadow-xl transition-all duration-300 hover:-translate-y-1 overflow-hidden flex flex-col justify-between"
                 >
-                    <figure
-                        class="h-40 bg-base-200 dark:bg-base-300 flex items-center justify-center text-5xl group-hover:scale-105 transition-transform duration-500"
+                    <div
+                        class="h-48 w-full overflow-hidden bg-gray-100 dark:bg-gray-700"
                     >
-                        🏖️
-                    </figure>
-                    <div class="card-body p-6">
+                        <Image
+                            src={CityLandscape}
+                            alt="Pasir Putih"
+                            class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                        />
+                    </div>
+
+                    <div class="p-5">
                         <h3
-                            class="card-title group-hover:text-primary transition-colors"
+                            class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white leading-snug group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors"
                         >
                             Pasir Putih
                         </h3>
-                        <p class="text-sm text-base-content/70">
+
+                        <p
+                            class="text-sm text-gray-600 dark:text-gray-300 leading-relaxed"
+                        >
                             Distrik residensial paling padat. Pusat keramaian
                             dan kegiatan warga dengan akses langsung ke berbagai
                             fasilitas kota.
@@ -256,20 +397,28 @@ import Layout from "../../layouts/Layout.astro";
 
                 <!-- Distrik 3 -->
                 <div
-                    class="card bg-base-100 border border-base-200 dark:border-base-300 shadow-sm hover:shadow-xl dark:hover:shadow-primary/5 transition-all duration-300 hover:-translate-y-1 group"
+                    class="group w-full bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-2xl shadow-xs hover:shadow-xl transition-all duration-300 hover:-translate-y-1 overflow-hidden flex flex-col justify-between"
                 >
-                    <figure
-                        class="h-40 bg-base-200 dark:bg-base-300 flex items-center justify-center text-5xl group-hover:scale-105 transition-transform duration-500"
+                    <div
+                        class="h-48 w-full overflow-hidden bg-gray-100 dark:bg-gray-700"
                     >
-                        🏗️
-                    </figure>
-                    <div class="card-body p-6">
+                        <Image
+                            src={CityLandscape}
+                            alt="Pasir Batu"
+                            class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                        />
+                    </div>
+
+                    <div class="p-5">
                         <h3
-                            class="card-title group-hover:text-primary transition-colors"
+                            class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white leading-snug group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors"
                         >
                             Pasir Batu
                         </h3>
-                        <p class="text-sm text-base-content/70">
+
+                        <p
+                            class="text-sm text-gray-600 dark:text-gray-300 leading-relaxed"
+                        >
                             Distrik terbaru hasil perluasan kota. Solusi atas
                             kepadatan hunian dengan konsep mini-distrik modern.
                         </p>
@@ -280,28 +429,37 @@ import Layout from "../../layouts/Layout.astro";
     </section>
 
     <!-- ==================== CTA ==================== -->
-    <section class="py-16 bg-base-200 border-t border-base-300">
+    <section
+        class="py-16 bg-white dark:bg-gray-800 border-t border-gray-200 dark:border-gray-700"
+    >
         <div class="max-w-3xl mx-auto px-4 text-center">
-            <h2 class="text-4xl font-bold tracking-tight mb-3">
-                Jelajahi <span class="text-primary">Kota Segara</span>
+            <h2
+                class="text-3xl md:text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white mb-3"
+            >
+                Jelajahi <span class="text-blue-700 dark:text-blue-500"
+                    >Kota Segara</span
+                >
             </h2>
-            <p class="text-base-content/70 mb-6">
+            <p class="text-gray-600 dark:text-gray-400 mb-8 leading-relaxed">
                 Temukan lebih banyak tentang fasilitas, berita, dan perkembangan
                 terbaru Kota Segara.
             </p>
             <div class="flex flex-wrap justify-center gap-3">
-                <a href="/fasilitas/transportasi" class="btn btn-primary">
+                <a
+                    href="/fasilitas/transportasi"
+                    class="text-white bg-blue-700 hover:bg-blue-800 dark:bg-blue-600 dark:hover:bg-blue-700 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-xl text-sm px-5 py-2.5 transition-colors shadow-xs"
+                >
                     Transportasi
                 </a>
                 <a
                     href="/berita"
-                    class="btn btn-ghost border border-base-300 bg-base-100 hover:bg-base-300"
+                    class="text-gray-900 dark:text-white bg-gray-100 hover:bg-gray-200 dark:bg-gray-700 dark:hover:bg-gray-600 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 font-medium rounded-xl text-sm px-5 py-2.5 transition-colors border border-gray-200 dark:border-gray-600"
                 >
                     Berita Terkini
                 </a>
                 <a
                     href="/tentang/pemerintahan"
-                    class="btn btn-ghost border border-base-300 bg-base-100 hover:bg-base-300"
+                    class="text-gray-900 dark:text-white bg-gray-100 hover:bg-gray-200 dark:bg-gray-700 dark:hover:bg-gray-600 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 font-medium rounded-xl text-sm px-5 py-2.5 transition-colors border border-gray-200 dark:border-gray-600"
                 >
                     Pemerintahan
                 </a>
