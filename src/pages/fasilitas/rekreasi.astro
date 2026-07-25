@@ -1,0 +1,41 @@
+---
+import { Image } from "astro:assets";
+import Layout from "../../layouts/Layout.astro";
+import Header from "../../components/Header.astro";
+import SectionTitle from "../../components/SectionTitle.astro";
+import DistrictCard from "../../components/DistrictCard.astro";
+
+import PasirPutihExitTol from "../../assets/images/akses/exit-tol-pasir-putih.webp";
+import DistrikIndustriBaruExitTol from "../../assets/images/akses/exit-tol-distrik-industri.webp";
+---
+
+<Layout
+    title="Rekreasi — Kota Segara"
+    description="Informasi dan perkembangan terbaru seputar tempat rekreasi di Kota Segara."
+>
+    <!-- Header -->
+    <Header
+        title="Rekreasi"
+        description="Informasi dan perkembangan terbaru seputar tempat rekreasi di Kota Segara yang tersedia."
+    />
+
+    <!-- Taman Kota Segara -->
+    <section class="max-w-6xl mx-auto px-4 py-12">
+        <SectionTitle label="Taman Kota" accent="Segara" />
+        <p
+            class="prose prose-lg max-w-none dark:prose-invert text-gray-600 dark:text-gray-300"
+        >
+            Taman Kota yang sedang dikembangkan sebagai bagian dari pengembangan
+            Ruang Terbuka Hijau di Kota Segara. Taman ini terletak di Distrik
+            Ujung Muara dimana mengombinasikan suasana ruang hijau dengan
+            rekreasi pinggi pantai.
+        </p>
+
+        <p
+            class="mt-6 prose prose-lg max-w-none dark:prose-invert text-gray-600 dark:text-gray-300"
+        >
+            Pembangunan Taman Kota ini dimulai di awal tahun 2033, dan
+            diekspektasikan selesai di pertangahan tahun 2033.
+        </p>
+    </section>
+</Layout>
