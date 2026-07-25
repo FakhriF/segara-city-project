@@ -1,0 +1,54 @@
+---
+import { Image } from "astro:assets";
+import Layout from "../../layouts/Layout.astro";
+import Header from "../../components/Header.astro";
+import SectionTitle from "../../components/SectionTitle.astro";
+import DistrictCard from "../../components/DistrictCard.astro";
+
+import PasirPutihExitTol from "../../assets/images/akses/exit-tol-pasir-putih.webp";
+import DistrikIndustriBaruExitTol from "../../assets/images/akses/exit-tol-distrik-industri.webp";
+---
+
+<Layout
+    title="Akses — Kota Segara"
+    description="Informasi dan perkembangan terbaru seputar akses masuk Kota Segara."
+>
+    <!-- Header -->
+    <Header
+        title="Akses"
+        description="Informasi dan perkembangan terbaru seputar akses menuju Kota
+        Segara yang tersedia."
+    />
+
+    <!-- Jalur Tol -->
+    <section class="max-w-6xl mx-auto px-4 py-12">
+        <SectionTitle label="Jalur Tol" accent="Segara" />
+        <p
+            class="prose prose-lg max-w-none dark:prose-invert text-gray-600 dark:text-gray-300"
+        >
+            Anda dapat mengakses Kota Segara dengan menggunakan tol. Nanti anda
+            bisa keluar di beberapa pintu exit tol menuju kota Segara seperti
+            Exit Tol Pasir Putih dan Exit Tol Distrik Industri Baru.
+        </p>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
+            <!-- Exit Tol Pasir Putih -->
+            <DistrictCard
+                image={PasirPutihExitTol}
+                title="Exit Tol Pasir Putih (KM 7)"
+                summary="Silahkan keluar melalui Exit Tol Pasir Putih untuk mengunjungi
+                kawasan pusat kota Segara. Anda dapat mengunjungi beberapa
+                distrik melalui Exit Tol ini seperti Pasir Putih dan Pasir Batu."
+            />
+
+            <!-- Exit Tol Distrik Industri Baru -->
+            <DistrictCard
+                image={DistrikIndustriBaruExitTol}
+                title="Exit Tol Distrik Industri Baru (KM 11)"
+                summary="Silahkan keluar melalui Exit Tol Distrik Industri Baru untuk
+                mengunjungi kawasan industri Segara dan Industri Khusus
+                Pertanian Segara."
+            />
+        </div>
+    </section>
+</Layout>
