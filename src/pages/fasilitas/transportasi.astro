@@ -33,75 +33,75 @@ import AccordionItem from "../../components/AccordionItem.astro";
             Perhubungan Kota Segara dibawah kendali langsung oleh Pemerintah
             Kota Segara.
         </p>
-    </section>
 
-    <!-- RUTE BUS -->
-    <section class="max-w-6xl mx-auto px-4 py-12">
-        <SectionTitle label="" accent="Rute" />
+        <!-- RUTE BUS -->
+        <div class="mt-6">
+            <SectionTitle label="" accent="Rute" />
 
-        <Image
-            src={Route}
-            alt="Rute Bus Trans Segara"
-            class="w-full rounded-2xl mb-10"
-            loading="lazy"
-        />
+            <Image
+                src={Route}
+                alt="Rute Bus Trans Segara"
+                class="w-full rounded-2xl mb-10"
+                loading="lazy"
+            />
 
-        <div id="accordion-card" data-accordion="collapse">
-            <AccordionItem
-                index={1}
-                title="Koridor 1A | Pasir Putih ⇄ Ujung Muara?"
-            >
-                <Image src={Rute3} alt="Rute 3" class="w-full" />
-            </AccordionItem>
-            <AccordionItem
-                index={2}
-                title="Koridor 1B | Ujung Muara ⇄ Pasir Putih"
-            >
-                <Image src={Rute3} alt="Rute 3" class="w-full" />
-            </AccordionItem>
-            <AccordionItem
-                index={3}
-                title="Koridor 1C | Pasir Putih Barat ⇄ Pasir Putih Tengah"
-            >
-                <Image src={Rute3} alt="Rute 3" class="w-full" />
-            </AccordionItem>
-            <AccordionItem
-                index={4}
-                title="Koridor 2 | Pasir Batu ⇄ Pasir Putih"
-            >
-                <Image src={Rute3} alt="Rute 3" class="w-full" />
-            </AccordionItem>
-            <AccordionItem
-                index={5}
-                title="Koridor 3 | Pasir Putih ⇄ Distrik Industri Baru"
-            >
-                <Image src={Rute3} alt="Rute 3" class="w-full" />
-            </AccordionItem>
+            <div id="accordion-card" data-accordion="collapse">
+                <AccordionItem
+                    index={1}
+                    title="Koridor 1A | Pasir Putih ⇄ Ujung Muara?"
+                >
+                    <Image src={Rute3} alt="Rute 3" class="w-full" />
+                </AccordionItem>
+                <AccordionItem
+                    index={2}
+                    title="Koridor 1B | Ujung Muara ⇄ Pasir Putih"
+                >
+                    <Image src={Rute3} alt="Rute 3" class="w-full" />
+                </AccordionItem>
+                <AccordionItem
+                    index={3}
+                    title="Koridor 1C | Pasir Putih Barat ⇄ Pasir Putih Tengah"
+                >
+                    <Image src={Rute3} alt="Rute 3" class="w-full" />
+                </AccordionItem>
+                <AccordionItem
+                    index={4}
+                    title="Koridor 2 | Pasir Batu ⇄ Pasir Putih"
+                >
+                    <Image src={Rute3} alt="Rute 3" class="w-full" />
+                </AccordionItem>
+                <AccordionItem
+                    index={5}
+                    title="Koridor 3 | Pasir Putih ⇄ Distrik Industri Baru"
+                >
+                    <Image src={Rute3} alt="Rute 3" class="w-full" />
+                </AccordionItem>
+            </div>
+
+            <style is:global>
+                #accordion-card > h2:not(:first-of-type) {
+                    margin-top: 1rem;
+                }
+            </style>
         </div>
 
-        <style is:global>
-            #accordion-card > h2:not(:first-of-type) {
-                margin-top: 1rem;
-            }
-        </style>
-    </section>
-
-    <!-- ARMADA BUS -->
-    <section class="max-w-6xl mx-auto px-4 py-12">
-        <SectionTitle label="" accent="Armada" />
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <DistrictCard
-                image={BusSmall}
-                title="Bus"
-                summary="Bus yang dapat menampung maksimum 30 penumpang.
-            Beroperasi penuh pada koridor 1C, 2, dan 3."
-            />
-            <DistrictCard
-                image={BusArticulated}
-                title="Articulated Bus"
-                summary="Bus gandeng yang dapat menampung maksimum 50 penumpang.
-            Beroperasi penuh pada koridor 1A dan 1B."
-            />
+        <!-- ARMADA BUS -->
+        <div class="mt-6">
+            <SectionTitle label="" accent="Armada" />
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <DistrictCard
+                    image={BusSmall}
+                    title="Bus"
+                    summary="Bus yang dapat menampung maksimum 30 penumpang.
+                Beroperasi penuh pada koridor 1C, 2, dan 3."
+                />
+                <DistrictCard
+                    image={BusArticulated}
+                    title="Articulated Bus"
+                    summary="Bus gandeng yang dapat menampung maksimum 50 penumpang.
+                Beroperasi penuh pada koridor 1A dan 1B."
+                />
+            </div>
         </div>
     </section>
 </Layout>
