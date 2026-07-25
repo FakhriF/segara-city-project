@@ -1,0 +1,27 @@
+---
+interface Props {
+    heading: string;
+    accent: string;
+    description: string;
+}
+
+const { heading, accent, description } = Astro.props;
+---
+
+<section
+    class="py-16 bg-white dark:bg-gray-800 border-t border-gray-200 dark:border-gray-700"
+>
+    <div class="max-w-3xl mx-auto px-4 text-center">
+        <h2
+            class="text-3xl md:text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white mb-3"
+        >
+            {heading} <span class="text-blue-700 dark:text-blue-500">{accent}</span>
+        </h2>
+        <p class="text-gray-600 dark:text-gray-400 mb-8 leading-relaxed">
+            {description}
+        </p>
+        <div class="flex flex-wrap justify-center gap-3">
+            <slot />
+        </div>
+    </div>
+</section>

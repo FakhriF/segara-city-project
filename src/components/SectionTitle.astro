@@ -1,0 +1,18 @@
+---
+interface Props {
+    label: string;
+    accent: string;
+    center?: boolean;
+}
+
+const { label, accent, center } = Astro.props;
+---
+
+<h2
+    class:list={[
+        "text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white",
+        center ? "mb-8 text-center" : "mb-6",
+    ]}
+>
+    {label} <span class="text-blue-700 dark:text-blue-500">{accent}</span>
+</h2>
