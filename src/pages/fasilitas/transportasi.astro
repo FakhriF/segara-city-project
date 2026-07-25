@@ -1,0 +1,107 @@
+---
+import { Image } from "astro:assets";
+import Layout from "../../layouts/Layout.astro";
+import Route from "../../assets/images/segara-transport.png";
+import BusSmall from "../../assets/images/transportasi/bus-30.webp";
+import BusArticulated from "../../assets/images/transportasi/bus-50.webp";
+import Rute3 from "../../assets/images/transportasi/3.jpg";
+import Header from "../../components/Header.astro";
+import SectionTitle from "../../components/SectionTitle.astro";
+import DistrictCard from "../../components/DistrictCard.astro";
+import AccordionItem from "../../components/AccordionItem.astro";
+---
+
+<Layout
+    title="Transportasi — Kota Segara"
+    description="Informasi dan perkembangan terbaru seputar Transportasi Kota Segara."
+>
+    <!-- Header -->
+    <Header
+        title="Transportasi"
+        description="Informasi dan perkembangan terbaru seputar Transportasi Kota
+        Segara — rute, fasilitas, dan layanan transportasi yang
+        tersedia."
+    />
+
+    <!-- DESKRIPSI BUS TRANS -->
+    <section class="max-w-6xl mx-auto px-4 py-12">
+        <SectionTitle label="Bus Trans" accent="Segara" />
+        <p
+            class="prose prose-lg max-w-none dark:prose-invert text-gray-600 dark:text-gray-300"
+        >
+            Bus Trans Segara adalah bus transportasi umum yang diurus oleh Dinas
+            Perhubungan Kota Segara dibawah kendali langsung oleh Pemerintah
+            Kota Segara.
+        </p>
+    </section>
+
+    <!-- RUTE BUS -->
+    <section class="max-w-6xl mx-auto px-4 py-12">
+        <SectionTitle label="" accent="Rute" />
+
+        <Image
+            src={Route}
+            alt="Rute Bus Trans Segara"
+            class="w-full rounded-2xl mb-10"
+            loading="lazy"
+        />
+
+        <div id="accordion-card" data-accordion="collapse">
+            <AccordionItem
+                index={1}
+                title="Koridor 1A | Pasir Putih ⇄ Ujung Muara?"
+            >
+                <Image src={Rute3} alt="Rute 3" class="w-full" />
+            </AccordionItem>
+            <AccordionItem
+                index={2}
+                title="Koridor 1B | Ujung Muara ⇄ Pasir Putih"
+            >
+                <Image src={Rute3} alt="Rute 3" class="w-full" />
+            </AccordionItem>
+            <AccordionItem
+                index={3}
+                title="Koridor 1C | Pasir Putih Barat ⇄ Pasir Putih Tengah"
+            >
+                <Image src={Rute3} alt="Rute 3" class="w-full" />
+            </AccordionItem>
+            <AccordionItem
+                index={4}
+                title="Koridor 2 | Pasir Batu ⇄ Pasir Putih"
+            >
+                <Image src={Rute3} alt="Rute 3" class="w-full" />
+            </AccordionItem>
+            <AccordionItem
+                index={5}
+                title="Koridor 3 | Pasir Putih ⇄ Distrik Industri Baru"
+            >
+                <Image src={Rute3} alt="Rute 3" class="w-full" />
+            </AccordionItem>
+        </div>
+
+        <style is:global>
+            #accordion-card > h2:not(:first-of-type) {
+                margin-top: 1rem;
+            }
+        </style>
+    </section>
+
+    <!-- ARMADA BUS -->
+    <section class="max-w-6xl mx-auto px-4 py-12">
+        <SectionTitle label="" accent="Armada" />
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <DistrictCard
+                image={BusSmall}
+                title="Bus"
+                summary="Bus yang dapat menampung maksimum 30 penumpang.
+            Beroperasi penuh pada koridor 1C, 2, dan 3."
+            />
+            <DistrictCard
+                image={BusArticulated}
+                title="Articulated Bus"
+                summary="Bus gandeng yang dapat menampung maksimum 50 penumpang.
+            Beroperasi penuh pada koridor 1A dan 1B."
+            />
+        </div>
+    </section>
+</Layout>
