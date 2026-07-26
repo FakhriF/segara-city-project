@@ -1,0 +1,190 @@
+---
+import Header from "../components/Header.astro";
+import Layout from "../layouts/Layout.astro";
+import SectionTitle from "../components/SectionTitle.astro";
+import PublikasiCard from "../components/publikasi/PublikasiCard.astro";
+---
+
+<Layout
+    title="Roadmap — Kota Segara"
+    description="Rencana pengembangan Kota Segara dari waktu ke waktu."
+>
+    <!-- Header -->
+    <Header
+        title="Roadmap"
+        description="Rencana pengembangan Kota Segara dari waktu ke waktu."
+    />
+
+    <!-- Documents -->
+    <section
+        class="py-12 bg-white dark:bg-gray-900 transition-colors duration-200"
+    >
+        <div class="max-w-6xl mx-auto px-4">
+            <ol class="relative border-s border-default">
+                <li class="mb-10 ms-4">
+                    <div
+                        class="absolute w-3 h-3 bg-neutral-quaternary rounded-full mt-1.5 -start-1.5 border border-buffer"
+                    >
+                    </div>
+                    <div class="mb-1 flex flex-row items-center gap-2">
+                        <time class="text-sm font-normal leading-none text-body"
+                            >Q1 2031
+                        </time>
+                        <span
+                            class="bg-success-soft text-fg-success-strong text-xs font-medium px-1.5 py-0.5 rounded"
+                        >
+                            Completed</span
+                        >
+                    </div>
+                    <h3 class="text-lg font-semibold text-heading my-2">
+                        Akses Tol Segara Dirampungkan
+                    </h3>
+                    <p class="mb-4 text-base font-normal text-body">
+                        Penyelesaian pembangunan akses keluar-masuk kota Segara
+                        dari Tol Segara.
+                    </p>
+                </li>
+                <li class="mb-10 ms-4">
+                    <div
+                        class="absolute w-3 h-3 bg-neutral-quaternary rounded-full mt-1.5 -start-1.5 border border-buffer"
+                    >
+                    </div>
+                    <div class="mb-1 flex flex-row items-center gap-2">
+                        <time class="text-sm font-normal leading-none text-body"
+                            >Q2 2032
+                        </time>
+                        <span
+                            class="bg-success-soft text-fg-success-strong text-xs font-medium px-1.5 py-0.5 rounded"
+                        >
+                            Completed</span
+                        >
+                    </div>
+                    <h3 class="text-lg font-semibold text-heading my-2">
+                        Distrik Hunian Baru Pasir Batu
+                    </h3>
+                    <p class="text-base font-normal text-body">
+                        Pembangunan distrik hunian baru, "Pasir Batu" untuk
+                        menampung lebih banyak pendatang ke Segara.
+                    </p>
+                </li>
+                <li class="mb-10 ms-4">
+                    <div
+                        class="absolute w-3 h-3 bg-neutral-quaternary rounded-full mt-1.5 -start-1.5 border border-buffer"
+                    >
+                    </div>
+                    <div class="mb-1 flex flex-row items-center gap-2">
+                        <time class="text-sm font-normal leading-none text-body"
+                            >Q2 2032
+                        </time>
+                        <span
+                            class="bg-brand-softer text-fg-brand-strong text-xs font-medium px-1.5 py-0.5 rounded"
+                        >
+                            On Progress</span
+                        >
+                    </div>
+                    <h3 class="text-lg font-semibold text-heading my-2">
+                        Pembangunan Distrik Khusus Industri Dimulai
+                    </h3>
+                    <p class="text-base font-normal text-body">
+                        Pemindahan kawasan industri di Ujung Muara ke daerah
+                        khusus industri agar kawasan kota tidak terpapar oleh
+                        polusi, mulai dibangun.
+                    </p>
+                </li>
+                <li class="mb-10 ms-4">
+                    <div
+                        class="absolute w-3 h-3 bg-neutral-quaternary rounded-full mt-1.5 -start-1.5 border border-buffer"
+                    >
+                    </div>
+                    <div class="mb-1 flex flex-row items-center gap-2">
+                        <time class="text-sm font-normal leading-none text-body"
+                            >Q3 2032
+                        </time>
+                        <span
+                            class="bg-success-soft text-fg-success-strong text-xs font-medium px-1.5 py-0.5 rounded"
+                        >
+                            Completed</span
+                        >
+                    </div>
+                    <h3 class="text-lg font-semibold text-heading my-2">
+                        Perluasan Wilayah Hunian Pasir Putih dan Pasir Batu
+                    </h3>
+                    <p class="text-base font-normal text-body">
+                        Perluasan wilayah hunian kedua distrik ini, agar dapat
+                        menampung pendatang baru.
+                    </p>
+                </li>
+                <li class="mb-10 ms-4">
+                    <div
+                        class="absolute w-3 h-3 bg-neutral-quaternary rounded-full mt-1.5 -start-1.5 border border-buffer"
+                    >
+                    </div>
+                    <div class="mb-1 flex flex-row items-center gap-2">
+                        <time class="text-sm font-normal leading-none text-body"
+                            >Q4 2032
+                        </time>
+                        <span
+                            class="bg-brand-softer text-fg-brand-strong text-xs font-medium px-1.5 py-0.5 rounded"
+                        >
+                            On Progress</span
+                        >
+                    </div>
+                    <h3 class="text-lg font-semibold text-heading my-2">
+                        Pembangunan Universitas Segara
+                    </h3>
+                    <p class="text-base font-normal text-body">
+                        Universitas Segara ditargetkan mulai dibangun pada Q4
+                        2032.
+                    </p>
+                </li>
+                <li class="mb-10 ms-4">
+                    <div
+                        class="absolute w-3 h-3 bg-neutral-quaternary rounded-full mt-1.5 -start-1.5 border border-buffer"
+                    >
+                    </div>
+                    <div class="mb-1 flex flex-row items-center gap-2">
+                        <time class="text-sm font-normal leading-none text-body"
+                            >Q1 2033
+                        </time>
+                        <span
+                            class="bg-warning-soft text-fg-warning text-xs font-normal px-1.5 py-0.5 rounded"
+                        >
+                            Planned</span
+                        >
+                    </div>
+                    <h3 class="text-lg font-semibold text-heading my-2">
+                        Pengembangan Ulang Kawasan Ujung Muara
+                    </h3>
+                    <p class="text-base font-normal text-body">
+                        Merubah Kawasan Ujung Muara menjadi kawasan residensial,
+                        komersial, dengan menyatukan ruang terbuka hijau.
+                    </p>
+                </li>
+                <li class="mb-10 ms-4">
+                    <div
+                        class="absolute w-3 h-3 bg-neutral-quaternary rounded-full mt-1.5 -start-1.5 border border-buffer"
+                    >
+                    </div>
+                    <div class="mb-1 flex flex-row items-center gap-2">
+                        <time class="text-sm font-normal leading-none text-body"
+                            >Q2 2033
+                        </time>
+                        <span
+                            class="bg-warning-soft text-fg-warning text-xs font-normal px-1.5 py-0.5 rounded"
+                        >
+                            Planned</span
+                        >
+                    </div>
+                    <h3 class="text-lg font-semibold text-heading my-2">
+                        Distrik Industri Baru Resmi Dibuka
+                    </h3>
+                    <p class="text-base font-normal text-body">
+                        Distrik industri baru ini resmi dibuka dan seluruh
+                        bangunan serta fasilitas pendukung sudah 100% siap
+                        digunakan.
+                    </p>
+                </li>
+            </ol>
+        </div>
+    </section>
+</Layout>
