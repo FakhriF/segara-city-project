@@ -1,0 +1,37 @@
+---
+import Header from "../components/Header.astro";
+import Layout from "../layouts/Layout.astro";
+import SectionTitle from "../components/SectionTitle.astro";
+import PublikasiCard from "../components/publikasi/PublikasiCard.astro";
+---
+
+<Layout
+    title="Publikasi — Kota Segara"
+    description="Publikasi dari Pemerintahan Kota Segara."
+>
+    <!-- Header -->
+    <Header
+        title="Publikasi"
+        description="Publikasi dari Pemerintahan Kota Segara sebagai pemenuhan tanggung jawab pemerintah terhadap asas keterbukaan dan pertanggung jawaban kepada masyarakat Segara."
+    />
+
+    <!-- Documents -->
+    <section
+        class="py-12 bg-white dark:bg-gray-900 transition-colors duration-200"
+    >
+        <div class="max-w-6xl mx-auto px-4">
+            <SectionTitle
+                label="Laporan Kuartal Pengembangan Kota"
+                accent="Segara"
+            />
+
+            <PublikasiCard
+                title="Laporan Perkembangan Kota Segara Kuartal III Tahun 2032"
+                link="/docs/Quarterly_Development_Report_Q3_2032.pdf"
+                type="PDF"
+                size="600 KB"
+                date="2 Oct 2032"
+            />
+        </div>
+    </section>
+</Layout>

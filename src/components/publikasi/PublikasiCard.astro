@@ -1,0 +1,59 @@
+---
+interface Props {
+    link: string;
+    title?: string;
+    type?: string;
+    size?: string;
+    date?: string;
+}
+
+const { title, link, date, size, type } = Astro.props;
+
+function formatDate(dateStr: string) {
+    return new Date(dateStr).toLocaleDateString("id-ID", {
+        year: "numeric",
+        month: "long",
+        day: "numeric",
+    });
+}
+---
+
+<a
+    href={link}
+    target="_blank"
+    class={`group w-full bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-2xl shadow-xs hover:shadow-xl transition-all duration-300 hover:-translate-y-1 overflow-hidden flex flex-col justify-between`}
+>
+    <div class="flex flex-row gap-4 items-center px-4">
+        <div
+            class={`p-3 rounded-xl bg-blue-50 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400`}
+        >
+            <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-8 w-8 text-blue-600 dark:text-blue-400"
+                fill="none"
+                viewBox="0 0 24 24"
+            >
+                <path d="M0 0h24v24H0z" fill="none"></path>
+                <path
+                    fill="currentColor"
+                    d="M15.75 13a.75.75 0 0 0-.75-.75H9a.75.75 0 0 0 0 1.5h6a.75.75 0 0 0 .75-.75m0 4a.75.75 0 0 0-.75-.75H9a.75.75 0 0 0 0 1.5h6a.75.75 0 0 0 .75-.75"
+                ></path>
+                <path
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                    d="M7 2.25A2.75 2.75 0 0 0 4.25 5v14A2.75 2.75 0 0 0 7 21.75h10A2.75 2.75 0 0 0 19.75 19V7.968c0-.381-.124-.751-.354-1.055l-2.998-3.968a1.75 1.75 0 0 0-1.396-.695zM5.75 5c0-.69.56-1.25 1.25-1.25h7.25v4.397c0 .414.336.75.75.75h3.25V19c0 .69-.56 1.25-1.25 1.25H7c-.69 0-1.25-.56-1.25-1.25z"
+                    clip-rule="evenodd"></path>
+            </svg>
+        </div>
+        <div class="p-5">
+            <h3
+                class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white leading-snug group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors"
+            >
+                {title}
+            </h3>
+            <p class="text-gray-600 dark:text-gray-400 text-sm">
+                {type} • {size} • {date}
+            </p>
+        </div>
+    </div>
+</a>
