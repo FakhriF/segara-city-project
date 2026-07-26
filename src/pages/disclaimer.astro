@@ -1,0 +1,98 @@
+---
+import Header from "../components/Header.astro";
+import Layout from "../layouts/Layout.astro";
+import SectionTitle from "../components/SectionTitle.astro";
+import PublikasiCard from "../components/publikasi/PublikasiCard.astro";
+---
+
+<Layout
+    title="Disclaimer — Kota Segara"
+    description="Disclaimer dari Pemerintahan Kota Segara."
+>
+    <!-- Header -->
+    <Header
+        title="Disclaimer"
+        description="Disclaimer dari Pemerintahan Kota Segara."
+    />
+
+    <!-- Documents -->
+    <section
+        class="py-12 bg-white dark:bg-gray-900 transition-colors duration-200"
+    >
+        <div class="max-w-6xl mx-auto px-4 flex flex-col gap-6">
+            <SectionTitle label="Dibalik Kota (Fiksi)" accent="Segara" />
+
+            <p
+                class="prose prose-lg max-w-none dark:prose-invert text-body"
+            >
+                Kota Segara merupakan kota fiksi yang dibuat oleh Fakhri,
+                sebagai pengembangan experience yang dia rasakan ketika bermain
+                permainan Cities Skylines.
+            </p>
+
+            <blockquote
+                class="text-xl italic font-semibold tracking-tight text-heading"
+            >
+                <p>
+                    "Aku udah sering bikin kota di Cities Skylines, tapi
+                    sekarang aku ingin bermain dengan experience yang sedikit
+                    berbeda. Maka dari itu, aku menciptakan website fiksi Kota
+                    Segara ini biar kesan nya aku membuat kota asli."
+                </p>
+                <p class="text-sm text-gray-500 dark:text-gray-400">
+                    - Fakhri, Ketika bertanya ke diri sendiri
+                </p>
+            </blockquote>
+
+            <p
+            class="prose prose-lg max-w-none dark:prose-invert text-body"
+            >
+                Karena ini merupakan side-project nya dia, jadi semoga kalian bisa
+                have-fun mengenal Kota Segara ini. Maaf jika terlalu kaku dalam
+                website ini.
+            </p>
+            <hr class="h-px bg-neutral-quaternary border-0" />
+            <p
+            class="prose prose-lg max-w-none dark:prose-invert text-body"
+            >
+                Note: Seluruh konten di website ini adalah fiksi dan hanya
+                terkait dengan permainan Cities Skylines. Semua nama, karakter,
+                dan lokasi yang ditampilkan adalah hasil fiksi dan tidak terkait
+                dengan dunia nyata.
+            </p>
+        </div>
+    </section>
+
+    <section
+        class="py-12 bg-white dark:bg-gray-900 transition-colors duration-200"
+    >
+        <div class="max-w-6xl mx-auto px-4">
+            <SectionTitle label="Third Party Libraries" accent="" />
+            <ul class="space-y-1 text-body list-disc list-inside">
+                <li>
+                    Desain Karakter dibuat dengan Picrew yang dibuat oleh
+                    @yasubaru0: <a href="https://picrew.me/image_maker/249262"
+                        >https://picrew.me</a
+                    >
+                </li>
+                <li>
+                    Tulisan-tulisan yang ditampilkan pada halaman berita dan
+                    publikasi, Fakhri tulis lalu di-enhance dengan Generatif AI.
+                </li>
+                <li>
+                    Beberapa desain grafis dibuat menggunakan Canva. Begitu juga
+                    beberapa assets yang digunakan pada desain grafis tersebut.
+                </li>
+                <li>Website ini menggunakan Framework Astro.</li>
+                <li>
+                    Style dan desain website ini menggunakan Tailwind CSS dengan
+                    Framework dari Flowbite.
+                </li>
+                <li>
+                    Icon-icon yang digunakan pada website ini berasal dari
+                    Iconify.
+                </li>
+            </ul>
+        </div>
+    </section>
+</Layout>
