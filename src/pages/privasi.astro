@@ -1,0 +1,30 @@
+---
+import Header from "../components/Header.astro";
+import Layout from "../layouts/Layout.astro";
+import SectionTitle from "../components/SectionTitle.astro";
+import PublikasiCard from "../components/publikasi/PublikasiCard.astro";
+---
+
+<Layout
+    title="Kebijakan Privasi — Kota Segara"
+    description="Kebijakan Privasi dari Pemerintahan Kota Segara."
+>
+    <!-- Header -->
+    <Header
+        title="Kebijakan Privasi"
+        description="Kebijakan Privasi dari Pemerintahan Kota Segara."
+    />
+
+    <!-- Documents -->
+    <section
+        class="py-12 bg-white dark:bg-gray-900 transition-colors duration-200"
+    >
+        <div class="max-w-6xl mx-auto px-4">
+            <SectionTitle label="Kebijakan " accent="Privasi" />
+
+            <p class="prose prose-lg max-w-none dark:prose-invert text-body">
+                Dinas Digital Kota Segara masih mengembangkan halaman ini.
+            </p>
+        </div>
+    </section>
+</Layout>
