@@ -1,0 +1,52 @@
+---
+import type { ImageMetadata } from "astro";
+
+interface Props {
+    image?: ImageMetadata;
+    name: string;
+    position: string;
+}
+
+const { image, name, position } = Astro.props;
+---
+
+<div
+    class="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-2xl shadow-sm hover:shadow-md transition-all duration-200 overflow-hidden w-full max-w-xs"
+>
+    <!-- Square photo area -->
+    <div
+        class="aspect-square w-full bg-gray-100 dark:bg-gray-700 overflow-hidden"
+    >
+        {
+            image ? (
+                <img
+                    class="w-full h-full object-cover"
+                    src={image.src}
+                    alt={name}
+                />
+            ) : (
+                <div class="w-full h-full flex items-center justify-center bg-gray-50 dark:bg-gray-700/50">
+                    <svg
+                        class="w-20 h-20 text-gray-300 dark:text-gray-600"
+                        fill="currentColor"
+                        viewBox="0 0 24 24"
+                    >
+                        <path d="M12 12c2.7 0 4.8-2.1 4.8-4.8S14.7 2.4 12 2.4 7.2 4.5 7.2 7.2 9.3 12 12 12zm0 2.4c-3.2 0-9.6 1.6-9.6 4.8v1.2c0 .7.5 1.2 1.2 1.2h16.8c.7 0 1.2-.5 1.2-1.2v-1.2c0-3.2-6.4-4.8-9.6-4.8z" />
+                    </svg>
+                </div>
+            )
+        }
+    </div>
+
+    <!-- Text content -->
+    <div class="p-5 text-center">
+        <h5
+            class="text-lg font-bold text-gray-900 dark:text-white leading-snug"
+        >
+            {name}
+        </h5>
+        <p class="text-sm text-gray-500 dark:text-gray-400 mt-1">
+            {position}
+        </p>
+    </div>
+</div>

@@ -1,0 +1,141 @@
+---
+import Header from "../../components/Header.astro";
+import Layout from "../../layouts/Layout.astro";
+import SectionTitle from "../../components/SectionTitle.astro";
+import PersonCard from "../../components/pemerintahan/PersonCard.astro";
+
+import Heksu from "../../assets/images/pemerintahan/heksu.webp";
+import Kirwanto from "../../assets/images/pemerintahan/kirwanto.webp";
+---
+
+<Layout
+    title="Pemerintahan — Kota Segara"
+    description="Mari kenali orang-orang dibalik layar Pemerintahan kota Segara."
+>
+    <!-- Header -->
+    <Header
+        title="Pemerintahan"
+        description="Mari kenali orang-orang dan tim dibalik layar Pemerintahan kota Segara yang berkontribusi dalam mengembangkan Kota Segara."
+    />
+
+    <!-- Balaikota -->
+    <section
+        class="py-12 bg-white dark:bg-gray-800 transition-colors duration-200"
+    >
+        <div class="max-w-6xl mx-auto px-4">
+            <SectionTitle label="Balaikota" accent="Segara" />
+            <div class="flex flex-wrap gap-8">
+                <PersonCard
+                    image={Heksu}
+                    name="Heksu Howaito"
+                    position="Walikota Segara"
+                />
+                <PersonCard name="Ake Riyu" position="Kepala Keuangan Kota" />
+            </div>
+        </div>
+    </section>
+
+    <!-- Transportasi -->
+    <section
+        class="py-12 bg-gray-50 dark:bg-gray-900/50 border-y border-gray-200 dark:border-gray-800 transition-colors duration-200"
+    >
+        <div class="max-w-6xl mx-auto px-4">
+            <SectionTitle label="Transportasi" accent="Segara" />
+            <div class="flex flex-wrap gap-8">
+                <PersonCard
+                    image={Kirwanto}
+                    name="Kirwanto, S.T., M.Sc."
+                    position="Kepala Dinas Perhubungan (Kadishub)"
+                />
+                <PersonCard
+                    name="Rampadi"
+                    position="Kepala Jasa Marka Segara"
+                />
+            </div>
+        </div>
+    </section>
+
+    <!-- Lingkungan & Tata Kota -->
+    <section
+        class="py-12 bg-white dark:bg-gray-800 transition-colors duration-200"
+    >
+        <div class="max-w-6xl mx-auto px-4">
+            <SectionTitle label="Lingkungan dan Tata Kota" accent="Segara" />
+            <div class="flex flex-wrap gap-8">
+                <PersonCard
+                    name="Teguh Prasetia"
+                    position="Kepala Dinas Pekerjaan Umum (PU)"
+                />
+                <PersonCard
+                    name="Kiriyu Hon"
+                    position="Kepala Dinas Lingkungan Hidup"
+                />
+            </div>
+        </div>
+    </section>
+
+    <!-- Pendidikan -->
+    <section
+        class="py-12 bg-gray-50 dark:bg-gray-900/50 border-y border-gray-200 dark:border-gray-800 transition-colors duration-200"
+    >
+        <div class="max-w-6xl mx-auto px-4">
+            <SectionTitle label="Pendidikan" accent="Segara" />
+            <div class="flex flex-wrap gap-8">
+                <PersonCard
+                    name="Eru Minato"
+                    position="Kepala Dinas Pendidikan"
+                />
+                <PersonCard
+                    name="Amarini"
+                    position="Kepala Dinas Perpustakaan dan Kearsipan"
+                />
+            </div>
+        </div>
+    </section>
+
+    <!-- Energi dan Sumber Daya -->
+    <section
+        class="py-12 bg-white dark:bg-gray-800 transition-colors duration-200"
+    >
+        <div class="max-w-6xl mx-auto px-4">
+            <SectionTitle label="Energi dan Sumber Daya" accent="Segara" />
+            <div class="flex flex-wrap gap-8">
+                <PersonCard
+                    name="Setrumiadi"
+                    position="Kepala Perusahaan Listrik Segara"
+                />
+                <PersonCard
+                    name="Ken Mizuyama"
+                    position="Kepala Perusahaan Daerah Air Minum Segara"
+                />
+            </div>
+        </div>
+    </section>
+
+    <!-- Keamanan, Kesehatan, dan Kebakaran -->
+    <section
+        class="py-12 bg-gray-50 dark:bg-gray-900/50 border-y border-gray-200 dark:border-gray-800 transition-colors duration-200"
+    >
+        <div class="max-w-6xl mx-auto px-4">
+            <SectionTitle
+                label="Keamanan, Kesehatan, dan Kebakaran"
+                accent="Segara"
+            />
+            <div class="flex flex-wrap gap-8">
+                <PersonCard
+                    name="Pramutomo"
+                    position="Kepala Kepolisian Segara"
+                />
+                <PersonCard
+                    name="Purajato"
+                    position="Kepala Satpol PP Segara"
+                />
+                <PersonCard name="Gunawan" position="Kepala Dinas Kesehatan" />
+                <PersonCard
+                    name="Megantara"
+                    position="Kepala Dinas Penanggulangan Kebakaran dan Penyelamatan"
+                />
+            </div>
+        </div>
+    </section>
+</Layout>
