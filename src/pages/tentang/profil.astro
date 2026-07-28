@@ -2,12 +2,15 @@
 import Header from "../../components/Header.astro";
 import StatCard from "../../components/StatCard.astro";
 import Layout from "../../layouts/Layout.astro";
-import CityLandscape from "../../assets/images/city-landscape-2031.webp";
 import DistrictCard from "../../components/DistrictCard.astro";
 import SectionTitle from "../../components/SectionTitle.astro";
 import VisionBlock from "../../components/tentang/VisionBlock.astro";
 import MisiCard from "../../components/tentang/MisiCard.astro";
 import CtaSection from "../../components/tentang/CtaSection.astro";
+
+import CityLandscape from "../../assets/images/city-landscape-2031.webp";
+import PasirBatu from "../../assets/images/tentang/pasir-batu-2031.webp";
+import UjungMuara from "../../assets/images/tentang/ujung-muara-2031.webp";
 ---
 
 <Layout
@@ -25,9 +28,7 @@ import CtaSection from "../../components/tentang/CtaSection.astro";
         <div class="max-w-6xl mx-auto px-4">
             <SectionTitle label="Tentang" accent="Kota Segara" />
 
-            <div
-                class="text-body"
-            >
+            <div class="text-body">
                 <p class="mb-2">
                     Kota Segara adalah sebuah kota yang baru dibangun pada tahun
                     2026. Berawal dari sebuah rencana pemerintah pusat untuk
@@ -227,13 +228,13 @@ import CtaSection from "../../components/tentang/CtaSection.astro";
 
             <div class="grid md:grid-cols-3 gap-6">
                 <DistrictCard
-                    image={CityLandscape}
+                    image={UjungMuara}
                     title="Ujung Muara"
                     summary="Distrik industri dan pergudangan. Nadi ekonomi Kota Segara dengan kawasan Ujung Muara sebagai pusat logistik utama."
                 />
 
                 <DistrictCard
-                    image={CityLandscape}
+                    image={PasirBatu}
                     title="Pasir Batu"
                     summary="Distrik baru yang dikembangkan oleh Segara. Merupakan sebuah distrik baru untuk menjadi penyangga distrik Pasir Putih."
                 />

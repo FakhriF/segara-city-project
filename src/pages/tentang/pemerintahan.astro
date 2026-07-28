@@ -4,6 +4,7 @@ import Layout from "../../layouts/Layout.astro";
 import SectionTitle from "../../components/SectionTitle.astro";
 import PersonCard from "../../components/pemerintahan/PersonCard.astro";
 
+import Ake from "../../assets/images/pemerintahan/ake.webp";
 import Heksu from "../../assets/images/pemerintahan/heksu.webp";
 import Kirwanto from "../../assets/images/pemerintahan/kirwanto.webp";
 ---
@@ -30,7 +31,7 @@ import Kirwanto from "../../assets/images/pemerintahan/kirwanto.webp";
                     name="Heksu Howaito"
                     position="Walikota Segara"
                 />
-                <PersonCard name="Ake Riyu" position="Kepala Keuangan Kota" />
+                <PersonCard image={Ake} name="Ake Riyu" position="Kepala Badan Pengelola Keuangan" />
             </div>
         </div>
     </section>
@@ -130,7 +131,10 @@ import Kirwanto from "../../assets/images/pemerintahan/kirwanto.webp";
                     name="Purajato"
                     position="Kepala Satpol PP Segara"
                 />
-                <PersonCard name="Gunawan" position="Kepala Dinas Kesehatan" />
+                <PersonCard
+                    name="dr. Halim Supendi"
+                    position="Kepala Dinas Kesehatan"
+                />
                 <PersonCard
                     name="Megantara"
                     position="Kepala Dinas Penanggulangan Kebakaran dan Penyelamatan"

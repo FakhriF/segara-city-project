@@ -25,13 +25,22 @@ import PublikasiCard from "../components/publikasi/PublikasiCard.astro";
                 accent="Segara"
             />
 
-            <PublikasiCard
-                title="Laporan Perkembangan Kota Segara Kuartal III Tahun 2032"
-                link="/docs/Quarterly_Development_Report_Q3_2032.pdf"
-                type="PDF"
-                size="600 KB"
-                date="2 Oct 2032"
-            />
+           <div class="flex flex-col gap-4">
+               <PublikasiCard
+                   title="Laporan Perkembangan Kota Segara Kuartal III Tahun 2032"
+                   link="/docs/Quarterly_Development_Report_Q3_2032.pdf"
+                   type="PDF"
+                   size="600 KB"
+                   date="2 Oct 2032"
+               />
+               <PublikasiCard
+                   title="Laporan Perkembangan Kota Segara Kuartal IV Tahun 2032"
+                   link="/docs/Quarterly_Development_Report_Q4_2032.pdf"
+                   type="PDF"
+                   size="1.1 MB"
+                   date="16 Jan 2032"
+               />
+           </div>
         </div>
     </section>
 </Layout>

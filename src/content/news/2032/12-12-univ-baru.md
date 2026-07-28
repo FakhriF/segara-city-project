@@ -10,7 +10,7 @@ tags:
     "Kota Pendidikan",
     "Investasi Swasta",
   ]
-image: "/images/berita/2032/perpus-pasir-batu.webp"
+image: "/images/berita/2032/new-univ-segara.webp"
 isHeadline: true
 summary: "Mewujudkan visi jenjang pendidikan lengkap dari SD hingga Perguruan Tinggi, Pemkot Segara menggandeng Dharmala Tech Corp untuk membangun universitas perdana di kota ini."
 ---
