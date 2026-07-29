@@ -1,3 +1,7 @@
+---
+import Icon from "./Icon.astro";
+---
+
 <footer
     class="bg-neutral-primary-soft rounded-base shadow-xs border border-default m-4"
 >
@@ -7,11 +11,12 @@
                 href="/"
                 class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse"
             >
-                <img
+                <!-- <img
                     src="https://flowbite.com/docs/images/logo.svg"
                     class="h-7"
                     alt="Flowbite Logo"
-                />
+                /> -->
+                <Icon />
                 <span
                     class="text-heading self-center text-2xl font-semibold whitespace-nowrap"
                     >Kota Segara</span
@@ -21,7 +26,10 @@
                 class="flex flex-wrap items-center mb-6 text-sm font-medium text-body sm:mb-0"
             >
                 <li>
-                    <a href="/tentang/profil" class="hover:underline me-4 md:me-6">Tentang</a>
+                    <a
+                        href="/tentang/profil"
+                        class="hover:underline me-4 md:me-6">Tentang</a
+                    >
                 </li>
                 <li>
                     <a href="/privasi" class="hover:underline me-4 md:me-6"
