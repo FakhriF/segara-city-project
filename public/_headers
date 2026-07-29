@@ -1,5 +1,4 @@
-# Cloudflare Pages headers
-# Pastikan .webp diserve dengan MIME type yang benar
-/_astro/*
+# Cloudflare Pages headers — hanya untuk file webp
+/_astro/*.webp
   Content-Type: image/webp
   Cache-Control: public, max-age=31536000, immutable
