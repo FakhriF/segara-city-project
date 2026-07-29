@@ -1,5 +1,4 @@
 ---
-import { Image } from "astro:assets";
 import Layout from "../../layouts/Layout.astro";
 import Route from "../../assets/images/transportasi/segara-transport-q4-2032.webp";
 import BusSmall from "../../assets/images/transportasi/bus-30.webp";
@@ -36,8 +35,8 @@ import AccordionItem from "../../components/AccordionItem.astro";
         <div class="mt-6">
             <SectionTitle label="" accent="Rute" />
 
-            <Image
-                src={Route}
+            <img
+                src={Route.src}
                 alt="Rute Bus Trans Segara"
                 class="w-full rounded-2xl mb-10"
                 loading="lazy"
@@ -48,31 +47,31 @@ import AccordionItem from "../../components/AccordionItem.astro";
                     index={1}
                     title="Koridor 1A | Pasir Putih ⇄ Ujung Muara?"
                 >
-                    <Image src={Rute3} alt="Rute 3" class="w-full" />
+                    <img src={Rute3.src} alt="Rute 3" class="w-full" />
                 </AccordionItem>
                 <AccordionItem
                     index={2}
                     title="Koridor 1B | Ujung Muara ⇄ Pasir Putih"
                 >
-                    <Image src={Rute3} alt="Rute 3" class="w-full" />
+                    <img src={Rute3.src} alt="Rute 3" class="w-full" />
                 </AccordionItem>
                 <AccordionItem
                     index={3}
                     title="Koridor 1C | Pasir Putih Barat ⇄ Pasir Putih Tengah"
                 >
-                    <Image src={Rute3} alt="Rute 3" class="w-full" />
+                    <img src={Rute3.src} alt="Rute 3" class="w-full" />
                 </AccordionItem>
                 <AccordionItem
                     index={4}
                     title="Koridor 2 | Pasir Batu ⇄ Pasir Putih"
                 >
-                    <Image src={Rute3} alt="Rute 3" class="w-full" />
+                    <img src={Rute3.src} alt="Rute 3" class="w-full" />
                 </AccordionItem>
                 <AccordionItem
                     index={5}
                     title="Koridor 3 | Pasir Putih ⇄ Distrik Industri Baru"
                 >
-                    <Image src={Rute3} alt="Rute 3" class="w-full" />
+                    <img src={Rute3.src} alt="Rute 3" class="w-full" />
                 </AccordionItem>
             </div>
 

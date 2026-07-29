@@ -1,10 +1,8 @@
 ---
-import { Image } from 'astro:assets';
-
 interface Props {
-  image: ImageMetadata;
-  title?: string;
-  summary?: string;
+    image: ImageMetadata;
+    title?: string;
+    summary?: string;
 }
 
 const { title, image, summary } = Astro.props;
@@ -13,11 +11,9 @@ const { title, image, summary } = Astro.props;
 <div
     class="group w-full bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-2xl shadow-xs hover:shadow-xl transition-all duration-300 hover:-translate-y-1 overflow-hidden flex flex-col justify-between"
 >
-    <div
-        class="h-48 w-full overflow-hidden bg-gray-100 dark:bg-gray-700"
-    >
-        <Image
-            src={image}
+    <div class="h-48 w-full overflow-hidden bg-gray-100 dark:bg-gray-700">
+        <img
+            src={image.src}
             alt={title ?? "Sebuah Gambar"}
             class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
         />
@@ -30,9 +26,7 @@ const { title, image, summary } = Astro.props;
             {title}
         </h3>
 
-        <p
-            class="text-sm text-gray-600 dark:text-gray-300 leading-relaxed"
-        >
+        <p class="text-sm text-gray-600 dark:text-gray-300 leading-relaxed">
             {summary}
         </p>
     </div>
