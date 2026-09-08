@@ -3,7 +3,7 @@ title: "Heksu Resmikan Kawasan Industri Baru, Pembangunan Rampung 100%"
 date: "2033-05-28"
 category: "Ekonomi"
 tags: ["Kawasan Industri Baru", "Heksu Howaito", "Fase 3 Rampung", "Industri Eco-Friendly", "Filter Emisi", "Tenaga Kerja"]
-image: "/images/berita/2033/peresmian-kawasan-industri.webp"
+image: "/images/berita/2033/distrik-industri-baru-resmi.webp"
 isHeadline: true
 summary: "Walikota Heksu Howaito meresmikan operasional penuh Kawasan Industri Baru. Pembangunan Fase 3 resmi selesai 100% dilengkapi teknologi filter emisi modern."
 ---

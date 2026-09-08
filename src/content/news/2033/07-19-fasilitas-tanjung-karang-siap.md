@@ -1,16 +1,16 @@
 ---
 title: "Bukti Dikebut, Sekolah dan Klinik Tanjung Karang Berdiri Tegak"
-date: "2033-07-18"
+date: "2033-07-19"
 category: "Tata Kota"
 tags: ["Distrik Tanjung Karang", "Tanjung Karang", "Sekolah Baru", "Klinik Kesehatan", "Heksu Howaito", "Fasilitas Berdiri"]
-image: "/images/berita/2033/sekolah-klinik-tanjung-karang.webp"
+image: "/images/berita/2033/sekolah-distrik-tanjung-karang.webp"
 isHeadline: true
 summary: "Pembangunan Distrik Tanjung Karang makin menunjukkan bukti nyata. Gedung sekolah dan klinik kesehatan telah berdiri tegak siap melayani warga baru."
 ---
 
 ## 🏛️ Rilis Resmi Humas Pemkot Segara
 
-**DISTRIK TANJUNG KARANG** — Bukti keseriusan Pemerintah Kota Segara dalam mengebut pembangunan Distrik Tanjung Karang makin terlihat nyata di lapangan. Dalam laporan peninjauan fisik pada Minggu (18/7), Pemkot mengonfirmasi bahwa konstruksi gedung sekolah dan fasilitas kesehatan di kawasan tersebut telah selesai berdiri tegak 100%.
+**DISTRIK TANJUNG KARANG** — Bukti keseriusan Pemerintah Kota Segara dalam mengebut pembangunan Distrik Tanjung Karang makin terlihat nyata di lapangan. Dalam laporan peninjauan fisik pada Selasa (19/7), Pemkot mengonfirmasi bahwa konstruksi gedung sekolah dan fasilitas kesehatan di kawasan tersebut telah selesai berdiri tegak 100%.
 
 Gedung Sekolah Dasar (SD), Sekolah Menengah (High School), serta Klinik Kesehatan Tanjung Karang kini telah memasuki tahap akhir pemasangan perabotan interior dan penyelesaian lanskap luar.
 

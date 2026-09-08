@@ -3,7 +3,7 @@ title: "Kirwanto Resmikan Koridor 4, Hubungkan Tanjung Karang - Ujung Muara"
 date: "2033-07-12"
 category: "Transportasi"
 tags: ["Trans Segara", "Koridor 4", "Kirwanto", "Tanjung Karang", "Ujung Muara", "Transit Hub", "Dishub Segara"]
-image: "/images/berita/2033/koridor-4-trans-segara.webp"
+image: "/images/berita/2033/koridor-4-resmi-beroprasi.webp"
 isHeadline: true
 summary: "Kadishub Kirwanto meresmikan Koridor 4 Trans Segara rute Tanjung Karang - Ujung Muara. Koridor baru ini terintegrasi transit dengan Koridor 1A dan 1B."
 ---

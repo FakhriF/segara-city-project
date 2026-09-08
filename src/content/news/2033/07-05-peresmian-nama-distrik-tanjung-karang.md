@@ -3,7 +3,7 @@ title: "Resmi Dinamai Tanjung Karang, Distrik Baru Siap Lengkap Fasilitas"
 date: "2033-07-05"
 category: "Tata Kota"
 tags: ["Tanjung Karang", "Distrik Tanjung Karang", "Heksu Howaito", "Fasilitas Publik", "Klinik", "Sekolah"]
-image: "/images/berita/2033/distrik-tanjung-karang.webp"
+image: "/images/berita/2033/fasilitas-distrik-tanjung-karang.webp"
 isHeadline: true
 summary: "Pemkot Segara meresmikan nama Distrik Tanjung Karang. Target dihuni Agustus 2033 dikebut lengkap dengan klinik, pemadam, dan sekolah."
 ---

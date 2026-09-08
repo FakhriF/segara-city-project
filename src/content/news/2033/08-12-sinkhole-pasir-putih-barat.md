@@ -1,16 +1,16 @@
 ---
 title: "Sinkhole Muncul di Pasir Putih Barat, Pemkot Kaji Opsi Perbaikan"
-date: "2033-07-29"
+date: "2033-08-12"
 category: "Bencana"
 tags: ["Sinkhole", "Pasir Putih Barat", "BPBD Segara", "Heksu Howaito", "Bambang Suryono", "Jalan Rusak"]
-image: "/images/berita/2033/sinkhole-pasir-putih-barat.webp"
+image: "/images/berita/2033/opsi-perbaikan-abis-sinkhole.webp"
 isHeadline: true
 summary: "Sinkhole raksasa muncul di sisi paling barat Pasir Putih, merusak jalan raya yang belum dibuka. Heksu dan Bambang kaji opsi perbaikan atau penutupan."
 ---
 
 ## 🏛️ Rilis Resmi Pemkot & BPBD Segara
 
-**PASIR PUTIH BARAT** — Hanya berselang satu hari setelah rilis status siaga geologi dikeluarkan, fenomena tanah amblas (*Sinkhole*) secara nyata muncul di wilayah Kota Segara. Lubang amblas raksasa tersebut terbentuk di sisi paling barat Distrik Pasir Putih pada Kamis (29/7) pagi.
+**PASIR PUTIH BARAT** — Hanya berselang satu hari setelah rilis status siaga geologi dikeluarkan, fenomena tanah amblas (*Sinkhole*) secara nyata muncul di wilayah Kota Segara. Lubang amblas raksasa tersebut terbentuk di sisi paling barat Distrik Pasir Putih pada Jumat (12/8) pagi.
 
 Pemerintah Kota Segara dan BPBD mengonfirmasi bahwa **tidak ada korban jiwa maupun luka-luka** dalam insiden geologi ini. Kerusakan fisik terbatas pada ambrolnya badan jalan raya arteri proyek yang memang belum dibuka untuk umum.
 

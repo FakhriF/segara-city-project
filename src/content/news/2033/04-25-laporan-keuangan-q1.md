@@ -3,7 +3,7 @@ title: "Laporan Q1 Rilis: Kas Segara Mulai Pulih, Proyek Strategis Digeser"
 date: "2033-04-25"
 category: "Ekonomi"
 tags: ["Laporan Q1 2033", "Ake Riyu", "Kas Kota Segara", "The Segara Post", "Distrik Industri Baru", "Fiskal Segara"]
-image: "/images/berita/2033/laporan-q1-rilis.webp"
+image: "/images/berita/2033/laporan-q4-2032.webp"
 isHeadline: true
 summary: "Pemkot Segara meresmikan dokumen Laporan Kuartal I 2033. Kas daerah merambat naik ke $9.814, sementara penuntasan Distrik Industri Baru disesuaikan ke Q2."
 ---

@@ -1,22 +1,22 @@
 ---
 title: "Lebih Cepat dari Target, Heksu Resmikan Tanjung Karang"
-date: "2033-07-22"
+date: "2033-07-26"
 category: "Tata Kota"
 tags: ["Tanjung Karang", "Peresmian Distrik", "Heksu Howaito", "Pemukiman Baru", "100 Rumah", "Kebutuhan Hunian"]
-image: "/images/berita/2033/peresmian-tanjung-karang.webp"
+image: "/images/berita/2033/fasilitas-distrik-tanjung-karang.webp"
 isHeadline: true
 summary: "Lebih cepat dari estimasi semula, Walikota Heksu meresmikan Distrik Tanjung Karang. Kawasan ini siap menampung 80 hingga 100 unit rumah baru."
 ---
 
 ## 🏛️ Rilis Resmi Humas Pemkot Segara
 
-**DISTRIK TANJUNG KARANG** — Janji Pemerintah Kota Segara untuk menyelesaikan masalah ketersediaan tempat tinggal secara cepat resmi terbukti. Walikota Segara, Heksu Howaito, meresmikan secara langsung pembukaan **Distrik Tanjung Karang** pada Kamis (22/7) pagi—lebih cepat dari estimasi semula yang ditargetkan pada bulan Agustus.
+**DISTRIK TANJUNG KARANG** — Janji Pemerintah Kota Segara untuk menyelesaikan masalah ketersediaan tempat tinggal secara cepat resmi terbukti. Walikota Segara, Heksu Howaito, meresmikan secara langsung pembukaan **Distrik Tanjung Karang** pada Selasa (26/7) pagi—lebih cepat dari estimasi semula yang ditargetkan pada bulan Agustus.
 
 Seremoni pemotongan pita di gerbang utama distrik ini menandai dimulainya penyerahan kunci dan pengoperasian kawasan pemukiman baru yang digadang-gadang menjadi solusi utama dalam meredam lonjakan harga hunian kota.
 
 Dalam rilis resminya, Walikota Heksu mengumumkan bahwa Distrik Tanjung Karang dirancang secara matang untuk menampung sekitar **80 hingga 100 unit rumah baru** bagi para keluarga dan pekerja baru Kota Segara.
 
-> "Hari ini tepat di pertengahan bulan Juli, Distrik Tanjung Karang resmi kita buka untuk umum lebih cepat dari perkiraan semula. Kawasan ini siap menampung 80 hingga 100 unit rumah baru dengan standar hunian yang asri, aman, dan sudah dilengkapi fasilitas sekolah serta kesehatan sejak hari pertama," ungkap Walikota Heksu Howaito saat seremoni peresmian.
+> "Hari ini tepat di penghujung bulan Juli, Distrik Tanjung Karang resmi kita buka untuk umum lebih cepat dari perkiraan semula. Kawasan ini siap menampung 80 hingga 100 unit rumah baru dengan standar hunian yang asri, aman, dan sudah dilengkapi fasilitas sekolah serta kesehatan sejak hari pertama," ungkap Walikota Heksu Howaito saat seremoni peresmian.
 
 ---
 
@@ -48,7 +48,7 @@ Kehadiran 80-100 unit rumah baru di Tanjung Karang dinilai berhasil menjadi 'kat
 - **@PencariKerjaLokal:** _"Alhamdulillah resmi dibuka! Syukuran warga baru di Tanjung Karang akhir pekan ini! Kapan lagi punya rumah dekat sekolah sama klinik sekaligus!"_
 - **@IbuRumahTangga_SG:** _"Kompleksnya bersih bgt, jalannya lebar dan banyak pohon peneduh baru ditanam. Selamat buat warga baru Tanjung Karang!"_
 - **@DriverOnlineSegara:** _"Orderan antar barang sama makanan ke Tanjung Karang siap melonjak nih! Peta rute distrik baru udah aktif di aplikasi!"_
-- **@WargaPasirPutih_:** _"Tepat waktu bgt malah lebih cepat dari perkiraan semula! Pertengahan Juli langsung serah terima kunci 100 rumah!"_
+- **@WargaPasirPutih_:** _"Tepat waktu bgt malah lebih cepat dari perkiraan semula! Akhir Juli langsung serah terima kunci 100 rumah!"_
 
 <!-- ---
 

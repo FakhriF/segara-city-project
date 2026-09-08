@@ -1,18 +1,18 @@
 ---
 title: "Peringatan Sinkhole Meluncur, BPBD Minta Warga Waspada"
-date: "2033-07-28"
+date: "2033-08-11"
 category: "Bencana"
 tags: ["Sinkhole", "BPBD Segara", "Bambang Suryono", "Peringatan Dini", "Ujung Muara", "Call Center BPBD"]
-image: "/images/berita/2033/peringatan-sinkhole.webp"
+image: "/images/berita/2033/sink-hole-muncul.webp"
 isHeadline: true
 summary: "BPBD Segara merilis peringatan dini ancaman Sinkhole. Lokasi pasti belum terdeteksi alat, warga diminta laporkan getaran dan retakan tanah."
 ---
 
 ## 🏛️ Rilis Resmi BPBD & Humas Pemkot Segara
 
-**MARKAS BPBD UJUNG MUARA** — Badan Penanggulangan Bencana Daerah (BPBD) Kota Segara secara resmi mengeluarkan status **Siaga Waspada Bencana Geologi** menyusul terdeteksinya potensi pergeseran tanah amblas atau *Sinkhole* di wilayah Kota Segara pada Rabu (28/7) sore.
+**MARKAS BPBD UJUNG MUARA** — Badan Penanggulangan Bencana Daerah (BPBD) Kota Segara secara resmi mengeluarkan status **Siaga Waspada Bencana Geologi** menyusul terdeteksinya potensi pergeseran tanah amblas atau *Sinkhole* di wilayah Kota Segara pada Kamis (11/8) sore.
 
-Rilis darurat ini menjadi ujian besar perdana bagi BPBD Kota Segara yang baru saja diresmikan bulan lalu di bawah pimpinan Drs. Bambang Suryono, M.Si.
+Rilis darurat ini menjadi ujian besar perdana bagi BPBD Kota Segara yang baru saja diresmikan dua bulan lalu di bawah pimpinan Drs. Bambang Suryono, M.Si.
 
 Dalam rilis resminya, Kepala BPBD Bambang Suryono meminta masyarakat untuk tetap tenang namun meningkatkan kewaspadaan ekstra terhadap kondisi lingkungan sekitar tempat tinggal.
 
@@ -22,7 +22,7 @@ Dalam rilis resminya, Kepala BPBD Bambang Suryono meminta masyarakat untuk tetap
 
 ## 📰 Radar Segara (Kepanikan Dini & Kejanggalan Alat Pendeteksi)
 
-**MARKAS BPBD UJUNG MUARA** — Pengumuman status siaga *Sinkhole* di penghujung bulan Juli ini mendadak mengejutkan publik dan memicu kepanikan warga di beberapa distrik.
+**MARKAS BPBD UJUNG MUARA** — Pengumuman status siaga *Sinkhole* pada pertengahan bulan Agustus ini mendadak mengejutkan publik dan memicu kepanikan warga di beberapa distrik.
 
 Penelusuran *Radar Segara* langsung ke Markas Komando BPBD di Ujung Muara menemukan bahwa jajaran petugas kebencanaan sebenarnya cukup kaget dengan munculnya peringatan dini geologi ini.
 

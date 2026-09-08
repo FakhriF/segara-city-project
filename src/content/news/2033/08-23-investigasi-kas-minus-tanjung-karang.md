@@ -1,16 +1,16 @@
 ---
 title: "Investigasi Segara Post: Kas Kota Minus Akibat Proyek Impulsif"
-date: "2033-07-31"
+date: "2033-08-23"
 category: "Politik & Pemerintahan"
 tags: ["The Segara Post", "Investigasi", "Kas Kota Minus", "Bocoran Informan", "Tanjung Karang", "Ake Riyu", "Balai Kota Tutup Mulut"]
-image: "/images/berita/2033/investigasi-kas-minus.webp"
+image: "/images/berita/2033/kas-turun.webp"
 isHeadline: true
 summary: "Investigasi The Segara Post bongkar bocoran kas daerah yang tiba-tiba minus akibat proyek impulsif Tanjung Karang. Balai Kota memilih tutup mulut."
 ---
 
 ## 📰 The Segara Post (Liputan Investigasi Khusus & Bocoran Informan)
 
-**BALAI KOTA** — Di tengah klaim keberhasilan peresmian pemukiman baru dan penyederhanaan birokrasi di akhir bulan Juli, sebuah fakta mengejutkan mengenai kondisi riil keuangan Kota Segara berhasil dibongkar oleh tim investigasi *The Segara Post*.
+**BALAI KOTA** — Di tengah klaim keberhasilan peresmian pemukiman baru dan penyederhanaan birokrasi beberapa pekan lalu, sebuah fakta mengejutkan mengenai kondisi riil keuangan Kota Segara berhasil dibongkar oleh tim investigasi *The Segara Post*.
 
 Berdasarkan dokumen rahasia dan kesaksian eksklusif dari seorang informan internal di lingkungan Balai Kota, saldo kas Pemerintah Kota Segara dilaporkan **kembali terjun bebas ke zona merah (defisit minus)** pada penghujung Kuartal III ini.
 
@@ -24,7 +24,7 @@ Situasi diperparah oleh kebijakan penggunaan skema tiga shift kerja 24 jam nonst
 
 ### Balai Kota Memilih Tutup Mulut
 
-Menanggapi temuan dokumen bocoran tersebut, tim jurnalis *The Segara Post* telah berulang kali mencoba meminta konfirmasi dan wawancara resmi kepada Walikota Heksu Howaito maupun Kepala BKD Ake Riyu sejak Rabu kemarin.
+Menanggapi temuan dokumen bocoran tersebut, tim jurnalis *The Segara Post* telah berulang kali mencoba meminta konfirmasi dan wawancara resmi kepada Walikota Heksu Howaito maupun Kepala BKD Ake Riyu sejak awal pekan ini.
 
 Namun, hingga berita investigasi ini diturunkan ke meja cetak, pihak **Balai Kota dan BKD secara tegas memilih untuk tutup mulut** dan menolak memberikan pernyataan resmi mengenai kondisi sisa saldo kas daerah yang sebenarnya.
 
