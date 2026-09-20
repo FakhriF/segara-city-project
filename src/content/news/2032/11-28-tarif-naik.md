@@ -10,7 +10,7 @@ tags:
     "Kironito",
     "Heksu Howaito",
   ]
-image: "/images/berita/2032/tarif-baru-bus.webp"
+image: "../../../assets/berita/2032/tarif-baru-bus.webp"
 isHeadline: true
 summary: "Dishub Segara mengumumkan penyesuaian tarif Trans Segara per Desember. Lansia cukup bayar $1 dan pelajar diskon 75%, namun tarif jam sibuk melonjak 50%."
 ---

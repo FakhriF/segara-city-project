@@ -3,7 +3,7 @@ title: "Resmi Mengaspal! Trans Segara Operasikan Bus Gandeng Jumbo di Koridor Ut
 date: "2032-11-16"
 category: "Transportasi"
 tags: ["Trans Segara", "Bus Gandeng", "Heksu Howaito", "Fasilitas Publik"]
-image: "/images/berita/2032/bus-gandeng-segara.webp"
+image: "../../../assets/berita/2032/bus-gandeng-segara.webp"
 isHeadline: true
 summary: "Mengatasi lonjakan penumpang pasca-ekspansi distrik, Dishub Segara resmi mengoperasikan armada bus gandeng (articulated bus) berkapasitas 50 orang."
 ---

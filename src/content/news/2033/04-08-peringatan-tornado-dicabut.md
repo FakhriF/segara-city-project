@@ -3,7 +3,7 @@ title: "Peringatan Tornado Dicabut, Walikota Heksu Minta Maaf"
 date: "2033-04-08"
 category: "Bencana"
 tags: ["Tornado 8.5", "Heksu Howaito", "Pasir Batu", "Pohon Tumbang", "Peringatan Dini", "Pemkot Segara"]
-image: "/images/berita/2033/tornado-dicabut.webp"
+image: "../../../assets/berita/2033/tornado-dicabut.webp"
 isHeadline: true
 summary: "Pemkot Segara resmi mencabut status siaga tornado setelah angin monster 8.5 berbelok arah. Pasir Batu Utara alami pohon tumbang, Walikota Heksu sampaikan permohonan maaf."
 ---

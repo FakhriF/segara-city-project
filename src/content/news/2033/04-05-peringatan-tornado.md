@@ -3,7 +3,7 @@ title: "Peringatan Tornado Intensitas 8.5 Meluncur, Kota Segara Belum Punya Shel
 date: "2033-04-05"
 category: "Bencana"
 tags: ["Tornado", "Tornado 8.5", "Peringatan Bencana", "Mitigasi Darurat", "Bunker Bencana", "Heksu Howaito", "Kepanikan Warga"]
-image: "/images/berita/2033/peringatan-tornado.webp"
+image: "../../../assets/berita/2033/peringatan-tornado.webp"
 isHeadline: true
 summary: "Sirine peringatan dini meraung menyusul terdeteksinya tornado raksasa berintensitas 8.5 mendekati Segara. Pemkot imbau warga berlindung, meski kota belum punya shelter bencana."
 ---

@@ -3,7 +3,7 @@ title: "Sebulan Pasca-Tornado: BPBD Rilis 900 Korban Jiwa & Ratusan Kerusakan, P
 date: "2033-11-03"
 category: "Bencana"
 tags: ["BPBD Segara", "Bambang Suryono", "Tornado Segara", "Korban Bencana", "Pasir Putih", "Pasir Batu", "Tuntutan Mundur", "Mitigasi Bencana"]
-image: "/images/berita/2033/segara-background.webp"
+image: "../../../assets/berita/2033/segara-background.webp"
 isHeadline: true
 summary: "Satu bulan pasca-tornado, Kepala BPBD Bambang Suryono resmi merilis data duka: 900 warga meninggal dunia, 100 rumah hancur di Pasir Putih & Pasir Batu, serta 5 sekolah dan 4 apartemen rusak. Permohonan maafnya diwarnai gelombang desakan mundur dari warga."
 ---

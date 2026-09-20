@@ -3,7 +3,7 @@ title: "Fokus Publik Teralihkan, Pemkot Diam-diam Ekstra Perluas Distrik Pasir P
 date: "2032-06-18"
 category: "Tata Kota"
 tags: ["Ekspansi Distrik", "Pasir Batu", "Pasir Putih", "Zonasi Rahasia", "Heksu Howaito"]
-image: "/images/berita/2032/ekspansi-diam-diam.webp"
+image: "../../../assets/berita/2032/ekspansi-diam-diam.webp"
 isHeadline: false
 summary: "Di tengah sibuknya megaproyek pemadatan tebing industri, pergerakan traktor justru terlihat di sisi barat kota untuk perluasan dua distrik residensial secara senyap."
 ---

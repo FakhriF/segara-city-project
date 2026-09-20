@@ -3,7 +3,7 @@ title: "Harga Rumah Melonjak, Pemkot Kebut Distrik Residensial Baru"
 date: "2033-06-22"
 category: "Tata Kota"
 tags: ["Distrik Baru", "Heksu Howaito", "Kebutuhan Hunian", "Harga Rumah", "Tata Ruang", "Sayembara Nama"]
-image: "/images/berita/2033/kawasan-padat-harga-melonjak.webp"
+image: "../../../assets/berita/2033/kawasan-padat-harga-melonjak.webp"
 isHeadline: true
 summary: "Pemkot Segara akan mengebut pembangunan distrik tempat tinggal baru guna meredam lonjakan harga hunian. Uniknya, nama distrik baru ini belum ditentukan."
 ---

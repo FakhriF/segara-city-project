@@ -4,7 +4,7 @@ date: "2032-12-31"
 category: "Transportasi"
 tags:
   ["Trans Segara", "Pasir Putih Raya", "Kemacetan", "Kirwanto", "Heksu Howaito"]
-image: "/images/berita/2032/penumpukan-bus-tahun-baru.webp"
+image: "../../../assets/berita/2032/penumpukan-bus-tahun-baru.webp"
 isHeadline: true
 summary: "Lonjakan penumpang malam tahun baru memicu penumpukan armada bus. Uniknya, bukan warga yang mengantre bus, melainkan puluhan bus yang mengantre masuk Halte Pasir Putih Raya Utara."
 ---

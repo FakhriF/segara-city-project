@@ -3,7 +3,7 @@ title: "Ujung Muara Sektor 2 Resmi Dihuni, 50 Rumah Berdiri Dekat Taman"
 date: "2033-05-20"
 category: "Tata Kota"
 tags: ["Ujung Muara Sektor 2", "Ujung Muara", "Pemukiman Baru", "Heksu Howaito", "Taman Kota", "Serah Terima Rumah"]
-image: "/images/berita/2033/ujung-muara-sektor-2.webp"
+image: "../../../assets/berita/2033/ujung-muara-sektor-2.webp"
 isHeadline: true
 summary: "Distrik Ujung Muara Sektor 2 resmi diserahterimakan kepada warga. Sebanyak 50 unit rumah baru berdiri strategis berdekatan dengan Taman Kota Ujung Muara."
 ---

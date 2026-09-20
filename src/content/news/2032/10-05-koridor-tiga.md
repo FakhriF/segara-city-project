@@ -3,7 +3,7 @@ title: "Redam Gejolak Industri, Walikota Resmikan Trans Segara Koridor 3 Direct 
 date: "2032-10-05"
 category: "Transportasi"
 tags: ["Trans Segara", "Koridor 3", "Pasir Putih", "Pasir Batu"]
-image: "/images/berita/2032/koridor3-launch.webp"
+image: "../../../assets/berita/2032/koridor3-launch.webp"
 isHeadline: true
 summary: "Dishub Segara resmi membuka Koridor 3 yang menghubungkan kawasan barat (Pasir Putih & Pasir Batu) langsung menuju Distrik Industri Baru demi memudahkan mobilitas pekerja."
 ---

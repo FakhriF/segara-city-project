@@ -3,7 +3,7 @@ title: "Respon Kritik Netizen, Pemerintah Resmi Ubah Nama Distrik Menjadi 'Pasir
 date: "2032-03-10"
 category: "Sosial"
 tags: ["Pasir Batu", "Pasir Kecil", "Tata Ruang", "Ikon Kota"]
-image: "/images/berita/2032/nama-pasir-batu.webp"
+image: "../../../assets/berita/2032/nama-pasir-batu.webp"
 isHeadline: true
 summary: "Setelah sempat ramai diperbincangkan publik, pemerintah akhirnya membatalkan nama 'Pasir Kecil' dan meresmikan nama 'Pasir Batu' dengan ikon dua batu raksasa."
 ---

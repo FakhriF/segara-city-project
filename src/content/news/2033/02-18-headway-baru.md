@@ -3,7 +3,7 @@ title: "Langkah Efisiensi Kirwanto: Headway Trans Segara Disesuaikan, Koridor 3 
 date: "2033-02-18"
 category: "Transportasi"
 tags: ["Kirwanto", "Trans Segara", "Koridor 3", "Efisiensi Bus", "Headway", "Dishub Segara"]
-image: "/images/berita/2033/efisiensi-trans-segara.webp"
+image: "../../../assets/berita/2033/efisiensi-trans-segara.webp"
 isHeadline: true
 summary: "Guna menekan pembengkakan biaya operasional akibat bus 'sepi penumpang', Kadishub Kirwanto resmi mengumumkan penyesuaian interval kedatangan bus di sejumlah koridor."
 ---

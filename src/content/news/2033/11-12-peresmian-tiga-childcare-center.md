@@ -3,7 +3,7 @@ title: "Lindungi Generasi Masa Depan, Heksu Resmikan 3 Childcare Center Khusus B
 date: "2033-11-12"
 category: "Sosial"
 tags: ["Kesehatan Anak", "Child Health Center", "Heksu Howaito", "dr. Halim Supendi", "Kesehatan Balita", "Pasir Putih", "Pasir Batu", "Infrastruktur Medis"]
-image: "/images/berita/2033/peresmian-childcare-center.webp"
+image: "../../../assets/berita/2033/peresmian-childcare-center.webp"
 isHeadline: true
 summary: "Bangkit dari duka bencana, Walikota Heksu Howaito meresmikan 3 Child Health Center serentak di Pasir Putih, Pasir Batu, dan Ujung Muara guna menjamin pemulihan fisik serta psikologis anak-anak, balita, dan remaja."
 ---

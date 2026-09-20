@@ -3,7 +3,7 @@ title: "Polusi Udara Distrik Ujung Segara Meningkat, Pemkot Klaim Itu 'Kabut Kem
 date: "2031-07-14"
 category: "Lingkungan"
 tags: ["Polusi Udara", "Ujung Segara", "Kesehatan"]
-image: "/images/berita/2031/polusi-udara.webp"
+image: "../../../assets/berita/2031/polusi-udara.webp"
 isHeadline: false
 summary: "Indeks kualitas udara di Distrik Industri Ujung Segara menyentuh zona merah. Pemkot sebut hal itu tanda roda ekonomi berputar kencang."
 ---

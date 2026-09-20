@@ -1,17 +1,28 @@
 ---
+import { Picture } from "astro:assets";
+import type { ImageMetadata } from "astro";
+
 interface Props {
     id: string;
     category: string;
     title?: string;
     desc?: string;
     date: string;
-    image?: string;
+    image?: ImageMetadata;
     summary?: string;
     tags?: string[];
     isHeadline?: boolean;
+    priority?: boolean;
 }
 
-const { title, id, date, image, summary, tags, category, isHeadline } = Astro.props;
+const { title, id, date, image, summary, tags, category, isHeadline, priority = false } = Astro.props;
+
+// Lebar responsif untuk kartu, dibatasi lebar asli gambar.
+const maxWidth = image?.width ?? 1366;
+const cardWidths = [400, 700, 1000, maxWidth]
+    .filter((w, i, arr) => w <= maxWidth && arr.indexOf(w) === i)
+    .sort((a, b) => a - b);
+const safeCardWidths = cardWidths.length ? cardWidths : [maxWidth];
 
 function formatDate(dateStr: string) {
     return new Date(dateStr).toLocaleDateString("id-ID", {
@@ -51,9 +62,16 @@ function badgeClass(category: string): string {
         {
             image && (
                 <div class="h-48 w-full overflow-hidden bg-gray-100 dark:bg-gray-700">
-                    <img
+                    <Picture
                         src={image}
                         alt={title}
+                        widths={safeCardWidths}
+                        sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
+                        formats={["avif"]}
+                        fallbackFormat="webp"
+                        loading={priority ? "eager" : "lazy"}
+                        decoding="async"
+                        fetchpriority={priority ? "high" : undefined}
                         class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                     />
                 </div>

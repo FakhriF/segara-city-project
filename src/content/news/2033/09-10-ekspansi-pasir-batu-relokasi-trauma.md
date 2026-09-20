@@ -3,7 +3,7 @@ title: "Atasi Trauma Tsunami, Pemkot Perluas Pasir Batu untuk 200 Rumah Baru"
 date: "2033-09-10"
 category: "Tata Kota"
 tags: ["Pasir Batu", "Ekspansi Distrik", "Heksu Howaito", "Trauma Tsunami", "Relokasi Hunian", "Kebutuhan Rumah", "Tata Ruang"]
-image: "/images/berita/2033/ekspansi-pasir-batu.webp"
+image: "../../../assets/berita/2033/ekspansi-pasir-batu.webp"
 isHeadline: true
 summary: "Distrik Pasir Batu diperluas untuk menampung 100-200 rumah baru. Kawasan dataran aman ini disiapkan bagi korban tsunami yang trauma tinggal di tepi laut."
 ---

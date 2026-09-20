@@ -3,7 +3,7 @@ title: "Ngebut Tiga Bulan, Megaproyek Industri Baru Segara Resmi Masuki Fase Tig
 date: "2032-08-12"
 category: "Tata Kota"
 tags: ["Megaproyek Industri", "Fase Tiga", "Heksu Howaito", "Teguh Prasetia", "Ujung Muara"]
-image: "/images/berita/2032/fase3-ngebut.webp"
+image: "../../../assets/berita/2032/fase3-ngebut.webp"
 isHeadline: true
 summary: "Di luar prediksi, pembangunan distrik industri baru melesat cepat dalam tiga bulan. Pemerintah kini mulai membangun fasilitas keamanan dan mengizinkan relokasi bertahap."
 ---

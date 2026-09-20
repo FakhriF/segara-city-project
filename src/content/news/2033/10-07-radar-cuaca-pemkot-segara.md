@@ -3,7 +3,7 @@ title: "Evaluasi 2 Bencana Besar, Heksu Anggarkan $31.250 Bangun Stasiun Radar C
 date: "2033-10-07"
 category: "Infrastruktur"
 tags: ["Radar Cuaca", "Mitigasi Bencana", "Heksu Howaito", "Bambang Suryono", "BPBD Segara", "Anggaran Bencana", "Tornado Segara"]
-image: "/images/berita/2033/radar-cuaca-pemkot-segara.webp"
+image: "../../../assets/berita/2033/radar-cuaca-pemkot-segara.webp"
 isHeadline: true
 summary: "Belajar dari amukan tsunami dan tornado beruntun, Walikota Heksu Howaito resmi mengalokasikan $31.250 untuk membangun Stasiun Radar Cuaca canggih pendeteksi dini tornado."
 ---

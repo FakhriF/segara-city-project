@@ -3,7 +3,7 @@ title: "Surat Edaran Balai Kota Bocor: Pabrik Ujung Muara Dipaksa Bersih Total S
 date: "2032-09-12"
 category: "Infrastruktur"
 tags: ["Ujung Muara", "Relokasi Masif", "Surat Edaran", "Heksu Howaito", "Distrik Industri Baru"]
-image: "/images/berita/2032/eksodus-ujung-muara.webp"
+image: "../../../assets/berita/2032/eksodus-ujung-muara.webp"
 isHeadline: true
 summary: "Kawasan Ujung Muara mulai tampak lowong seiring menghilangnya sejumlah bangunan pabrik. Walikota menetapkan tenggat waktu relokasi total hingga akhir Desember 2032."
 ---

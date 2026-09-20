@@ -9,7 +9,7 @@ tags:
     "Distrik Industri",
     "Janji Walikota",
   ]
-image: "/images/berita/2032/polusi-udara.webp"
+image: "../../../assets/berita/2032/polusi-udara.webp"
 isHeadline: true
 summary: "Persis satu bulan setelah berjanji akan memperketat regulasi emisi industri di bulan Februari, realisasi dari Walikota Heksu Howaito masih nihil di lapangan."
 ---

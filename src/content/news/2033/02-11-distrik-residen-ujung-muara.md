@@ -10,7 +10,7 @@ tags:
     "Pemukiman Baru",
     "Strategi Pembangunan",
   ]
-image: "/images/berita/2033/ujung-muara-1-siap-huni.webp"
+image: "../../../assets/berita/2033/ujung-muara-1-siap-huni.webp"
 isHeadline: true
 summary: "Di luar dugaan warga, kawasan hunian Distrik Ujung Muara I di sisi barat resmi berdiri dan siap dihuni. Pengerjaan ternyata sudah mengendap-endap sejak sebelum Januari."
 ---

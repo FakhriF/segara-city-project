@@ -3,7 +3,7 @@ title: "Peringatan Tsunami Resmi Dicabut, Korban Pasir Putih Direlokasi ke Apart
 date: "2033-09-02"
 category: "Bencana"
 tags: ["Tsunami Segara", "Heksu Howaito", "Pencabutan Bencana", "Pasir Putih", "Apartemen Transisi", "Rekonstruksi Rumah", "BPBD Segara"]
-image: "/images/berita/2033/masyarakat-keluar-shelter.webp"
+image: "../../../assets/berita/2033/masyarakat-keluar-shelter.webp"
 isHeadline: true
 summary: "Lima hari pasca-tsunami, Walikota Heksu mencabut status darurat bencana. Warga yang rumahnya hanyut dipindahkan sementara ke apartemen sembari menunggu pembangunan ulang."
 ---

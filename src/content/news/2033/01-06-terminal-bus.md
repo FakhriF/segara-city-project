@@ -10,7 +10,7 @@ tags:
     "Sub-Terminal",
     "Inovasi Perhubungan",
   ]
-image: "/images/berita/2033/terminal-pasir-putih.webp"
+image: "../../../assets/berita/2033/terminal-pasir-putih.webp"
 isHeadline: true
 summary: "Guna mengatasi penumpukan bus yang memicu kemacetan, Kadishub Kirwanto meresmikan Terminal Transit Pasir Putih dengan 4 platform terpisah dan fasilitas atap kaca modern."
 ---

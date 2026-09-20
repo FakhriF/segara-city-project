@@ -3,7 +3,7 @@ title: "Bukti Dikebut, Sekolah dan Klinik Tanjung Karang Berdiri Tegak"
 date: "2033-07-19"
 category: "Tata Kota"
 tags: ["Distrik Tanjung Karang", "Tanjung Karang", "Sekolah Baru", "Klinik Kesehatan", "Heksu Howaito", "Fasilitas Berdiri"]
-image: "/images/berita/2033/sekolah-distrik-tanjung-karang.webp"
+image: "../../../assets/berita/2033/sekolah-distrik-tanjung-karang.webp"
 isHeadline: true
 summary: "Pembangunan Distrik Tanjung Karang makin menunjukkan bukti nyata. Gedung sekolah dan klinik kesehatan telah berdiri tegak siap melayani warga baru."
 ---

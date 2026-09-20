@@ -43,6 +43,7 @@ const categories = [...new Set(sortedNews.map((n) => n.data.category))];
                             image={news.data.image}
                             summary={news.data.summary}
                             isHeadline={true}
+                            priority={true}
                         />
                     ))
             }

@@ -10,7 +10,7 @@ tags:
     "Kironito",
     "Diskon Desember",
   ]
-image: "/images/berita/2032/pembatalan-tarif.webp"
+image: "../../../assets/berita/2032/pembatalan-tarif.webp"
 isHeadline: true
 summary: "Hanya dua hari pasca-pengumuman tarif dinamis yang menuai gelombang protes, Walikota resmi mencabut kebijakan tersebut dan menghadiahi warga diskon tarif seminggu penuh."
 ---

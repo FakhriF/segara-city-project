@@ -3,7 +3,7 @@ title: "Tok! Walikota Heksu Ketok Kebijakan Wajib Filter Asap & Limbah di Distri
 date: "2032-09-18"
 category: "Lingkungan"
 tags: ["Heksu Howaito", "Kebijakan Industri", "Filter Polusi", "Eco-Industrial", "Distrik Industri Baru"]
-image: "/images/berita/2032/kebijakan-filter.webp"
+image: "../../../assets/berita/2032/kebijakan-filter.webp"
 isHeadline: true
 summary: "Pemerintah Kota Segara resmi mengeluarkan regulasi ketat yang mewajibkan seluruh pabrik di kawasan industri baru memasang filter polusi udara dan tanah."
 ---

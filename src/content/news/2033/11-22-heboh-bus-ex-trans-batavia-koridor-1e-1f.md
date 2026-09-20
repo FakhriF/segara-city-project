@@ -3,7 +3,7 @@ title: "Geger Bus Ex Trans-Batavia Beroperasi di Koridor 1E & 1F, Kadishub Irit 
 date: "2033-11-22"
 category: "Transportasi"
 tags: ["Trans Segara", "Trans Batavia", "Kirwanto", "Heksu Howaito", "Dishub Segara", "Koridor 1E", "Koridor 1F", "Armada Bus"]
-image: "/images/berita/2033/bus-trans-batavia.webp"
+image: "../../../assets/berita/2033/bus-trans-batavia.webp"
 isHeadline: true
 summary: "Warga Segara dikejutkan dengan kemunculan bus berlivery Trans-Batavia di Koridor 1E dan 1F. Kadishub Kirwanto diam-diam mendatangkan armada bekas tersebut, sementara Walikota Heksu mengaku kaget saat melihatnya langsung dari bus 1D."
 ---

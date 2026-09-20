@@ -3,7 +3,7 @@ title: "Pilar Pelayanan Publik Berdiri, Jantung Layanan Utama Distrik Industri B
 date: "2032-09-05" # Melanjutkan kronologi pasca-Fase 3 Agustus kemarin
 category: "Infrastruktur"
 tags: ["Distrik Industri Baru", "Fasilitas Publik", "Sewage Filter", "Manajemen Sampah", "Teguh Prasetia"]
-image: "/images/berita/2032/fasilitas-industri-siap.webp"
+image: "../../../assets/berita/2032/fasilitas-industri-siap.webp"
 isHeadline: false
 summary: "Tiga pilar fasilitas keselamatan (Klinik, Kantor Polisi, Damkar) resmi berdiri di dekat zona pertanian. Pemkot mulai memindahkan infrastruktur sanitasi berat secara berkala."
 ---

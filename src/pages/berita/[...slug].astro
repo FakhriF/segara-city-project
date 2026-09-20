@@ -1,5 +1,6 @@
 ---
 import Layout from "../../layouts/Layout.astro";
+import { Picture } from "astro:assets";
 import { getCollection, render } from "astro:content";
 
 export async function getStaticPaths() {
@@ -14,6 +15,13 @@ const { entry } = Astro.props;
 const { Content } = await render(entry);
 
 const { title, date, category, summary, tags, image } = entry.data;
+
+// Lebar responsif untuk gambar hero artikel, dibatasi lebar asli gambar.
+const maxWidth = image?.width ?? 1366;
+const heroWidths = [600, 896, 1200, maxWidth]
+    .filter((w, i, arr) => w <= maxWidth && arr.indexOf(w) === i)
+    .sort((a, b) => a - b);
+const safeHeroWidths = heroWidths.length ? heroWidths : [maxWidth];
 
 function formatDate(dateStr: string) {
     return new Date(dateStr).toLocaleDateString("id-ID", {
@@ -125,9 +133,16 @@ function badgeClass(category: string): string {
     {
         image && (
             <div class="max-w-4xl mx-auto px-4 mt-6">
-                <img
+                <Picture
                     src={image}
                     alt={title}
+                    widths={safeHeroWidths}
+                    sizes="(min-width: 896px) 896px, 100vw"
+                    formats={["avif"]}
+                    fallbackFormat="webp"
+                    loading="eager"
+                    decoding="async"
+                    fetchpriority="high"
                     class="w-full h-64 md:h-96 object-cover rounded-2xl shadow-md border border-gray-200 dark:border-gray-800"
                 />
             </div>

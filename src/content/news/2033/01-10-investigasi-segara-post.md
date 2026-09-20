@@ -3,7 +3,7 @@ title: "Investigasi Khusus: Kas Segara Dihantam Krisis Utang, Sinyal Heksu Tunju
 date: "2033-01-10"
 category: "Ekonomi"
 tags: ["The Segara Post", "Krisis Keuangan", "Ake Riyu", "Heksu Howaito", "APBS 2033"]
-image: "/images/berita/2033/investigasi-kas-2033.webp"
+image: "../../../assets/berita/2033/investigasi-kas-2033.webp"
 isHeadline: true
 summary: "Investigasi The Segara Post membongkar keterlambatan rilis laporan keuangan daerah. Kas kota terancam minus dan memicu rumor penunjukan mantan CFO Ake Riyu."
 ---

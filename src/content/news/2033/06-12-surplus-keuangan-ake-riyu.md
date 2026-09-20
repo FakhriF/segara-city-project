@@ -3,7 +3,7 @@ title: "Keuangan Segara Membaik, Ake Riyu Soroti Ekspor Pertanian"
 date: "2033-06-12"
 category: "Ekonomi"
 tags: ["Ake Riyu", "Keuangan Segara", "Surplus Kas", "Segara Farm", "Ekspor Pertanian", "BKD Segara"]
-image: "/images/berita/2033/press-meeting-keuangan.webp"
+image: "../../../assets/berita/2033/press-meeting-keuangan.webp"
 isHeadline: true
 summary: "Ake Riyu mengonfirmasi kondisi keuangan Kota Segara kian membaik. Efisiensi pemerintahan dan lonjakan ekspor industri pertanian jadi pendorong utama."
 ---

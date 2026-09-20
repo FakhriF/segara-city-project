@@ -3,7 +3,7 @@ title: "Pohon Berdiri dan Pedestrian Rapi, Taman Ujung Muara Makin Indah"
 date: "2033-03-28"
 category: "Tata Kota"
 tags: ["Taman Ujung Muara", "RTH Segara", "Pedestrian Walkway", "Heksu Howaito", "Penataan Kota"]
-image: "/images/berita/2033/progres-taman-ujung-muara.webp"
+image: "../../../assets/berita/2033/progres-taman-ujung-muara.webp"
 isHeadline: true
 summary: "Pembangunan RTH Ujung Muara menunjukkan progres pesat. Deretan pohon rimbun dan jalur pejalan kaki mulai terlihat rapi, siap jadi oase hijau wilayah selatan."
 ---

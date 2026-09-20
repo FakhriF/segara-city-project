@@ -3,7 +3,7 @@ title: "Pagar Proyek Terpasang, Pembangunan Taman Ujung Muara Dimulai"
 date: "2033-02-25"
 category: "Tata Kota"
 tags: ["Taman Ujung Muara", "RTH Segara", "Ujung Muara", "Heksu Howaito", "Tata Ruang"]
-image: "/images/berita/2033/taman-ujung-muara.webp"
+image: "../../../assets/berita/2033/taman-ujung-muara.webp"
 isHeadline: true
 summary: "Pagar seng proyek resmi mengelilingi lahan kosong di area tengah Ujung Muara. Pemkot Segara tegaskan komitmen menghadirkan Ruang Terbuka Hijau (RTH) perdana di wilayah selatan."
 ---

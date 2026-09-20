@@ -3,7 +3,7 @@ title: "Studi Bencana ke Batavia, Heksu Evaluasi Penanganan Tornado"
 date: "2033-04-15"
 category: "Politik & Pemerintahan"
 tags: ["Heksu Howaito", "Kunjungan Kerja Batavia", "Bunker Bencana", "Mitigasi Bencana", "Persiapan BPBD"]
-image: "/images/berita/2033/kunjungan-batavia.webp"
+image: "../../../assets/berita/2033/kunjungan-batavia.webp"
 isHeadline: true
 summary: "Walikota Heksu Howaito memboyong Ketua Tim Mitigasi Pemkot studi kerja ke Batavia. Kunjungan ini jadi bahan evaluasi tornado sekaligus rintisan pembentukan BPBD Segara."
 ---

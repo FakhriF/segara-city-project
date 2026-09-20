@@ -11,7 +11,7 @@ tags:
     "Pasir Putih",
     "Denda 150 Dollar",
   ]
-image: "/images/berita/2033/larangan-rokok-vape.webp"
+image: "../../../assets/berita/2033/larangan-rokok-vape.webp"
 isHeadline: true
 summary: "Sukses di Pasir Batu, Pemkot Segara memperluas Kawasan Tanpa Rokok ke Pasir Putih dan Ujung Muara. Denda melambung jadi $150 dan rokok elektrik/vape resmi dilarang."
 ---

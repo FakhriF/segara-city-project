@@ -3,7 +3,7 @@ title: "Lebih Cepat dari Target, Heksu Resmikan Tanjung Karang"
 date: "2033-07-26"
 category: "Tata Kota"
 tags: ["Tanjung Karang", "Peresmian Distrik", "Heksu Howaito", "Pemukiman Baru", "100 Rumah", "Kebutuhan Hunian"]
-image: "/images/berita/2033/fasilitas-distrik-tanjung-karang.webp"
+image: "../../../assets/berita/2033/fasilitas-distrik-tanjung-karang.webp"
 isHeadline: true
 summary: "Lebih cepat dari estimasi semula, Walikota Heksu meresmikan Distrik Tanjung Karang. Kawasan ini siap menampung 80 hingga 100 unit rumah baru."
 ---

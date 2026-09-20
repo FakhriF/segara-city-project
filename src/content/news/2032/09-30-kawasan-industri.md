@@ -3,7 +3,7 @@ title: "Kawasan Industri Baru Masih Kosong Melompong, Insentif Pemkot Minim Jadi
 date: "2032-09-30"
 category: "Ekonomi"
 tags: ["Krisis Industri", "Insentif Minim", "Distrik Industri Baru", "Ujung Muara", "Heksu Howaito"]
-image: "/images/berita/2032/distrik-baru-sepi.webp"
+image: "../../../assets/berita/2032/distrik-baru-sepi.webp"
 isHeadline: true
 summary: "Meskipun pabrik di Ujung Muara mulai rata dengan tanah, belum ada satu pun bangunan baru berdiri di tebing utara. Pengusaha keluhkan minimnya modal ganti rugi."
 ---

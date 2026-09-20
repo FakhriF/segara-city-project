@@ -3,7 +3,7 @@ title: "2 Kawasan Pasir Putih Ditutup Total, Heksu Ungkap Lebih dari 2.000 Warga
 date: "2033-08-30"
 category: "Bencana"
 tags: ["Pasir Putih", "Tsunami Segara", "Heksu Howaito", "Bambang Suryono", "Evakuasi Massal", "Zona Tertutup", "Korban Tsunami", "BPBD Segara"]
-image: "/images/berita/2033/dua-kawasan-pasir-putih-ditutup.webp"
+image: "../../../assets/berita/2033/dua-kawasan-pasir-putih-ditutup.webp"
 isHeadline: true
 summary: "Tim gabungan tutup total dua kawasan residensial Pasir Putih yang 100% rumahnya hanyut tersapu tsunami. Walikota Heksu sebut lebih dari 2.000 warga meninggal dan hilang."
 ---

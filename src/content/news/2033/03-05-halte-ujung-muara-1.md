@@ -3,7 +3,7 @@ title: "Halte Ujung Muara I Resmi Beroperasi, Koridor 1A & 1B Diperpanjang"
 date: "2033-03-05"
 category: "Transportasi"
 tags: ["Kirwanto", "Trans Segara", "Halte Ujung Muara I", "Koridor 1A", "Koridor 1B", "Line Extension"]
-image: "/images/berita/2033/halte-ujung-muara-1.webp"
+image: "../../../assets/berita/2033/halte-ujung-muara-1.webp"
 isHeadline: true
 summary: "Kadishub Kirwanto meresmikan halte bus baru di Distrik Ujung Muara I. Fasilitas ini melayani perpanjangan rute (line extension) untuk Koridor 1A dan 1B."
 ---

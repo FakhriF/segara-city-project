@@ -3,7 +3,7 @@ title: "Belum Usai Duka Tsunami, Tornado Terjang Segara: Warga Pasir Putih & Pas
 date: "2033-10-03"
 category: "Bencana"
 tags: ["Tornado", "Bencana Alam", "Heksu Howaito", "Pasir Batu", "Pasir Putih", "Shelter BPBD", "Bambang Suryono", "Sirene Bahaya"]
-image: "/images/berita/2033/tornado-terjang-pasir-batu.webp"
+image: "../../../assets/berita/2033/tornado-terjang-pasir-batu.webp"
 isHeadline: true
 summary: "Belum genap luka tsunami mengering, tornado dahsyat kini menerjang Kota Segara. Walikota Heksu instruksikan warga Pasir Putih dan Pasir Batu segera masuk shelter darurat."
 ---

@@ -3,7 +3,7 @@ title: "Bentengi 5 Distrik, Pemkot Resmikan 5 Radar Cuaca $156.250 & Bentuk Bada
 date: "2033-10-18"
 category: "Infrastruktur"
 tags: ["BMS", "Badan Meteorologi Segara", "Radar Cuaca", "Heksu Howaito", "BPBD Segara", "Mitigasi Bencana", "Infrastruktur Kota", "Ake Riyu"]
-image: "/images/berita/2033/peresmian-radar-cuaca.webp"
+image: "../../../assets/berita/2033/peresmian-radar-cuaca.webp"
 isHeadline: true
 summary: "Pemkot Segara meresmikan 5 radar cuaca berbiaya total $156.250 di seluruh distrik sekaligus membentuk Badan Meteorologi Segara (BMS). Heksu Howaito menjabat kepala sementara dengan janji segera menyerahkannya ke tenaga ahli."
 ---

@@ -3,7 +3,7 @@ title: "Ake Riyu Buka Suara: Kas Kota Masih Defisit di Ambang Batas Bawah"
 date: "2033-03-16"
 category: "Ekonomi"
 tags: ["Ake Riyu", "Kas Kota Segara", "Defisit APBS", "Kuartal I", "Keuangan Daerah", "Keterbukaan Informasi"]
-image: "/images/berita/2033/press-meeting-keuangan.webp"
+image: "../../../assets/berita/2033/press-meeting-keuangan.webp"
 isHeadline: true
 summary: "Dalam press meeting Keterbukaan Informasi Publik Q1, Kepala BKD Ake Riyu mengonfirmasi kas kota masih defisit di ambang batas bawah. Angka pasti baru akan dibuka bulan depan."
 ---

@@ -10,7 +10,7 @@ tags:
     "Kirwanto",
     "Heksu Howaito",
   ]
-image: "/images/berita/2033/penutupan-ujung-muara.webp"
+image: "../../../assets/berita/2033/penutupan-ujung-muara.webp"
 isHeadline: true
 summary: "Kontras dengan kemeriahan kembang api di Pasir Putih dan Pasir Batu, kawasan Ujung Muara mulai disisir alat berat dan ditutup total oleh Dishub untuk fase rekonstruksi."
 ---

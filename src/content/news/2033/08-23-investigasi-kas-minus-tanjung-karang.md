@@ -3,7 +3,7 @@ title: "Investigasi Segara Post: Kas Kota Minus Akibat Proyek Impulsif"
 date: "2033-08-23"
 category: "Politik & Pemerintahan"
 tags: ["The Segara Post", "Investigasi", "Kas Kota Minus", "Bocoran Informan", "Tanjung Karang", "Ake Riyu", "Balai Kota Tutup Mulut"]
-image: "/images/berita/2033/kas-turun.webp"
+image: "../../../assets/berita/2033/kas-turun.webp"
 isHeadline: true
 summary: "Investigasi The Segara Post bongkar bocoran kas daerah yang tiba-tiba minus akibat proyek impulsif Tanjung Karang. Balai Kota memilih tutup mulut."
 ---

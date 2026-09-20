@@ -3,7 +3,7 @@ title: "Hari Terakhir Diskon 50% Trans Segara: Halte Pasir Putih Barat Diserbu R
 date: "2032-12-07"
 category: "Transportasi"
 tags: ["Trans Segara", "Diskon 50%", "Pasir Putih Barat", "Komuter", "Fasilitas Publik"]
-image: "/images/berita/2032/tahun-baru-sepi.webp"
+image: "../../../assets/berita/2032/tahun-baru-sepi.webp"
 isHeadline: false
 summary: "Memanfaatkan momen hari terakhir promo diskon tarif setengah harga, ribuan warga memadati halte-halte Trans Segara hingga memicu antrean panjang di wilayah Pasir Putih Barat."
 ---

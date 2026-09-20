@@ -3,7 +3,7 @@ title: "Malam Kelabu Pasir Putih: Rata dengan Tanah, Walikota Heksu Sampaikan Pe
 date: "2033-08-29"
 category: "Bencana"
 tags: ["Pasir Putih", "Tsunami Segara", "Heksu Howaito", "Bencana Alam", "Evakuasi Massal", "Korban Hilang", "Bunker BPBD"]
-image: "/images/berita/2033/malam-kelabu-pasir-putih.webp"
+image: "../../../assets/berita/2033/malam-kelabu-pasir-putih.webp"
 isHeadline: true
 summary: "Malam mencekam di Pasir Putih, kawasan padat penduduk luluh lantak rata dengan tanah. Walikota Heksu sampaikan permohonan maaf dan perintahkan evakuasi besar-besaran."
 ---

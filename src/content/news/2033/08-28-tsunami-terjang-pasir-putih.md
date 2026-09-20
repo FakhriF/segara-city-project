@@ -3,7 +3,7 @@ title: "Tsunami Terjang Pasir Putih, Alarm Peringatan Dini Pemkot Segara Gagal B
 date: "2033-08-28"
 category: "Bencana"
 tags: ["Tsunami", "Pasir Putih", "Bencana Alam", "BPBD Segara", "Heksu Howaito", "Bambang Suryono", "Bunker Darurat", "Longsor Laut"]
-image: "/images/berita/2033/tsunami-terjang-pasir-putih.webp"
+image: "../../../assets/berita/2033/tsunami-terjang-pasir-putih.webp"
 isHeadline: true
 summary: "Tsunami dahsyat akibat longsor bawah laut menerjang kawasan Pasir Putih. Ketiadaan infrastruktur sensor laut membuat alarm peringatan dini gagal berbunyi, warga dievakuasi ke bunker darurat."
 ---

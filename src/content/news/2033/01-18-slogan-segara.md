@@ -3,7 +3,7 @@ title: "Sambut Babak Baru 2033: Heksu Resmi Resmikan Slogan Utama 'Segara: The C
 date: "2033-01-18"
 category: "Sosial"
 tags: ["Heksu Howaito", "Slogan Segara 2033", "The Coast of Progress", "Visi Pembangunan", "Balai Kota"]
-image: "/images/berita/2033/slogan-segara-2033.webp"
+image: "../../../assets/berita/2033/slogan-segara-2033.webp"
 isHeadline: false
 summary: "Guna menyuntikkan optimisme pembangunan di awal tahun 2033, Walikota Heksu meresmikan slogan baru 'Segara: The Coast of Progress' yang mencakup visi hunian hingga infrastruktur."
 ---

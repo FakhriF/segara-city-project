@@ -3,7 +3,7 @@ title: "Ketegangan di Ujung Muara: Aparat Gabungan Gusur Paksa 30 Gedung Pabrik 
 date: "2032-10-30"
 category: "Infrastruktur"
 tags: ["Penggusuran Paksa", "Ujung Muara", "Heksu Howaito", "Penertiban Lahan", "Distrik Industri Baru"]
-image: "/images/berita/2032/penggusuran-ujung-muara.webp"
+image: "../../../assets/berita/2032/penggusuran-ujung-muara.webp"
 isHeadline: true
 summary: "Pemerintah Kota Segara bersama aparat kepolisian mulai melakukan pembongkaran paksa terhadap 30 struktur bangunan pabrik kosong di Ujung Muara yang mengabaikan tenggat waktu relokasi."
 ---

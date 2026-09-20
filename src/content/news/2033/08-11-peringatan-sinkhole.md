@@ -3,7 +3,7 @@ title: "Peringatan Sinkhole Meluncur, BPBD Minta Warga Waspada"
 date: "2033-08-11"
 category: "Bencana"
 tags: ["Sinkhole", "BPBD Segara", "Bambang Suryono", "Peringatan Dini", "Ujung Muara", "Call Center BPBD"]
-image: "/images/berita/2033/sink-hole-muncul.webp"
+image: "../../../assets/berita/2033/sink-hole-muncul.webp"
 isHeadline: true
 summary: "BPBD Segara merilis peringatan dini ancaman Sinkhole. Lokasi pasti belum terdeteksi alat, warga diminta laporkan getaran dan retakan tanah."
 ---

@@ -3,7 +3,7 @@ title: "Birokrasi Efisien, Pemkot Segara Beralih ke Laporan Tahunan"
 date: "2033-08-04"
 category: "Politik & Pemerintahan"
 tags: ["Ake Riyu", "Laporan Tahunan", "Annual Report", "Reformasi Birokrasi", "The Segara Post", "Efisiensi Fiskal"]
-image: "/images/berita/2033/laporan-q4-2032.webp"
+image: "../../../assets/berita/2033/laporan-q4-2032.webp"
 isHeadline: true
 summary: "Pemkot Segara umumkan reformasi sistem pelaporan publik. Laporan kuartalan kini disederhanakan menjadi Laporan Tahunan resmi mulai 2033."
 ---

@@ -10,7 +10,7 @@ tags:
     "Kepala Keuangan",
     "Penyelamatan APBS",
   ]
-image: "/images/berita/2033/pelantikan-ake-riyu.webp"
+image: "../../../assets/berita/2033/pelantikan-ake-riyu.webp"
 isHeadline: true
 summary: "Walikota Heksu resmi melantik Ake Riyu sebagai Kepala Badan Keuangan Kota Segara. Pengangkatan mantan CFO ini terjadi di tengah rumor kas kota yang kritis tersisa $5.000."
 ---

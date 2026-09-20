@@ -4,7 +4,7 @@ date: "2032-12-16"
 category: "Politik & Pemerintahan"
 tags:
   ["Heksu Howaito", "Kirwanto", "Dishub Segara", "Pelantikan", "Trans Segara"]
-image: "/images/berita/2032/lantik-kirwanto.webp"
+image: "../../../assets/berita/2032/lantik-kirwanto.webp"
 isHeadline: true
 summary: "Walikota Heksu Howaito resmi melantik Kirwanto sebagai Kepala Dinas Perhubungan Kota Segara yang baru. Mantan petinggi Trans Batavia ini diandalkan memimpin era baru transit kota."
 ---

@@ -4,7 +4,7 @@ date: "2032-12-03"
 category: "Politik & Pemerintahan"
 tags:
   ["Heksu Howaito", "Kironito", "Dishub Segara", "Pemecatan", "Rumor Korupsi"]
-image: "/images/berita/2032/pemecatan-dishub.webp"
+image: "../../../assets/berita/2032/pemecatan-dishub.webp"
 isHeadline: true
 summary: "Di tengah berlakunya diskon tarif Trans Segara, Walikota Heksu Howaito secara mengejutkan mencopot Kepala Dishub dari jabatannya. Isu korupsi mark-up bus mencuat."
 ---

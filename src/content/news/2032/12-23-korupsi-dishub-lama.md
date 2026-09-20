@@ -10,7 +10,7 @@ tags:
     "Bus Gandeng",
     "Mark-Up Anggaran",
   ]
-image: "/images/berita/2032/tangkap-korupsi.webp"
+image: "../../../assets/berita/2032/tangkap-korupsi.webp"
 isHeadline: true
 summary: "Penyidik Kepolisian resmi menangkap mantan Kadishub Kironoto di kediamannya atas dugaan korupsi pengadaan bus gandeng. Kerugian kota diperkirakan mencapai $100.000."
 ---

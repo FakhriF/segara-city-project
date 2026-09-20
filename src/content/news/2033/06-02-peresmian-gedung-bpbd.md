@@ -3,7 +3,7 @@ title: "Balai Kota Resmi Dirikan BPBD, Bambang Suryono Dilantik"
 date: "2033-06-02"
 category: "Politik & Pemerintahan"
 tags: ["BPBD Segara", "Bambang Suryono", "Heksu Howaito", "Mitigasi Bencana", "Gedung Darurat", "Peresmian BPBD"]
-image: "/images/berita/2033/bpbd-resmi-beroperasi.webp"
+image: "../../../assets/berita/2033/bpbd-resmi-beroperasi.webp"
 isHeadline: true
 summary: "Walikota Heksu Howaito meresmikan Gedung Markas BPBD Kota Segara sekaligus melantik Drs. Bambang Suryono sebagai Kepala BPBD pertama."
 ---

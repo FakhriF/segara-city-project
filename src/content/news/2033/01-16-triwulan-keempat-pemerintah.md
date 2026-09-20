@@ -10,7 +10,7 @@ tags:
     "Kas Daerah",
     "Heksu Howaito",
   ]
-image: "/images/berita/2033/laporan-q4-2032.webp"
+image: "../../../assets/berita/2033/laporan-q4-2032.webp"
 isHeadline: true
 summary: "Pemkot Segara resmi merilis Laporan Keuangan Q4 2032. Kas daerah terkuras hingga sisa $27.142 akibat ekspansi masif, di tengah lonjakan populasi mencapai 5.469 jiwa."
 ---

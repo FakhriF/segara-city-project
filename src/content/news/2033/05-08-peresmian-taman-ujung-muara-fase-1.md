@@ -3,7 +3,7 @@ title: "Taman Kota Ujung Muara Fase Pertama Resmi Dibuka"
 date: "2033-05-08"
 category: "Tata Kota"
 tags: ["Taman Ujung Muara", "Fase Pertama", "Heksu Howaito", "RTH Segara", "Peresmian Taman", "Ujung Muara"]
-image: "/images/berita/2033/peresmian-taman-ujung-muara.webp"
+image: "../../../assets/berita/2033/peresmian-taman-ujung-muara.webp"
 isHeadline: true
 summary: "Satu bulan pasca-ancaman tornado, Pemkot Segara meresmikan Taman Kota Ujung Muara Fase Pertama. Pintu gerbang dibuka, warga berbondong-bondong menikmati RTH."
 ---

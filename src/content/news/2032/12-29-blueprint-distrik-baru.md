@@ -4,7 +4,7 @@ date: "2032-12-29"
 category: "Tata Kota"
 tags:
   ["Ujung Muara", "Heksu Howaito", "Blueprint 2033", "Taman Kota", "RTH Segara"]
-image: "/images/berita/2032/pemerintah-konpres.webp"
+image: "../../../assets/berita/2032/pemerintah-konpres.webp"
 isHeadline: true
 summary: "Proses relokasi Ujung Muara resmi mencapai 90%. Walikota Heksu Pamerkan blueprint transisi kawasan industri lama menjadi pusat hunian, komersial, dan RTH megah."
 ---

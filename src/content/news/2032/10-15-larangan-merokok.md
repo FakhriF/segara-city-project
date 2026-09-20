@@ -3,7 +3,7 @@ title: "Bikin Pasir Batu Ramah Anak, Walikota Larang Merokok di Area Publik dan 
 date: "2032-10-15"
 category: "Lingkungan"
 tags: ["Heksu Howaito", "Pasir Batu", "Kawasan Tanpa Rokok", "Bilik Perokok", "Regulasi"]
-image: "/images/berita/2032/larangan-merokok.webp"
+image: "../../../assets/berita/2032/larangan-merokok.webp"
 isHeadline: false
 summary: "Pemerintah Kota Segara resmi menerapkan aturan Kawasan Tanpa Rokok (KTR) di Distrik Pasir Batu. Pelanggar yang nekat merokok sembarangan akan langsung didenda sebesar $100."
 ---

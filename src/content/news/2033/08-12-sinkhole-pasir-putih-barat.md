@@ -3,7 +3,7 @@ title: "Sinkhole Muncul di Pasir Putih Barat, Pemkot Kaji Opsi Perbaikan"
 date: "2033-08-12"
 category: "Bencana"
 tags: ["Sinkhole", "Pasir Putih Barat", "BPBD Segara", "Heksu Howaito", "Bambang Suryono", "Jalan Rusak"]
-image: "/images/berita/2033/opsi-perbaikan-abis-sinkhole.webp"
+image: "../../../assets/berita/2033/opsi-perbaikan-abis-sinkhole.webp"
 isHeadline: true
 summary: "Sinkhole raksasa muncul di sisi paling barat Pasir Putih, merusak jalan raya yang belum dibuka. Heksu dan Bambang kaji opsi perbaikan atau penutupan."
 ---

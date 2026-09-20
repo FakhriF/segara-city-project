@@ -3,7 +3,7 @@ title: "Tol Lama Rata dengan Tanah, Interchange Baru Menuju Distrik Industri 'Sa
 date: "2032-08-01"
 category: "Infrastruktur"
 tags: ["Jalan Tol Segara", "Jasa Marka", "Interchange Ekstrem", "Logistik", "Ujung Muara"]
-image: "/images/berita/2032/interchange-ekstrem.webp"
+image: "../../../assets/berita/2032/interchange-ekstrem.webp"
 isHeadline: true
 summary: "Jalur tol lama resmi dibongkar total demi proyek tol baru. Namun, desain jalan layang hubung (interchange) yang dinilai terlalu curam dan ekstrem memicu kekhawatiran para sopir truk."
 ---

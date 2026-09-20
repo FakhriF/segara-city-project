@@ -3,7 +3,7 @@ title: "Urai Kepadatan Komuter, Trans Segara Resmi Datangkan Armada Baru Berkapa
 date: "2032-07-10"
 category: "Transportasi"
 tags: ["Trans Segara", "Armada Baru", "Dishub Segara", "Fasilitas Publik"]
-image: "/images/berita/2032/bus-baru-segara.webp"
+image: "../../../assets/berita/2032/bus-baru-segara.webp"
 isHeadline: true
 summary: "Dinas Perhubungan Kota Segara resmi meluncurkan armada bus baru berkapasitas lebih besar untuk memperkuat Koridor Utama 1A dan 1B per Juli ini."
 ---
